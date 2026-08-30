@@ -101,8 +101,8 @@
 (function(){
   "use strict";
 
-  var D = window.DADOS || { convocacoes:[], unidades:[], copy:{ agente:{} } };
-  var copy = (D.copy && D.copy.agente) || {};
+  var D = window.DADOS || { convocacoes:[], unidades:[], ui_copy:{ agente:{} } };
+  var copy = (D.ui_copy && D.ui_copy.agente) || {};
   var textoAcaoSim = copy.acao || "Encontrei a família";
   var textoAcaoNao = copy.acao_nao || "Não encontrei";
   var textoVazio = copy.vazio || "Nenhuma família aguardando na sua área.";

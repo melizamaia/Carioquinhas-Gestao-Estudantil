@@ -1,0 +1,81 @@
+{
+  "_regra": "Frase de no máximo 12 palavras. Zero sigla. Zero jargão. Voz ativa, segunda pessoa. Números em algarismo. Régua completa na seção 5 do PRD.",
+  "_gerado_por": "Claude, em tempo de build. Arquivo commitado: a tela nunca depende da API em runtime.",
+  "documentos": {
+    "certidao_nascimento": {
+      "icone": "📄",
+      "texto": "Certidão de nascimento da criança"
+    },
+    "caderneta_vacinacao": {
+      "icone": "💉",
+      "texto": "Caderneta de vacinação"
+    },
+    "comprovante_residencia": {
+      "icone": "🏠",
+      "texto": "Conta de luz ou de água"
+    },
+    "documento_responsavel": {
+      "icone": "🪪",
+      "texto": "Seu documento com foto"
+    }
+  },
+  "criterios_origem": {
+    "cadunico": {
+      "titulo": "Encontramos seu Cadastro Único.",
+      "texto": "Você não precisa provar nada.",
+      "nota": "Nesta demonstração o dado vem da própria base. Em produção, do Registro Municipal Integrado."
+    }
+  },
+  "telas": {
+    "demo-b": {
+      "titulo": "Você conseguiu uma vaga de creche.",
+      "prova": "Você inscreveu a criança nesta creche em 12 de março.",
+      "audio": "Você conseguiu uma vaga na creche Vila Isabel. Vá até sexta, dia 4 de setembro. Leve a certidão de nascimento, a caderneta de vacinação e uma conta de luz. Toque no botão azul para dizer que você vai.",
+      "prazo": "Vá até sexta, dia 4 de setembro.",
+      "pergunta": "Você vai?",
+      "sim": "Sim, eu vou",
+      "nao": "Não vou conseguir",
+      "tela2_titulo": "Tudo bem. O que aconteceu?",
+      "tela2_outra_data": "Quero ir, mas em outro dia",
+      "tela2_desistir": "Não quero mais a vaga",
+      "datas_titulo": "Escolha o melhor dia para você."
+    },
+    "demo-f": {
+      "titulo": "Você conseguiu uma vaga de creche.",
+      "prova": "Você inscreveu a criança nesta creche em 8 de março.",
+      "audio": "Você conseguiu uma vaga na creche Giz Colorido. O prazo termina hoje. Leve a caderneta de vacinação. Toque no botão azul para dizer que você vai.",
+      "prazo": "O prazo termina hoje.",
+      "pergunta": "Você vai?",
+      "sim": "Sim, eu vou",
+      "nao": "Não vou conseguir"
+    }
+  },
+  "bordas": {
+    "prazo_vencido": {
+      "titulo": "O prazo desta vaga terminou.",
+      "texto": "Você continua na fila. Ligue para a creche: ela pode ajudar.",
+      "audio": "O prazo desta vaga terminou. Você continua na fila. Ligue para a creche."
+    },
+    "vaga_ocupada": {
+      "titulo": "Esta vaga já foi para outra criança.",
+      "texto": "Você continua na fila desta creche, entre as 30 primeiras.",
+      "audio": "Esta vaga já foi para outra criança. Você continua na fila desta creche."
+    },
+    "ja_respondeu": {
+      "titulo": "Você já disse que vai.",
+      "texto": "Se mudou de ideia, toque abaixo.",
+      "audio": "Você já disse que vai. Se mudou de ideia, toque no botão abaixo."
+    },
+    "confirmado": {
+      "titulo": "Pronto. A creche está esperando você.",
+      "texto": "Guarde esta página. Ela mostra o que levar.",
+      "audio": "Pronto. A creche está esperando você. Guarde esta página."
+    }
+  },
+  "agente": {
+    "titulo": "Famílias para procurar hoje",
+    "vazio": "Nenhuma família aguardando na sua área.",
+    "acao": "Encontrei a família",
+    "acao_nao": "Não encontrei"
+  }
+}

@@ -122,9 +122,9 @@
 <script src="../data/dados.js"></script>
 <script>
 (function(){
-  var DADOS = (window.DADOS && window.DADOS.copy) ? window.DADOS : {
+  var DADOS = (window.DADOS && window.DADOS.ui_copy) ? window.DADOS : {
     unidades: [], convocacoes: [],
-    copy: { documentos:{}, criterios_origem:{}, telas:{}, bordas:{} }
+    ui_copy: { documentos:{}, criterios_origem:{}, telas:{}, bordas:{} }
   };
 
   var MESES = ['janeiro','fevereiro','março','abril','maio','junho','julho',
@@ -166,7 +166,7 @@
   }
   function itensLevar(conv){
     return (conv.documentos_faltando || [])
-      .map(function(chave){ return DADOS.copy.documentos[chave]; })
+      .map(function(chave){ return DADOS.ui_copy.documentos[chave]; })
       .filter(Boolean);
   }
 
@@ -176,7 +176,7 @@
   var audioAtual = '';
 
   function renderNormal(conv, unidade){
-    var tela = DADOS.copy.telas[conv.token] || null;
+    var tela = DADOS.ui_copy.telas[conv.token] || null;
 
     var titulo = semSigla(tela ? tela.titulo : 'Você conseguiu uma vaga de creche.');
     document.getElementById('titulo').textContent = titulo;
@@ -217,8 +217,8 @@
 
     document.getElementById('origemPrincipal').textContent = textoOrigem(conv);
     var nota = '';
-    if(conv.verificado_na_origem && conv.verificado_na_origem.indexOf('cadunico') !== -1 && DADOS.copy.criterios_origem.cadunico){
-      nota = DADOS.copy.criterios_origem.cadunico.nota;
+    if(conv.verificado_na_origem && conv.verificado_na_origem.indexOf('cadunico') !== -1 && DADOS.ui_copy.criterios_origem.cadunico){
+      nota = DADOS.ui_copy.criterios_origem.cadunico.nota;
     }
     document.getElementById('origemNota').textContent = nota;
 
@@ -253,15 +253,15 @@
   function ativarSucesso(){
     hide('passo1','passo2','escolherData','resultadoDesistir','resultadoData','jaRespondeu');
     show('sucesso');
-    if(DADOS.copy.bordas.confirmado) audioAtual = DADOS.copy.bordas.confirmado.audio;
+    if(DADOS.ui_copy.bordas.confirmado) audioAtual = DADOS.ui_copy.bordas.confirmado.audio;
   }
   function ativarJaRespondeu(){
     hide('passo1','passo2','escolherData','resultadoDesistir','resultadoData','sucesso');
     show('jaRespondeu');
-    if(DADOS.copy.bordas.ja_respondeu) audioAtual = DADOS.copy.bordas.ja_respondeu.audio;
+    if(DADOS.ui_copy.bordas.ja_respondeu) audioAtual = DADOS.ui_copy.bordas.ja_respondeu.audio;
   }
   function renderBordaSimples(chave){
-    var b = DADOS.copy.bordas[chave];
+    var b = DADOS.ui_copy.bordas[chave];
     if(!b) return;
     document.getElementById('titulo').textContent = b.titulo;
     hide('blocoProva','blocoCreche','blocoPrazo','blocoLevar','blocoOrigem','blocoDecisao');
@@ -371,7 +371,7 @@
     if(precisaRerender && conv){
       renderNormal(conv, unidade);
     } else {
-      audioAtual = semSigla((DADOS.copy.telas['demo-b'] && DADOS.copy.telas['demo-b'].audio) || '');
+      audioAtual = semSigla((DADOS.ui_copy.telas['demo-b'] && DADOS.ui_copy.telas['demo-b'].audio) || '');
     }
 
     ligarDecisao();

@@ -22,7 +22,7 @@ import os
 import sys
 
 RAIZ = os.path.dirname(os.path.abspath(__file__))
-ARQUIVOS = ["unidades", "convocacoes", "indicadores", "copy"]
+ARQUIVOS = ["unidades", "convocacoes", "indicadores", "copy", "ui_copy"]
 
 # Chaves que as telas leem. Se o ETL renomear alguma, o app quebra em
 # silêncio — então falhamos aqui, alto, em vez de lá, calado.

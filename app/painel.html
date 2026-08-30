@@ -129,7 +129,7 @@
     var docs = c.documentos_faltando || [];
     if(!docs.length) return '';
     var textos = docs.map(function(d){
-      var info = D.copy.documentos[d];
+      var info = D.ui_copy.documentos[d];
       return info ? info.texto : d;
     });
     return '<p class="doc-falta"><b>Falta:</b> ' + esc(textos.join(', ')) + '</p>';

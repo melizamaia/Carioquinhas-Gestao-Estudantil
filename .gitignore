@@ -20,5 +20,7 @@ node_modules/
 
 # macOS
 .DS_Store
+
+# Segredos e build
 .env
 build/

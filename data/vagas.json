@@ -1,0 +1,6331 @@
+{
+  "meta": {
+    "ano": 2025,
+    "gerado_em": "2026-08-30T17:00:10+00:00",
+    "nota": "Join dos 2 formatos: pública=Designacao(7); parceira=CRE+últ.3 SGA(5). Vagas ofertadas (Meta) só existem para parceiras; para públicas o xlsx traz matrículas/turmas, não capacidade ofertada."
+  },
+  "cobertura_join": {
+    "publica": {
+      "total": 488,
+      "casadas": 488,
+      "pct": 100.0
+    },
+    "parceira": {
+      "total": 348,
+      "casadas": 343,
+      "pct": 98.6
+    }
+  },
+  "totais": {
+    "vagas_ofertadas_parceiras": 44174,
+    "matriculados_parceiras": 41634,
+    "matriculados_publicas": 93950
+  },
+  "por_unidade": [
+    {
+      "unidade": "01004",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 50,
+      "matriculados": 50
+    },
+    {
+      "unidade": "01005",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 40,
+      "matriculados": 40
+    },
+    {
+      "unidade": "01006",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 147,
+      "matriculados": 147
+    },
+    {
+      "unidade": "01007",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 30,
+      "matriculados": 30
+    },
+    {
+      "unidade": "01009",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 130,
+      "matriculados": 129
+    },
+    {
+      "unidade": "01010",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 297,
+      "matriculados": 296
+    },
+    {
+      "unidade": "02001",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 80,
+      "matriculados": 72
+    },
+    {
+      "unidade": "02002",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 24,
+      "matriculados": 22
+    },
+    {
+      "unidade": "02003",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 140,
+      "matriculados": 139
+    },
+    {
+      "unidade": "02004",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 160,
+      "matriculados": 152
+    },
+    {
+      "unidade": "02005",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 72,
+      "matriculados": 72
+    },
+    {
+      "unidade": "02006",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 75,
+      "matriculados": 73
+    },
+    {
+      "unidade": "02009",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 96,
+      "matriculados": 91
+    },
+    {
+      "unidade": "02010",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 170,
+      "matriculados": 170
+    },
+    {
+      "unidade": "02011",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 45,
+      "matriculados": 45
+    },
+    {
+      "unidade": "02012",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 70,
+      "matriculados": 68
+    },
+    {
+      "unidade": "02013",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 65,
+      "matriculados": 62
+    },
+    {
+      "unidade": "02014",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 60,
+      "matriculados": 58
+    },
+    {
+      "unidade": "02015",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 72,
+      "matriculados": 72
+    },
+    {
+      "unidade": "02016",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 108,
+      "matriculados": 108
+    },
+    {
+      "unidade": "02018",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 96,
+      "matriculados": 94
+    },
+    {
+      "unidade": "02019",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 60,
+      "matriculados": 40
+    },
+    {
+      "unidade": "02020",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 120,
+      "matriculados": 120
+    },
+    {
+      "unidade": "02022",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 42,
+      "matriculados": 42
+    },
+    {
+      "unidade": "02024",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 45,
+      "matriculados": 15
+    },
+    {
+      "unidade": "02025",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 50,
+      "matriculados": 43
+    },
+    {
+      "unidade": "02026",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 50,
+      "matriculados": 45
+    },
+    {
+      "unidade": "02028",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 90,
+      "matriculados": 85
+    },
+    {
+      "unidade": "02029",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 192,
+      "matriculados": 184
+    },
+    {
+      "unidade": "02031",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 88,
+      "matriculados": 88
+    },
+    {
+      "unidade": "02032",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 80,
+      "matriculados": 69
+    },
+    {
+      "unidade": "02034",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 100,
+      "matriculados": 77
+    },
+    {
+      "unidade": "02035",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 65,
+      "matriculados": 65
+    },
+    {
+      "unidade": "02036",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 88,
+      "matriculados": 86
+    },
+    {
+      "unidade": "02037",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 150,
+      "matriculados": 142
+    },
+    {
+      "unidade": "02038",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 60,
+      "matriculados": 59
+    },
+    {
+      "unidade": "02039",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 88,
+      "matriculados": 87
+    },
+    {
+      "unidade": "02040",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 72,
+      "matriculados": 72
+    },
+    {
+      "unidade": "02041",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 50,
+      "matriculados": 44
+    },
+    {
+      "unidade": "02042",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 40,
+      "matriculados": 39
+    },
+    {
+      "unidade": "02043",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 140,
+      "matriculados": 140
+    },
+    {
+      "unidade": "02044",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 76,
+      "matriculados": 62
+    },
+    {
+      "unidade": "02045",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 50,
+      "matriculados": 49
+    },
+    {
+      "unidade": "02046",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 140,
+      "matriculados": 137
+    },
+    {
+      "unidade": "02047",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 71,
+      "matriculados": 63
+    },
+    {
+      "unidade": "02048",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 110,
+      "matriculados": 109
+    },
+    {
+      "unidade": "02049",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 85,
+      "matriculados": 81
+    },
+    {
+      "unidade": "02052",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 96,
+      "matriculados": 89
+    },
+    {
+      "unidade": "02053",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 100,
+      "matriculados": 96
+    },
+    {
+      "unidade": "02054",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 67,
+      "matriculados": 57
+    },
+    {
+      "unidade": "02055",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 79,
+      "matriculados": 78
+    },
+    {
+      "unidade": "02056",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 115,
+      "matriculados": 102
+    },
+    {
+      "unidade": "02057",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 50,
+      "matriculados": 50
+    },
+    {
+      "unidade": "02058",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 81,
+      "matriculados": 75
+    },
+    {
+      "unidade": "02060",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 135,
+      "matriculados": 87
+    },
+    {
+      "unidade": "02061",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 70,
+      "matriculados": 70
+    },
+    {
+      "unidade": "02062",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 18,
+      "matriculados": 10
+    },
+    {
+      "unidade": "02063",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 40,
+      "matriculados": 38
+    },
+    {
+      "unidade": "03001",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 82,
+      "matriculados": 83
+    },
+    {
+      "unidade": "03002",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 392,
+      "matriculados": 356
+    },
+    {
+      "unidade": "03003",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 200,
+      "matriculados": 196
+    },
+    {
+      "unidade": "03004",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 48,
+      "matriculados": 48
+    },
+    {
+      "unidade": "03005",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 150,
+      "matriculados": 109
+    },
+    {
+      "unidade": "03006",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 85,
+      "matriculados": 82
+    },
+    {
+      "unidade": "03007",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 65,
+      "matriculados": 58
+    },
+    {
+      "unidade": "03008",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 104,
+      "matriculados": 102
+    },
+    {
+      "unidade": "03009",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 80,
+      "matriculados": 61
+    },
+    {
+      "unidade": "03010",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 76,
+      "matriculados": 60
+    },
+    {
+      "unidade": "03011",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 74,
+      "matriculados": 53
+    },
+    {
+      "unidade": "03012",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 255,
+      "matriculados": 252
+    },
+    {
+      "unidade": "03013",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 231,
+      "matriculados": 230
+    },
+    {
+      "unidade": "03014",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 180,
+      "matriculados": 166
+    },
+    {
+      "unidade": "03015",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 73,
+      "matriculados": 58
+    },
+    {
+      "unidade": "03016",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 100,
+      "matriculados": 95
+    },
+    {
+      "unidade": "03017",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 45,
+      "matriculados": 41
+    },
+    {
+      "unidade": "03018",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 47,
+      "matriculados": 43
+    },
+    {
+      "unidade": "03019",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 85,
+      "matriculados": 85
+    },
+    {
+      "unidade": "03020",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 115,
+      "matriculados": 96
+    },
+    {
+      "unidade": "03021",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 180,
+      "matriculados": 177
+    },
+    {
+      "unidade": "03022",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 122,
+      "matriculados": 116
+    },
+    {
+      "unidade": "03023",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 55,
+      "matriculados": 45
+    },
+    {
+      "unidade": "03024",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 135,
+      "matriculados": 129
+    },
+    {
+      "unidade": "03025",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 157,
+      "matriculados": 151
+    },
+    {
+      "unidade": "03026",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 243,
+      "matriculados": 239
+    },
+    {
+      "unidade": "03027",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 269,
+      "matriculados": 227
+    },
+    {
+      "unidade": "03028",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 100,
+      "matriculados": 96
+    },
+    {
+      "unidade": "03029",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 90,
+      "matriculados": 86
+    },
+    {
+      "unidade": "03030",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 80,
+      "matriculados": 60
+    },
+    {
+      "unidade": "03031",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 80,
+      "matriculados": 77
+    },
+    {
+      "unidade": "03032",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 34,
+      "matriculados": 31
+    },
+    {
+      "unidade": "03033",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 200,
+      "matriculados": 198
+    },
+    {
+      "unidade": "03034",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 100,
+      "matriculados": 100
+    },
+    {
+      "unidade": "03035",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 67,
+      "matriculados": 67
+    },
+    {
+      "unidade": "03036",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 147,
+      "matriculados": 147
+    },
+    {
+      "unidade": "03037",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 180,
+      "matriculados": 172
+    },
+    {
+      "unidade": "03038",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 163,
+      "matriculados": 162
+    },
+    {
+      "unidade": "03039",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 50,
+      "matriculados": 48
+    },
+    {
+      "unidade": "03040",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 70,
+      "matriculados": 67
+    },
+    {
+      "unidade": "03041",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 50,
+      "matriculados": 47
+    },
+    {
+      "unidade": "04001",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 200,
+      "matriculados": 200
+    },
+    {
+      "unidade": "04002",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 100,
+      "matriculados": 90
+    },
+    {
+      "unidade": "04003",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 142,
+      "matriculados": 142
+    },
+    {
+      "unidade": "04004",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 165,
+      "matriculados": 159
+    },
+    {
+      "unidade": "04005",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 251,
+      "matriculados": 240
+    },
+    {
+      "unidade": "04006",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 69,
+      "matriculados": 64
+    },
+    {
+      "unidade": "04007",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 84,
+      "matriculados": 83
+    },
+    {
+      "unidade": "04008",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 100,
+      "matriculados": 97
+    },
+    {
+      "unidade": "04009",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 70,
+      "matriculados": 67
+    },
+    {
+      "unidade": "04010",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 125,
+      "matriculados": 123
+    },
+    {
+      "unidade": "04011",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 140,
+      "matriculados": 100
+    },
+    {
+      "unidade": "04012",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 125,
+      "matriculados": 125
+    },
+    {
+      "unidade": "04013",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 80,
+      "matriculados": 80
+    },
+    {
+      "unidade": "04014",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 150,
+      "matriculados": 147
+    },
+    {
+      "unidade": "04015",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 217,
+      "matriculados": 207
+    },
+    {
+      "unidade": "04016",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 140,
+      "matriculados": 135
+    },
+    {
+      "unidade": "04017",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 202,
+      "matriculados": 164
+    },
+    {
+      "unidade": "04018",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 210,
+      "matriculados": 210
+    },
+    {
+      "unidade": "04020",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 156,
+      "matriculados": 111
+    },
+    {
+      "unidade": "04021",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 215,
+      "matriculados": 193
+    },
+    {
+      "unidade": "04022",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 273,
+      "matriculados": 265
+    },
+    {
+      "unidade": "04023",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 299,
+      "matriculados": 263
+    },
+    {
+      "unidade": "04024",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 269,
+      "matriculados": 264
+    },
+    {
+      "unidade": "04025",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 223,
+      "matriculados": 195
+    },
+    {
+      "unidade": "04026",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 49,
+      "matriculados": 45
+    },
+    {
+      "unidade": "04027",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 200,
+      "matriculados": 192
+    },
+    {
+      "unidade": "04028",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 78,
+      "matriculados": 72
+    },
+    {
+      "unidade": "04029",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 188,
+      "matriculados": 187
+    },
+    {
+      "unidade": "04030",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 348,
+      "matriculados": 338
+    },
+    {
+      "unidade": "04032",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 110,
+      "matriculados": 108
+    },
+    {
+      "unidade": "04034",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 57,
+      "matriculados": 57
+    },
+    {
+      "unidade": "04035",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 143,
+      "matriculados": 141
+    },
+    {
+      "unidade": "04036",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 58,
+      "matriculados": 57
+    },
+    {
+      "unidade": "04037",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 94,
+      "matriculados": 94
+    },
+    {
+      "unidade": "04038",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 280,
+      "matriculados": 234
+    },
+    {
+      "unidade": "04039",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 132,
+      "matriculados": 124
+    },
+    {
+      "unidade": "04040",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 276,
+      "matriculados": 273
+    },
+    {
+      "unidade": "04041",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 54,
+      "matriculados": 52
+    },
+    {
+      "unidade": "04042",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 188,
+      "matriculados": 179
+    },
+    {
+      "unidade": "04043",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 89,
+      "matriculados": 86
+    },
+    {
+      "unidade": "04044",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 217,
+      "matriculados": 217
+    },
+    {
+      "unidade": "04045",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 157,
+      "matriculados": 155
+    },
+    {
+      "unidade": "04046",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 74,
+      "matriculados": 72
+    },
+    {
+      "unidade": "04047",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 281,
+      "matriculados": 276
+    },
+    {
+      "unidade": "04048",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 128,
+      "matriculados": 127
+    },
+    {
+      "unidade": "04049",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 60,
+      "matriculados": 60
+    },
+    {
+      "unidade": "04050",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 80,
+      "matriculados": 76
+    },
+    {
+      "unidade": "05001",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 115,
+      "matriculados": 115
+    },
+    {
+      "unidade": "05002",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 56,
+      "matriculados": 53
+    },
+    {
+      "unidade": "05003",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 57,
+      "matriculados": 54
+    },
+    {
+      "unidade": "05004",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 55,
+      "matriculados": 50
+    },
+    {
+      "unidade": "05005",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 100,
+      "matriculados": 97
+    },
+    {
+      "unidade": "05006",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 200,
+      "matriculados": 185
+    },
+    {
+      "unidade": "05007",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 55,
+      "matriculados": 55
+    },
+    {
+      "unidade": "05008",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 152,
+      "matriculados": 148
+    },
+    {
+      "unidade": "05010",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 647,
+      "matriculados": 557
+    },
+    {
+      "unidade": "05012",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 269,
+      "matriculados": 251
+    },
+    {
+      "unidade": "05013",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 44,
+      "matriculados": 44
+    },
+    {
+      "unidade": "05014",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 222,
+      "matriculados": 219
+    },
+    {
+      "unidade": "05015",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 261,
+      "matriculados": 253
+    },
+    {
+      "unidade": "05016",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 187,
+      "matriculados": 183
+    },
+    {
+      "unidade": "06001",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 114,
+      "matriculados": 106
+    },
+    {
+      "unidade": "06002",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 170,
+      "matriculados": 166
+    },
+    {
+      "unidade": "06003",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 101,
+      "matriculados": 101
+    },
+    {
+      "unidade": "06004",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 84,
+      "matriculados": 84
+    },
+    {
+      "unidade": "06005",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 60,
+      "matriculados": 59
+    },
+    {
+      "unidade": "06006",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 90,
+      "matriculados": 84
+    },
+    {
+      "unidade": "06007",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 120,
+      "matriculados": 119
+    },
+    {
+      "unidade": "06009",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 322,
+      "matriculados": 305
+    },
+    {
+      "unidade": "06012",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 134,
+      "matriculados": 132
+    },
+    {
+      "unidade": "06013",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 103,
+      "matriculados": 100
+    },
+    {
+      "unidade": "06015",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 365,
+      "matriculados": 357
+    },
+    {
+      "unidade": "06016",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 184,
+      "matriculados": 179
+    },
+    {
+      "unidade": "06017",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 45,
+      "matriculados": 46
+    },
+    {
+      "unidade": "07001",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 140,
+      "matriculados": 140
+    },
+    {
+      "unidade": "07002",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 115,
+      "matriculados": 109
+    },
+    {
+      "unidade": "07003",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 323,
+      "matriculados": 315
+    },
+    {
+      "unidade": "07004",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 144,
+      "matriculados": 141
+    },
+    {
+      "unidade": "07007",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 120,
+      "matriculados": 118
+    },
+    {
+      "unidade": "07008",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 60,
+      "matriculados": 56
+    },
+    {
+      "unidade": "07010",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 83,
+      "matriculados": 83
+    },
+    {
+      "unidade": "07011",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 170,
+      "matriculados": 157
+    },
+    {
+      "unidade": "07013",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 207,
+      "matriculados": 194
+    },
+    {
+      "unidade": "07014",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 117,
+      "matriculados": 115
+    },
+    {
+      "unidade": "07015",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 232,
+      "matriculados": 216
+    },
+    {
+      "unidade": "07017",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 87,
+      "matriculados": 62
+    },
+    {
+      "unidade": "07018",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 155,
+      "matriculados": 152
+    },
+    {
+      "unidade": "07019",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 195,
+      "matriculados": 185
+    },
+    {
+      "unidade": "07020",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 80,
+      "matriculados": 77
+    },
+    {
+      "unidade": "07025",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 184,
+      "matriculados": 177
+    },
+    {
+      "unidade": "07027",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 202,
+      "matriculados": 171
+    },
+    {
+      "unidade": "07034",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 76,
+      "matriculados": 72
+    },
+    {
+      "unidade": "07035",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 219,
+      "matriculados": 205
+    },
+    {
+      "unidade": "07036",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 179,
+      "matriculados": 175
+    },
+    {
+      "unidade": "07037",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 300,
+      "matriculados": 294
+    },
+    {
+      "unidade": "07038",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 164,
+      "matriculados": 153
+    },
+    {
+      "unidade": "07039",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 150,
+      "matriculados": 142
+    },
+    {
+      "unidade": "07040",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 393,
+      "matriculados": 389
+    },
+    {
+      "unidade": "07041",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 125,
+      "matriculados": 122
+    },
+    {
+      "unidade": "07042",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 133,
+      "matriculados": 129
+    },
+    {
+      "unidade": "07043",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 70,
+      "matriculados": 68
+    },
+    {
+      "unidade": "07044",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 184,
+      "matriculados": 176
+    },
+    {
+      "unidade": "07045",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 150,
+      "matriculados": 127
+    },
+    {
+      "unidade": "08002",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 35,
+      "matriculados": 35
+    },
+    {
+      "unidade": "08003",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 80,
+      "matriculados": 77
+    },
+    {
+      "unidade": "08004",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 100,
+      "matriculados": 97
+    },
+    {
+      "unidade": "08005",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 144,
+      "matriculados": 142
+    },
+    {
+      "unidade": "08006",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 50,
+      "matriculados": 50
+    },
+    {
+      "unidade": "08007",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 214,
+      "matriculados": 210
+    },
+    {
+      "unidade": "08008",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 40,
+      "matriculados": 33
+    },
+    {
+      "unidade": "08009",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 98,
+      "matriculados": 98
+    },
+    {
+      "unidade": "08010",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 56,
+      "matriculados": 51
+    },
+    {
+      "unidade": "08011",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 200,
+      "matriculados": 190
+    },
+    {
+      "unidade": "08013",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 103,
+      "matriculados": 102
+    },
+    {
+      "unidade": "08014",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 92,
+      "matriculados": 88
+    },
+    {
+      "unidade": "08015",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 361,
+      "matriculados": 176
+    },
+    {
+      "unidade": "08016",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 260,
+      "matriculados": 251
+    },
+    {
+      "unidade": "08018",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 72,
+      "matriculados": 72
+    },
+    {
+      "unidade": "08019",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 149,
+      "matriculados": 142
+    },
+    {
+      "unidade": "08021",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 38,
+      "matriculados": 38
+    },
+    {
+      "unidade": "08023",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 72,
+      "matriculados": 70
+    },
+    {
+      "unidade": "08024",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 120,
+      "matriculados": 78
+    },
+    {
+      "unidade": "08025",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 50,
+      "matriculados": 46
+    },
+    {
+      "unidade": "08027",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 18,
+      "matriculados": 18
+    },
+    {
+      "unidade": "09001",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 35,
+      "matriculados": 35
+    },
+    {
+      "unidade": "09002",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 34,
+      "matriculados": 34
+    },
+    {
+      "unidade": "09003",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 35,
+      "matriculados": 33
+    },
+    {
+      "unidade": "09004",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 168,
+      "matriculados": 165
+    },
+    {
+      "unidade": "09007",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 85,
+      "matriculados": 84
+    },
+    {
+      "unidade": "09008",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 70,
+      "matriculados": 64
+    },
+    {
+      "unidade": "09009",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 100,
+      "matriculados": 100
+    },
+    {
+      "unidade": "09010",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 124,
+      "matriculados": 127
+    },
+    {
+      "unidade": "09011",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 151,
+      "matriculados": 125
+    },
+    {
+      "unidade": "09012",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 152,
+      "matriculados": 147
+    },
+    {
+      "unidade": "09013",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 110,
+      "matriculados": 108
+    },
+    {
+      "unidade": "09014",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 140,
+      "matriculados": 140
+    },
+    {
+      "unidade": "09017",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 180,
+      "matriculados": 176
+    },
+    {
+      "unidade": "09018",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 126,
+      "matriculados": 124
+    },
+    {
+      "unidade": "09019",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 102,
+      "matriculados": 85
+    },
+    {
+      "unidade": "09020",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 102,
+      "matriculados": 99
+    },
+    {
+      "unidade": "09021",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 302,
+      "matriculados": 277
+    },
+    {
+      "unidade": "09022",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 110,
+      "matriculados": 104
+    },
+    {
+      "unidade": "09023",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 70,
+      "matriculados": 69
+    },
+    {
+      "unidade": "09024",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 86,
+      "matriculados": 85
+    },
+    {
+      "unidade": "09025",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 62,
+      "matriculados": 61
+    },
+    {
+      "unidade": "09026",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 127,
+      "matriculados": 123
+    },
+    {
+      "unidade": "09027",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 100,
+      "matriculados": 94
+    },
+    {
+      "unidade": "09028",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 102,
+      "matriculados": 96
+    },
+    {
+      "unidade": "09029",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 85,
+      "matriculados": 78
+    },
+    {
+      "unidade": "09030",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 120,
+      "matriculados": 120
+    },
+    {
+      "unidade": "09031",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 80,
+      "matriculados": 76
+    },
+    {
+      "unidade": "09032",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 90,
+      "matriculados": 88
+    },
+    {
+      "unidade": "09033",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 100,
+      "matriculados": 82
+    },
+    {
+      "unidade": "09034",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 90,
+      "matriculados": 89
+    },
+    {
+      "unidade": "09035",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 130,
+      "matriculados": 80
+    },
+    {
+      "unidade": "09036",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 157,
+      "matriculados": 151
+    },
+    {
+      "unidade": "09037",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 77,
+      "matriculados": 76
+    },
+    {
+      "unidade": "09038",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 200,
+      "matriculados": 201
+    },
+    {
+      "unidade": "09039",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 50,
+      "matriculados": 50
+    },
+    {
+      "unidade": "09040",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 50,
+      "matriculados": 50
+    },
+    {
+      "unidade": "09041",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 60,
+      "matriculados": 60
+    },
+    {
+      "unidade": "09042",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 40,
+      "matriculados": 40
+    },
+    {
+      "unidade": "09043",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 50,
+      "matriculados": 50
+    },
+    {
+      "unidade": "09044",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 110,
+      "matriculados": 108
+    },
+    {
+      "unidade": "09045",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 40,
+      "matriculados": 38
+    },
+    {
+      "unidade": "09046",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 75,
+      "matriculados": 73
+    },
+    {
+      "unidade": "10001",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 137,
+      "matriculados": 137
+    },
+    {
+      "unidade": "10004",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 90,
+      "matriculados": 90
+    },
+    {
+      "unidade": "10005",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 45,
+      "matriculados": 37
+    },
+    {
+      "unidade": "10006",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 115,
+      "matriculados": 111
+    },
+    {
+      "unidade": "10008",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 115,
+      "matriculados": 113
+    },
+    {
+      "unidade": "10009",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 70,
+      "matriculados": 70
+    },
+    {
+      "unidade": "10010",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 118,
+      "matriculados": 115
+    },
+    {
+      "unidade": "10011",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 118,
+      "matriculados": 109
+    },
+    {
+      "unidade": "10013",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 84,
+      "matriculados": 66
+    },
+    {
+      "unidade": "10014",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 30,
+      "matriculados": 30
+    },
+    {
+      "unidade": "10018",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 220,
+      "matriculados": 220
+    },
+    {
+      "unidade": "10019",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 175,
+      "matriculados": 169
+    },
+    {
+      "unidade": "10020",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 175,
+      "matriculados": 153
+    },
+    {
+      "unidade": "10022",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 220,
+      "matriculados": 214
+    },
+    {
+      "unidade": "10023",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 100,
+      "matriculados": 99
+    },
+    {
+      "unidade": "10024",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 140,
+      "matriculados": 140
+    },
+    {
+      "unidade": "10026",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 145,
+      "matriculados": 143
+    },
+    {
+      "unidade": "10027",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 160,
+      "matriculados": 160
+    },
+    {
+      "unidade": "10028",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 141,
+      "matriculados": 139
+    },
+    {
+      "unidade": "10029",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 75,
+      "matriculados": 75
+    },
+    {
+      "unidade": "10030",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 142,
+      "matriculados": 142
+    },
+    {
+      "unidade": "10032",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 222,
+      "matriculados": 197
+    },
+    {
+      "unidade": "10033",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 117,
+      "matriculados": 107
+    },
+    {
+      "unidade": "10034",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 135,
+      "matriculados": 134
+    },
+    {
+      "unidade": "10035",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 102,
+      "matriculados": 84
+    },
+    {
+      "unidade": "10036",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 143,
+      "matriculados": 131
+    },
+    {
+      "unidade": "10037",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 106,
+      "matriculados": 80
+    },
+    {
+      "unidade": "10039",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 350,
+      "matriculados": 349
+    },
+    {
+      "unidade": "10040",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 200,
+      "matriculados": 200
+    },
+    {
+      "unidade": "10041",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 160,
+      "matriculados": 157
+    },
+    {
+      "unidade": "10042",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 128,
+      "matriculados": 125
+    },
+    {
+      "unidade": "10043",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 126,
+      "matriculados": 125
+    },
+    {
+      "unidade": "10044",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 168,
+      "matriculados": 168
+    },
+    {
+      "unidade": "10045",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 135,
+      "matriculados": 125
+    },
+    {
+      "unidade": "10046",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 317,
+      "matriculados": 269
+    },
+    {
+      "unidade": "10047",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 186,
+      "matriculados": 148
+    },
+    {
+      "unidade": "10051",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 333,
+      "matriculados": 326
+    },
+    {
+      "unidade": "10052",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 321,
+      "matriculados": 321
+    },
+    {
+      "unidade": "10053",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 300,
+      "matriculados": 279
+    },
+    {
+      "unidade": "10054",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 60,
+      "matriculados": 43
+    },
+    {
+      "unidade": "10055",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 150,
+      "matriculados": 133
+    },
+    {
+      "unidade": "10056",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 100,
+      "matriculados": 100
+    },
+    {
+      "unidade": "10057",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 305,
+      "matriculados": 275
+    },
+    {
+      "unidade": "10058",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 280,
+      "matriculados": 272
+    },
+    {
+      "unidade": "10059",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 92,
+      "matriculados": 91
+    },
+    {
+      "unidade": "10060",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 100,
+      "matriculados": 95
+    },
+    {
+      "unidade": "10061",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 92,
+      "matriculados": 92
+    },
+    {
+      "unidade": "10062",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 112,
+      "matriculados": 106
+    },
+    {
+      "unidade": "10063",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 130,
+      "matriculados": 124
+    },
+    {
+      "unidade": "10064",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 150,
+      "matriculados": 145
+    },
+    {
+      "unidade": "10065",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 173,
+      "matriculados": 169
+    },
+    {
+      "unidade": "10066",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 250,
+      "matriculados": 227
+    },
+    {
+      "unidade": "10067",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 124,
+      "matriculados": 124
+    },
+    {
+      "unidade": "10068",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 120,
+      "matriculados": 118
+    },
+    {
+      "unidade": "10069",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 95,
+      "matriculados": 95
+    },
+    {
+      "unidade": "10070",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 49,
+      "matriculados": 45
+    },
+    {
+      "unidade": "10071",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 250,
+      "matriculados": 238
+    },
+    {
+      "unidade": "10072",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 125,
+      "matriculados": 125
+    },
+    {
+      "unidade": "10073",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 152,
+      "matriculados": 149
+    },
+    {
+      "unidade": "10074",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 120,
+      "matriculados": 120
+    },
+    {
+      "unidade": "10075",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 78,
+      "matriculados": 78
+    },
+    {
+      "unidade": "10076",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 60,
+      "matriculados": 60
+    },
+    {
+      "unidade": "10077",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 40,
+      "matriculados": 31
+    },
+    {
+      "unidade": "10078",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 40,
+      "matriculados": 38
+    },
+    {
+      "unidade": "10079",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 225,
+      "matriculados": 165
+    },
+    {
+      "unidade": "10080",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 136,
+      "matriculados": 117
+    },
+    {
+      "unidade": "10081",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 100,
+      "matriculados": 100
+    },
+    {
+      "unidade": "10082",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 31,
+      "matriculados": 31
+    },
+    {
+      "unidade": "10083",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 40,
+      "matriculados": 40
+    },
+    {
+      "unidade": "10084",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 56,
+      "matriculados": 56
+    },
+    {
+      "unidade": "10085",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 60,
+      "matriculados": 55
+    },
+    {
+      "unidade": "11001",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 105,
+      "matriculados": 104
+    },
+    {
+      "unidade": "11003",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 128,
+      "matriculados": 125
+    },
+    {
+      "unidade": "11004",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 151,
+      "matriculados": 148
+    },
+    {
+      "unidade": "11006",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 310,
+      "matriculados": 310
+    },
+    {
+      "unidade": "11007",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 78,
+      "matriculados": 77
+    },
+    {
+      "unidade": "11008",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 104,
+      "matriculados": 104
+    },
+    {
+      "unidade": "11009",
+      "tipo": "parceira",
+      "fonte": "parceiras",
+      "vagas_ofertadas": 56,
+      "matriculados": 54
+    },
+    {
+      "unidade": "0101601",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 140,
+      "turmas": 8
+    },
+    {
+      "unidade": "0101602",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 116,
+      "turmas": 8
+    },
+    {
+      "unidade": "0101603",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 188,
+      "turmas": 8
+    },
+    {
+      "unidade": "0101604",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 156,
+      "turmas": 8
+    },
+    {
+      "unidade": "0101605",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 226,
+      "turmas": 12
+    },
+    {
+      "unidade": "0101606",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 238,
+      "turmas": 16
+    },
+    {
+      "unidade": "0101607",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 264,
+      "turmas": 12
+    },
+    {
+      "unidade": "0101801",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 398,
+      "turmas": 20
+    },
+    {
+      "unidade": "0101802",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 244,
+      "turmas": 12
+    },
+    {
+      "unidade": "0101803",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 64,
+      "turmas": 4
+    },
+    {
+      "unidade": "0102601",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 194,
+      "turmas": 8
+    },
+    {
+      "unidade": "0102602",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 476,
+      "turmas": 20
+    },
+    {
+      "unidade": "0102604",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 240,
+      "turmas": 10
+    },
+    {
+      "unidade": "0102605",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 268,
+      "turmas": 12
+    },
+    {
+      "unidade": "0102606",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 188,
+      "turmas": 8
+    },
+    {
+      "unidade": "0102802",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 26,
+      "turmas": 4
+    },
+    {
+      "unidade": "0102803",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 120,
+      "turmas": 6
+    },
+    {
+      "unidade": "0103601",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 126,
+      "turmas": 8
+    },
+    {
+      "unidade": "0103602",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 130,
+      "turmas": 6
+    },
+    {
+      "unidade": "0103604",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 144,
+      "turmas": 6
+    },
+    {
+      "unidade": "0103605",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 234,
+      "turmas": 10
+    },
+    {
+      "unidade": "0103606",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 198,
+      "turmas": 10
+    },
+    {
+      "unidade": "0103607",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 238,
+      "turmas": 14
+    },
+    {
+      "unidade": "0103801",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 150,
+      "turmas": 6
+    },
+    {
+      "unidade": "0103802",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 208,
+      "turmas": 12
+    },
+    {
+      "unidade": "0103804",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 138,
+      "turmas": 6
+    },
+    {
+      "unidade": "0103805",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 90,
+      "turmas": 6
+    },
+    {
+      "unidade": "0103806",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 60,
+      "turmas": 4
+    },
+    {
+      "unidade": "0103807",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 312,
+      "turmas": 14
+    },
+    {
+      "unidade": "0107601",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 144,
+      "turmas": 8
+    },
+    {
+      "unidade": "0107602",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 266,
+      "turmas": 12
+    },
+    {
+      "unidade": "0107603",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 186,
+      "turmas": 8
+    },
+    {
+      "unidade": "0107604",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 290,
+      "turmas": 12
+    },
+    {
+      "unidade": "0107605",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 138,
+      "turmas": 6
+    },
+    {
+      "unidade": "0107606",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 290,
+      "turmas": 12
+    },
+    {
+      "unidade": "0107607",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 286,
+      "turmas": 12
+    },
+    {
+      "unidade": "0107608",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 108,
+      "turmas": 4
+    },
+    {
+      "unidade": "0107609",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 284,
+      "turmas": 16
+    },
+    {
+      "unidade": "0107610",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 296,
+      "turmas": 12
+    },
+    {
+      "unidade": "0107801",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 80,
+      "turmas": 4
+    },
+    {
+      "unidade": "0107802",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 22,
+      "turmas": 2
+    },
+    {
+      "unidade": "0107803",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 62,
+      "turmas": 4
+    },
+    {
+      "unidade": "0121001",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 170,
+      "turmas": 8
+    },
+    {
+      "unidade": "0123601",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 200,
+      "turmas": 12
+    },
+    {
+      "unidade": "0123603",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 192,
+      "turmas": 10
+    },
+    {
+      "unidade": "0123801",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 24,
+      "turmas": 2
+    },
+    {
+      "unidade": "0204601",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 90,
+      "turmas": 6
+    },
+    {
+      "unidade": "0204602",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 280,
+      "turmas": 12
+    },
+    {
+      "unidade": "0204804",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 44,
+      "turmas": 2
+    },
+    {
+      "unidade": "0204805",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 284,
+      "turmas": 12
+    },
+    {
+      "unidade": "0204806",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 142,
+      "turmas": 8
+    },
+    {
+      "unidade": "0205601",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 252,
+      "turmas": 12
+    },
+    {
+      "unidade": "0205602",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 220,
+      "turmas": 12
+    },
+    {
+      "unidade": "0205801",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 106,
+      "turmas": 8
+    },
+    {
+      "unidade": "0206601",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 122,
+      "turmas": 6
+    },
+    {
+      "unidade": "0206602",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 186,
+      "turmas": 10
+    },
+    {
+      "unidade": "0206603",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 128,
+      "turmas": 6
+    },
+    {
+      "unidade": "0206605",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 150,
+      "turmas": 8
+    },
+    {
+      "unidade": "0206606",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 208,
+      "turmas": 10
+    },
+    {
+      "unidade": "0208601",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 170,
+      "turmas": 12
+    },
+    {
+      "unidade": "0208603",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 218,
+      "turmas": 10
+    },
+    {
+      "unidade": "0208604",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 158,
+      "turmas": 8
+    },
+    {
+      "unidade": "0208605",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 110,
+      "turmas": 6
+    },
+    {
+      "unidade": "0208606",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 116,
+      "turmas": 6
+    },
+    {
+      "unidade": "0208607",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 108,
+      "turmas": 6
+    },
+    {
+      "unidade": "0208608",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 248,
+      "turmas": 12
+    },
+    {
+      "unidade": "0208801",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 216,
+      "turmas": 12
+    },
+    {
+      "unidade": "0208803",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 146,
+      "turmas": 8
+    },
+    {
+      "unidade": "0209601",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 174,
+      "turmas": 14
+    },
+    {
+      "unidade": "0209602",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 216,
+      "turmas": 12
+    },
+    {
+      "unidade": "0209603",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 102,
+      "turmas": 6
+    },
+    {
+      "unidade": "0209604",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 112,
+      "turmas": 6
+    },
+    {
+      "unidade": "0209605",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 104,
+      "turmas": 8
+    },
+    {
+      "unidade": "0209606",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 154,
+      "turmas": 10
+    },
+    {
+      "unidade": "0209607",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 84,
+      "turmas": 6
+    },
+    {
+      "unidade": "0209608",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 152,
+      "turmas": 10
+    },
+    {
+      "unidade": "0209609",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 240,
+      "turmas": 12
+    },
+    {
+      "unidade": "0209610",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 176,
+      "turmas": 10
+    },
+    {
+      "unidade": "0209803",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 110,
+      "turmas": 6
+    },
+    {
+      "unidade": "0209804",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 38,
+      "turmas": 2
+    },
+    {
+      "unidade": "0227601",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 44,
+      "turmas": 2
+    },
+    {
+      "unidade": "0227602",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 16,
+      "turmas": 2
+    },
+    {
+      "unidade": "0227801",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 284,
+      "turmas": 12
+    },
+    {
+      "unidade": "0312502",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 276,
+      "turmas": 14
+    },
+    {
+      "unidade": "0312601",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 268,
+      "turmas": 12
+    },
+    {
+      "unidade": "0312602",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 196,
+      "turmas": 8
+    },
+    {
+      "unidade": "0312603",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 266,
+      "turmas": 12
+    },
+    {
+      "unidade": "0312801",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 278,
+      "turmas": 10
+    },
+    {
+      "unidade": "0312802",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 128,
+      "turmas": 8
+    },
+    {
+      "unidade": "0312803",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 106,
+      "turmas": 6
+    },
+    {
+      "unidade": "0312804",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 168,
+      "turmas": 10
+    },
+    {
+      "unidade": "0312805",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 256,
+      "turmas": 12
+    },
+    {
+      "unidade": "0312806",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 140,
+      "turmas": 6
+    },
+    {
+      "unidade": "0312809",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 212,
+      "turmas": 10
+    },
+    {
+      "unidade": "0312810",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 90,
+      "turmas": 4
+    },
+    {
+      "unidade": "0312812",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 258,
+      "turmas": 12
+    },
+    {
+      "unidade": "0312813",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 346,
+      "turmas": 16
+    },
+    {
+      "unidade": "0313601",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 120,
+      "turmas": 6
+    },
+    {
+      "unidade": "0313602",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 190,
+      "turmas": 10
+    },
+    {
+      "unidade": "0313603",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 148,
+      "turmas": 8
+    },
+    {
+      "unidade": "0313604",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 226,
+      "turmas": 10
+    },
+    {
+      "unidade": "0313606",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 166,
+      "turmas": 8
+    },
+    {
+      "unidade": "0313607",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 288,
+      "turmas": 16
+    },
+    {
+      "unidade": "0313608",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 292,
+      "turmas": 12
+    },
+    {
+      "unidade": "0313609",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 240,
+      "turmas": 12
+    },
+    {
+      "unidade": "0313610",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 240,
+      "turmas": 12
+    },
+    {
+      "unidade": "0313611",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 226,
+      "turmas": 12
+    },
+    {
+      "unidade": "0313612",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 186,
+      "turmas": 12
+    },
+    {
+      "unidade": "0313801",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 176,
+      "turmas": 8
+    },
+    {
+      "unidade": "0313802",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 146,
+      "turmas": 6
+    },
+    {
+      "unidade": "0313804",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 92,
+      "turmas": 4
+    },
+    {
+      "unidade": "0313805",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 90,
+      "turmas": 4
+    },
+    {
+      "unidade": "0313806",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 40,
+      "turmas": 2
+    },
+    {
+      "unidade": "0313809",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 196,
+      "turmas": 8
+    },
+    {
+      "unidade": "0328601",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 154,
+      "turmas": 12
+    },
+    {
+      "unidade": "0328602",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 196,
+      "turmas": 8
+    },
+    {
+      "unidade": "0328604",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 290,
+      "turmas": 12
+    },
+    {
+      "unidade": "0328801",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 130,
+      "turmas": 6
+    },
+    {
+      "unidade": "0329801",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 230,
+      "turmas": 10
+    },
+    {
+      "unidade": "0330601",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 146,
+      "turmas": 6
+    },
+    {
+      "unidade": "0330602",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 286,
+      "turmas": 12
+    },
+    {
+      "unidade": "0410601",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 84,
+      "turmas": 4
+    },
+    {
+      "unidade": "0410602",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 28,
+      "turmas": 2
+    },
+    {
+      "unidade": "0410603",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 160,
+      "turmas": 8
+    },
+    {
+      "unidade": "0410801",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 216,
+      "turmas": 10
+    },
+    {
+      "unidade": "0410802",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 150,
+      "turmas": 6
+    },
+    {
+      "unidade": "0410803",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 128,
+      "turmas": 6
+    },
+    {
+      "unidade": "0410804",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 38,
+      "turmas": 2
+    },
+    {
+      "unidade": "0410805",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 138,
+      "turmas": 6
+    },
+    {
+      "unidade": "0410807",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 148,
+      "turmas": 6
+    },
+    {
+      "unidade": "0410808",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 294,
+      "turmas": 12
+    },
+    {
+      "unidade": "0410810",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 54,
+      "turmas": 4
+    },
+    {
+      "unidade": "0411601",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 176,
+      "turmas": 8
+    },
+    {
+      "unidade": "0411602",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 112,
+      "turmas": 6
+    },
+    {
+      "unidade": "0411603",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 190,
+      "turmas": 10
+    },
+    {
+      "unidade": "0411604",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 46,
+      "turmas": 2
+    },
+    {
+      "unidade": "0411605",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 104,
+      "turmas": 8
+    },
+    {
+      "unidade": "0411607",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 4,
+      "turmas": 2
+    },
+    {
+      "unidade": "0411609",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 50,
+      "turmas": 2
+    },
+    {
+      "unidade": "0411801",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 192,
+      "turmas": 10
+    },
+    {
+      "unidade": "0411802",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 194,
+      "turmas": 10
+    },
+    {
+      "unidade": "0411803",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 116,
+      "turmas": 6
+    },
+    {
+      "unidade": "0411804",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 30,
+      "turmas": 2
+    },
+    {
+      "unidade": "0430601",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 100,
+      "turmas": 4
+    },
+    {
+      "unidade": "0430602",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 144,
+      "turmas": 6
+    },
+    {
+      "unidade": "0430603",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 150,
+      "turmas": 6
+    },
+    {
+      "unidade": "0430604",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 82,
+      "turmas": 4
+    },
+    {
+      "unidade": "0430605",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 90,
+      "turmas": 4
+    },
+    {
+      "unidade": "0430607",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 102,
+      "turmas": 6
+    },
+    {
+      "unidade": "0430801",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 112,
+      "turmas": 6
+    },
+    {
+      "unidade": "0430802",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 242,
+      "turmas": 10
+    },
+    {
+      "unidade": "0430803",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 170,
+      "turmas": 8
+    },
+    {
+      "unidade": "0430805",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 130,
+      "turmas": 6
+    },
+    {
+      "unidade": "0430806",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 134,
+      "turmas": 6
+    },
+    {
+      "unidade": "0430807",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 280,
+      "turmas": 12
+    },
+    {
+      "unidade": "0430809",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 240,
+      "turmas": 10
+    },
+    {
+      "unidade": "0430810",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 294,
+      "turmas": 12
+    },
+    {
+      "unidade": "0430811",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 284,
+      "turmas": 12
+    },
+    {
+      "unidade": "0430812",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 142,
+      "turmas": 6
+    },
+    {
+      "unidade": "0430813",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 126,
+      "turmas": 6
+    },
+    {
+      "unidade": "0430815",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 144,
+      "turmas": 6
+    },
+    {
+      "unidade": "0431601",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 42,
+      "turmas": 2
+    },
+    {
+      "unidade": "0431602",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 338,
+      "turmas": 16
+    },
+    {
+      "unidade": "0431603",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 190,
+      "turmas": 10
+    },
+    {
+      "unidade": "0431604",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 152,
+      "turmas": 8
+    },
+    {
+      "unidade": "0431605",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 180,
+      "turmas": 8
+    },
+    {
+      "unidade": "0431606",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 210,
+      "turmas": 10
+    },
+    {
+      "unidade": "0431607",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 74,
+      "turmas": 4
+    },
+    {
+      "unidade": "0431608",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 6,
+      "turmas": 2
+    },
+    {
+      "unidade": "0431801",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 46,
+      "turmas": 2
+    },
+    {
+      "unidade": "0431802",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 112,
+      "turmas": 6
+    },
+    {
+      "unidade": "0431803",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 36,
+      "turmas": 2
+    },
+    {
+      "unidade": "0514009",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 92,
+      "turmas": 4
+    },
+    {
+      "unidade": "0514501",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 48,
+      "turmas": 2
+    },
+    {
+      "unidade": "0514601",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 182,
+      "turmas": 8
+    },
+    {
+      "unidade": "0514602",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 280,
+      "turmas": 12
+    },
+    {
+      "unidade": "0514603",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 90,
+      "turmas": 6
+    },
+    {
+      "unidade": "0514604",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 92,
+      "turmas": 4
+    },
+    {
+      "unidade": "0514605",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 270,
+      "turmas": 12
+    },
+    {
+      "unidade": "0514606",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 238,
+      "turmas": 12
+    },
+    {
+      "unidade": "0514607",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 136,
+      "turmas": 12
+    },
+    {
+      "unidade": "0514608",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 222,
+      "turmas": 10
+    },
+    {
+      "unidade": "0514609",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 174,
+      "turmas": 8
+    },
+    {
+      "unidade": "0514801",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 192,
+      "turmas": 10
+    },
+    {
+      "unidade": "0514802",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 86,
+      "turmas": 4
+    },
+    {
+      "unidade": "0514803",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 96,
+      "turmas": 4
+    },
+    {
+      "unidade": "0515015",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 46,
+      "turmas": 2
+    },
+    {
+      "unidade": "0515021",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 90,
+      "turmas": 4
+    },
+    {
+      "unidade": "0515046",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 90,
+      "turmas": 4
+    },
+    {
+      "unidade": "0515053",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 46,
+      "turmas": 2
+    },
+    {
+      "unidade": "0515064",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 46,
+      "turmas": 2
+    },
+    {
+      "unidade": "0515501",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 70,
+      "turmas": 4
+    },
+    {
+      "unidade": "0515503",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 50,
+      "turmas": 2
+    },
+    {
+      "unidade": "0515601",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 88,
+      "turmas": 6
+    },
+    {
+      "unidade": "0515602",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 292,
+      "turmas": 12
+    },
+    {
+      "unidade": "0515604",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 284,
+      "turmas": 12
+    },
+    {
+      "unidade": "0515605",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 274,
+      "turmas": 12
+    },
+    {
+      "unidade": "0515606",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 220,
+      "turmas": 10
+    },
+    {
+      "unidade": "0515607",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 230,
+      "turmas": 10
+    },
+    {
+      "unidade": "0515608",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 132,
+      "turmas": 6
+    },
+    {
+      "unidade": "0515610",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 78,
+      "turmas": 4
+    },
+    {
+      "unidade": "0515611",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 186,
+      "turmas": 8
+    },
+    {
+      "unidade": "0515612",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 242,
+      "turmas": 12
+    },
+    {
+      "unidade": "0515613",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 280,
+      "turmas": 12
+    },
+    {
+      "unidade": "0515801",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 192,
+      "turmas": 8
+    },
+    {
+      "unidade": "0515802",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 154,
+      "turmas": 8
+    },
+    {
+      "unidade": "0515803",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 50,
+      "turmas": 2
+    },
+    {
+      "unidade": "0515804",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 92,
+      "turmas": 4
+    },
+    {
+      "unidade": "0515805",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 62,
+      "turmas": 4
+    },
+    {
+      "unidade": "0515807",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 168,
+      "turmas": 8
+    },
+    {
+      "unidade": "0515808",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 202,
+      "turmas": 8
+    },
+    {
+      "unidade": "0515809",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 316,
+      "turmas": 14
+    },
+    {
+      "unidade": "0515810",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 158,
+      "turmas": 10
+    },
+    {
+      "unidade": "0622202",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 326,
+      "turmas": 16
+    },
+    {
+      "unidade": "0622601",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 182,
+      "turmas": 8
+    },
+    {
+      "unidade": "0622602",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 220,
+      "turmas": 12
+    },
+    {
+      "unidade": "0622603",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 382,
+      "turmas": 16
+    },
+    {
+      "unidade": "0622801",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 198,
+      "turmas": 8
+    },
+    {
+      "unidade": "0622802",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 50,
+      "turmas": 2
+    },
+    {
+      "unidade": "0622804",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 284,
+      "turmas": 12
+    },
+    {
+      "unidade": "0622805",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 194,
+      "turmas": 10
+    },
+    {
+      "unidade": "0622810",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 100,
+      "turmas": 4
+    },
+    {
+      "unidade": "0625601",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 212,
+      "turmas": 10
+    },
+    {
+      "unidade": "0625602",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 250,
+      "turmas": 10
+    },
+    {
+      "unidade": "0625603",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 162,
+      "turmas": 8
+    },
+    {
+      "unidade": "0625604",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 390,
+      "turmas": 16
+    },
+    {
+      "unidade": "0625605",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 214,
+      "turmas": 10
+    },
+    {
+      "unidade": "0625606",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 286,
+      "turmas": 12
+    },
+    {
+      "unidade": "0625607",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 264,
+      "turmas": 12
+    },
+    {
+      "unidade": "0625608",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 234,
+      "turmas": 10
+    },
+    {
+      "unidade": "0625609",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 188,
+      "turmas": 8
+    },
+    {
+      "unidade": "0625610",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 94,
+      "turmas": 4
+    },
+    {
+      "unidade": "0625611",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 398,
+      "turmas": 16
+    },
+    {
+      "unidade": "0625612",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 286,
+      "turmas": 12
+    },
+    {
+      "unidade": "0625614",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 388,
+      "turmas": 16
+    },
+    {
+      "unidade": "0625615",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 244,
+      "turmas": 10
+    },
+    {
+      "unidade": "0625616",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 206,
+      "turmas": 8
+    },
+    {
+      "unidade": "0625801",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 176,
+      "turmas": 10
+    },
+    {
+      "unidade": "0625802",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 254,
+      "turmas": 12
+    },
+    {
+      "unidade": "0625803",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 292,
+      "turmas": 12
+    },
+    {
+      "unidade": "0625804",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 240,
+      "turmas": 10
+    },
+    {
+      "unidade": "0625807",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 92,
+      "turmas": 4
+    },
+    {
+      "unidade": "0625813",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 42,
+      "turmas": 2
+    },
+    {
+      "unidade": "0625814",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 238,
+      "turmas": 12
+    },
+    {
+      "unidade": "0625815",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 208,
+      "turmas": 10
+    },
+    {
+      "unidade": "0625816",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 216,
+      "turmas": 10
+    },
+    {
+      "unidade": "0625817",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 280,
+      "turmas": 12
+    },
+    {
+      "unidade": "0625818",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 196,
+      "turmas": 8
+    },
+    {
+      "unidade": "0625819",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 354,
+      "turmas": 14
+    },
+    {
+      "unidade": "0625820",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 394,
+      "turmas": 16
+    },
+    {
+      "unidade": "0716601",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 290,
+      "turmas": 12
+    },
+    {
+      "unidade": "0716602",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 138,
+      "turmas": 8
+    },
+    {
+      "unidade": "0716603",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 200,
+      "turmas": 8
+    },
+    {
+      "unidade": "0716604",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 238,
+      "turmas": 12
+    },
+    {
+      "unidade": "0716605",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 288,
+      "turmas": 12
+    },
+    {
+      "unidade": "0716606",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 196,
+      "turmas": 8
+    },
+    {
+      "unidade": "0716607",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 242,
+      "turmas": 10
+    },
+    {
+      "unidade": "0716608",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 280,
+      "turmas": 12
+    },
+    {
+      "unidade": "0716609",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 290,
+      "turmas": 12
+    },
+    {
+      "unidade": "0716610",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 126,
+      "turmas": 6
+    },
+    {
+      "unidade": "0716611",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 122,
+      "turmas": 6
+    },
+    {
+      "unidade": "0716612",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 192,
+      "turmas": 8
+    },
+    {
+      "unidade": "0716613",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 158,
+      "turmas": 6
+    },
+    {
+      "unidade": "0716614",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 148,
+      "turmas": 6
+    },
+    {
+      "unidade": "0716801",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 292,
+      "turmas": 12
+    },
+    {
+      "unidade": "0716802",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 260,
+      "turmas": 12
+    },
+    {
+      "unidade": "0716803",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 192,
+      "turmas": 8
+    },
+    {
+      "unidade": "0716804",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 112,
+      "turmas": 6
+    },
+    {
+      "unidade": "0716805",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 90,
+      "turmas": 4
+    },
+    {
+      "unidade": "0716806",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 146,
+      "turmas": 6
+    },
+    {
+      "unidade": "0716807",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 622,
+      "turmas": 30
+    },
+    {
+      "unidade": "0716808",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 226,
+      "turmas": 10
+    },
+    {
+      "unidade": "0716809",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 178,
+      "turmas": 8
+    },
+    {
+      "unidade": "0716812",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 134,
+      "turmas": 6
+    },
+    {
+      "unidade": "0716813",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 198,
+      "turmas": 8
+    },
+    {
+      "unidade": "0716814",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 184,
+      "turmas": 8
+    },
+    {
+      "unidade": "0716815",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 226,
+      "turmas": 10
+    },
+    {
+      "unidade": "0716816",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 96,
+      "turmas": 4
+    },
+    {
+      "unidade": "0716818",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 276,
+      "turmas": 12
+    },
+    {
+      "unidade": "0716819",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 284,
+      "turmas": 12
+    },
+    {
+      "unidade": "0716820",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 192,
+      "turmas": 8
+    },
+    {
+      "unidade": "0716821",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 342,
+      "turmas": 14
+    },
+    {
+      "unidade": "0716822",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 280,
+      "turmas": 12
+    },
+    {
+      "unidade": "0716824",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 88,
+      "turmas": 4
+    },
+    {
+      "unidade": "0724601",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 284,
+      "turmas": 12
+    },
+    {
+      "unidade": "0724602",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 136,
+      "turmas": 8
+    },
+    {
+      "unidade": "0724603",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 188,
+      "turmas": 8
+    },
+    {
+      "unidade": "0724604",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 170,
+      "turmas": 8
+    },
+    {
+      "unidade": "0724605",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 270,
+      "turmas": 12
+    },
+    {
+      "unidade": "0724606",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 274,
+      "turmas": 12
+    },
+    {
+      "unidade": "0724801",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 368,
+      "turmas": 16
+    },
+    {
+      "unidade": "0724802",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 114,
+      "turmas": 6
+    },
+    {
+      "unidade": "0724803",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 224,
+      "turmas": 10
+    },
+    {
+      "unidade": "0724804",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 200,
+      "turmas": 10
+    },
+    {
+      "unidade": "0724805",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 132,
+      "turmas": 6
+    },
+    {
+      "unidade": "0724806",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 140,
+      "turmas": 6
+    },
+    {
+      "unidade": "0724807",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 284,
+      "turmas": 14
+    },
+    {
+      "unidade": "0724808",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 114,
+      "turmas": 6
+    },
+    {
+      "unidade": "0724809",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 64,
+      "turmas": 4
+    },
+    {
+      "unidade": "0734601",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 196,
+      "turmas": 8
+    },
+    {
+      "unidade": "0734602",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 178,
+      "turmas": 8
+    },
+    {
+      "unidade": "0734603",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 70,
+      "turmas": 4
+    },
+    {
+      "unidade": "0734801",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 64,
+      "turmas": 4
+    },
+    {
+      "unidade": "0734802",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 198,
+      "turmas": 8
+    },
+    {
+      "unidade": "0734803",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 94,
+      "turmas": 4
+    },
+    {
+      "unidade": "0734804",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 82,
+      "turmas": 4
+    },
+    {
+      "unidade": "0734805",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 198,
+      "turmas": 8
+    },
+    {
+      "unidade": "0817202",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 192,
+      "turmas": 8
+    },
+    {
+      "unidade": "0817504",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 140,
+      "turmas": 6
+    },
+    {
+      "unidade": "0817505",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 136,
+      "turmas": 8
+    },
+    {
+      "unidade": "0817601",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 450,
+      "turmas": 22
+    },
+    {
+      "unidade": "0817602",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 258,
+      "turmas": 12
+    },
+    {
+      "unidade": "0817603",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 326,
+      "turmas": 14
+    },
+    {
+      "unidade": "0817604",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 184,
+      "turmas": 12
+    },
+    {
+      "unidade": "0817605",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 226,
+      "turmas": 10
+    },
+    {
+      "unidade": "0817606",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 160,
+      "turmas": 8
+    },
+    {
+      "unidade": "0817607",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 574,
+      "turmas": 24
+    },
+    {
+      "unidade": "0817608",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 246,
+      "turmas": 12
+    },
+    {
+      "unidade": "0817609",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 448,
+      "turmas": 24
+    },
+    {
+      "unidade": "0817610",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 194,
+      "turmas": 10
+    },
+    {
+      "unidade": "0817611",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 160,
+      "turmas": 8
+    },
+    {
+      "unidade": "0817612",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 452,
+      "turmas": 20
+    },
+    {
+      "unidade": "0817613",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 164,
+      "turmas": 8
+    },
+    {
+      "unidade": "0817614",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 264,
+      "turmas": 12
+    },
+    {
+      "unidade": "0817615",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 172,
+      "turmas": 8
+    },
+    {
+      "unidade": "0817616",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 122,
+      "turmas": 8
+    },
+    {
+      "unidade": "0817617",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 268,
+      "turmas": 12
+    },
+    {
+      "unidade": "0817618",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 352,
+      "turmas": 16
+    },
+    {
+      "unidade": "0817619",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 284,
+      "turmas": 12
+    },
+    {
+      "unidade": "0817801",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 374,
+      "turmas": 16
+    },
+    {
+      "unidade": "0817802",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 238,
+      "turmas": 12
+    },
+    {
+      "unidade": "0817803",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 294,
+      "turmas": 12
+    },
+    {
+      "unidade": "0817804",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 236,
+      "turmas": 10
+    },
+    {
+      "unidade": "0817805",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 170,
+      "turmas": 8
+    },
+    {
+      "unidade": "0817806",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 274,
+      "turmas": 12
+    },
+    {
+      "unidade": "0817807",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 288,
+      "turmas": 12
+    },
+    {
+      "unidade": "0817808",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 402,
+      "turmas": 16
+    },
+    {
+      "unidade": "0817809",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 64,
+      "turmas": 4
+    },
+    {
+      "unidade": "0817810",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 316,
+      "turmas": 16
+    },
+    {
+      "unidade": "0817814",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 282,
+      "turmas": 12
+    },
+    {
+      "unidade": "0817815",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 240,
+      "turmas": 10
+    },
+    {
+      "unidade": "0833505",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 40,
+      "turmas": 2
+    },
+    {
+      "unidade": "0833601",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 228,
+      "turmas": 10
+    },
+    {
+      "unidade": "0833602",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 198,
+      "turmas": 12
+    },
+    {
+      "unidade": "0833603",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 384,
+      "turmas": 16
+    },
+    {
+      "unidade": "0833801",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 178,
+      "turmas": 10
+    },
+    {
+      "unidade": "0833802",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 158,
+      "turmas": 10
+    },
+    {
+      "unidade": "0833803",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 186,
+      "turmas": 8
+    },
+    {
+      "unidade": "0833805",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 84,
+      "turmas": 4
+    },
+    {
+      "unidade": "0833806",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 524,
+      "turmas": 22
+    },
+    {
+      "unidade": "0833807",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 184,
+      "turmas": 10
+    },
+    {
+      "unidade": "0833808",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 122,
+      "turmas": 6
+    },
+    {
+      "unidade": "0833809",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 260,
+      "turmas": 12
+    },
+    {
+      "unidade": "0833810",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 180,
+      "turmas": 8
+    },
+    {
+      "unidade": "0833811",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 188,
+      "turmas": 10
+    },
+    {
+      "unidade": "0918601",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 278,
+      "turmas": 12
+    },
+    {
+      "unidade": "0918602",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 236,
+      "turmas": 10
+    },
+    {
+      "unidade": "0918603",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 116,
+      "turmas": 6
+    },
+    {
+      "unidade": "0918604",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 124,
+      "turmas": 8
+    },
+    {
+      "unidade": "0918605",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 164,
+      "turmas": 8
+    },
+    {
+      "unidade": "0918606",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 210,
+      "turmas": 10
+    },
+    {
+      "unidade": "0918607",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 392,
+      "turmas": 16
+    },
+    {
+      "unidade": "0918608",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 142,
+      "turmas": 10
+    },
+    {
+      "unidade": "0918609",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 110,
+      "turmas": 6
+    },
+    {
+      "unidade": "0918610",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 68,
+      "turmas": 4
+    },
+    {
+      "unidade": "0918611",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 114,
+      "turmas": 10
+    },
+    {
+      "unidade": "0918613",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 232,
+      "turmas": 10
+    },
+    {
+      "unidade": "0918614",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 298,
+      "turmas": 16
+    },
+    {
+      "unidade": "0918615",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 232,
+      "turmas": 12
+    },
+    {
+      "unidade": "0918616",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 246,
+      "turmas": 10
+    },
+    {
+      "unidade": "0918617",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 194,
+      "turmas": 12
+    },
+    {
+      "unidade": "0918618",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 172,
+      "turmas": 10
+    },
+    {
+      "unidade": "0918619",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 348,
+      "turmas": 16
+    },
+    {
+      "unidade": "0918620",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 398,
+      "turmas": 22
+    },
+    {
+      "unidade": "0918621",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 236,
+      "turmas": 12
+    },
+    {
+      "unidade": "0918801",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 212,
+      "turmas": 10
+    },
+    {
+      "unidade": "0918802",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 236,
+      "turmas": 12
+    },
+    {
+      "unidade": "0918803",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 140,
+      "turmas": 6
+    },
+    {
+      "unidade": "0918804",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 114,
+      "turmas": 6
+    },
+    {
+      "unidade": "0918805",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 272,
+      "turmas": 12
+    },
+    {
+      "unidade": "0918806",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 272,
+      "turmas": 14
+    },
+    {
+      "unidade": "0918807",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 352,
+      "turmas": 16
+    },
+    {
+      "unidade": "0918808",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 258,
+      "turmas": 12
+    },
+    {
+      "unidade": "0918809",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 34,
+      "turmas": 2
+    },
+    {
+      "unidade": "0918810",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 90,
+      "turmas": 4
+    },
+    {
+      "unidade": "0918811",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 42,
+      "turmas": 4
+    },
+    {
+      "unidade": "0918812",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 280,
+      "turmas": 12
+    },
+    {
+      "unidade": "0918813",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 238,
+      "turmas": 12
+    },
+    {
+      "unidade": "0918814",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 272,
+      "turmas": 14
+    },
+    {
+      "unidade": "0918815",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 400,
+      "turmas": 20
+    },
+    {
+      "unidade": "0918816",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 62,
+      "turmas": 4
+    },
+    {
+      "unidade": "0918817",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 368,
+      "turmas": 16
+    },
+    {
+      "unidade": "0918818",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 136,
+      "turmas": 6
+    },
+    {
+      "unidade": "0918819",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 38,
+      "turmas": 4
+    },
+    {
+      "unidade": "0918820",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 82,
+      "turmas": 6
+    },
+    {
+      "unidade": "0918821",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 266,
+      "turmas": 12
+    },
+    {
+      "unidade": "0918822",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 230,
+      "turmas": 12
+    },
+    {
+      "unidade": "0918823",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 242,
+      "turmas": 12
+    },
+    {
+      "unidade": "0918824",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 330,
+      "turmas": 14
+    },
+    {
+      "unidade": "0918825",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 368,
+      "turmas": 18
+    },
+    {
+      "unidade": "0918826",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 294,
+      "turmas": 14
+    },
+    {
+      "unidade": "0918827",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 278,
+      "turmas": 12
+    },
+    {
+      "unidade": "0918828",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 344,
+      "turmas": 16
+    },
+    {
+      "unidade": "0918829",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 192,
+      "turmas": 10
+    },
+    {
+      "unidade": "0918830",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 94,
+      "turmas": 4
+    },
+    {
+      "unidade": "0918831",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 312,
+      "turmas": 14
+    },
+    {
+      "unidade": "0918832",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 334,
+      "turmas": 14
+    },
+    {
+      "unidade": "0918833",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 374,
+      "turmas": 16
+    },
+    {
+      "unidade": "0918834",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 306,
+      "turmas": 16
+    },
+    {
+      "unidade": "0918835",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 326,
+      "turmas": 14
+    },
+    {
+      "unidade": "0918836",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 370,
+      "turmas": 16
+    },
+    {
+      "unidade": "0918837",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 388,
+      "turmas": 16
+    },
+    {
+      "unidade": "0918838",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 192,
+      "turmas": 8
+    },
+    {
+      "unidade": "0918839",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 122,
+      "turmas": 6
+    },
+    {
+      "unidade": "1019601",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 86,
+      "turmas": 4
+    },
+    {
+      "unidade": "1019602",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 248,
+      "turmas": 10
+    },
+    {
+      "unidade": "1019603",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 98,
+      "turmas": 4
+    },
+    {
+      "unidade": "1019604",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 114,
+      "turmas": 6
+    },
+    {
+      "unidade": "1019605",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 134,
+      "turmas": 6
+    },
+    {
+      "unidade": "1019606",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 212,
+      "turmas": 10
+    },
+    {
+      "unidade": "1019607",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 96,
+      "turmas": 4
+    },
+    {
+      "unidade": "1019609",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 192,
+      "turmas": 8
+    },
+    {
+      "unidade": "1019610",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 70,
+      "turmas": 4
+    },
+    {
+      "unidade": "1019611",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 80,
+      "turmas": 4
+    },
+    {
+      "unidade": "1019612",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 336,
+      "turmas": 14
+    },
+    {
+      "unidade": "1019613",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 150,
+      "turmas": 6
+    },
+    {
+      "unidade": "1019614",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 304,
+      "turmas": 12
+    },
+    {
+      "unidade": "1019615",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 92,
+      "turmas": 6
+    },
+    {
+      "unidade": "1019616",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 166,
+      "turmas": 8
+    },
+    {
+      "unidade": "1019618",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 188,
+      "turmas": 8
+    },
+    {
+      "unidade": "1019619",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 70,
+      "turmas": 4
+    },
+    {
+      "unidade": "1019620",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 92,
+      "turmas": 6
+    },
+    {
+      "unidade": "1019621",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 80,
+      "turmas": 4
+    },
+    {
+      "unidade": "1019623",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 228,
+      "turmas": 10
+    },
+    {
+      "unidade": "1019624",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 36,
+      "turmas": 2
+    },
+    {
+      "unidade": "1019625",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 60,
+      "turmas": 4
+    },
+    {
+      "unidade": "1019626",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 56,
+      "turmas": 4
+    },
+    {
+      "unidade": "1019627",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 122,
+      "turmas": 8
+    },
+    {
+      "unidade": "1019628",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 138,
+      "turmas": 6
+    },
+    {
+      "unidade": "1019630",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 94,
+      "turmas": 4
+    },
+    {
+      "unidade": "1019631",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 190,
+      "turmas": 8
+    },
+    {
+      "unidade": "1019632",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 298,
+      "turmas": 12
+    },
+    {
+      "unidade": "1019633",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 82,
+      "turmas": 4
+    },
+    {
+      "unidade": "1019801",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 336,
+      "turmas": 14
+    },
+    {
+      "unidade": "1019802",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 146,
+      "turmas": 6
+    },
+    {
+      "unidade": "1019803",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 290,
+      "turmas": 12
+    },
+    {
+      "unidade": "1019804",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 92,
+      "turmas": 4
+    },
+    {
+      "unidade": "1019806",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 148,
+      "turmas": 6
+    },
+    {
+      "unidade": "1019807",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 136,
+      "turmas": 6
+    },
+    {
+      "unidade": "1019808",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 144,
+      "turmas": 6
+    },
+    {
+      "unidade": "1019809",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 92,
+      "turmas": 6
+    },
+    {
+      "unidade": "1019810",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 92,
+      "turmas": 4
+    },
+    {
+      "unidade": "1019811",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 100,
+      "turmas": 4
+    },
+    {
+      "unidade": "1019815",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 94,
+      "turmas": 4
+    },
+    {
+      "unidade": "1019818",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 94,
+      "turmas": 4
+    },
+    {
+      "unidade": "1019820",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 174,
+      "turmas": 8
+    },
+    {
+      "unidade": "1019821",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 200,
+      "turmas": 10
+    },
+    {
+      "unidade": "1019822",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 94,
+      "turmas": 4
+    },
+    {
+      "unidade": "1019824",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 48,
+      "turmas": 2
+    },
+    {
+      "unidade": "1019826",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 194,
+      "turmas": 8
+    },
+    {
+      "unidade": "1019827",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 194,
+      "turmas": 8
+    },
+    {
+      "unidade": "1019828",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 240,
+      "turmas": 10
+    },
+    {
+      "unidade": "1019829",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 146,
+      "turmas": 6
+    },
+    {
+      "unidade": "1019830",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 192,
+      "turmas": 8
+    },
+    {
+      "unidade": "1019831",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 336,
+      "turmas": 14
+    },
+    {
+      "unidade": "1026601",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 336,
+      "turmas": 18
+    },
+    {
+      "unidade": "1026602",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 120,
+      "turmas": 6
+    },
+    {
+      "unidade": "1026603",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 180,
+      "turmas": 8
+    },
+    {
+      "unidade": "1026604",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 572,
+      "turmas": 24
+    },
+    {
+      "unidade": "1026801",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 94,
+      "turmas": 4
+    },
+    {
+      "unidade": "1026802",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 246,
+      "turmas": 10
+    },
+    {
+      "unidade": "1026803",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 186,
+      "turmas": 8
+    },
+    {
+      "unidade": "1026805",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 378,
+      "turmas": 16
+    },
+    {
+      "unidade": "1026806",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 282,
+      "turmas": 12
+    },
+    {
+      "unidade": "1026807",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 338,
+      "turmas": 14
+    },
+    {
+      "unidade": "1026809",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 334,
+      "turmas": 14
+    },
+    {
+      "unidade": "1026810",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 246,
+      "turmas": 10
+    },
+    {
+      "unidade": "1026811",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 94,
+      "turmas": 4
+    },
+    {
+      "unidade": "1120201",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 42,
+      "turmas": 2
+    },
+    {
+      "unidade": "1120601",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 254,
+      "turmas": 14
+    },
+    {
+      "unidade": "1120602",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 286,
+      "turmas": 16
+    },
+    {
+      "unidade": "1120603",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 296,
+      "turmas": 16
+    },
+    {
+      "unidade": "1120604",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 202,
+      "turmas": 10
+    },
+    {
+      "unidade": "1120605",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 228,
+      "turmas": 10
+    },
+    {
+      "unidade": "1120606",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 296,
+      "turmas": 12
+    },
+    {
+      "unidade": "1120801",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 220,
+      "turmas": 10
+    },
+    {
+      "unidade": "1120802",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 142,
+      "turmas": 6
+    },
+    {
+      "unidade": "1120804",
+      "tipo": "publica",
+      "fonte": "totalalunos",
+      "vagas_ofertadas": null,
+      "matriculados": 206,
+      "turmas": 10
+    }
+  ]
+}

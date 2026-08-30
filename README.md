@@ -6,6 +6,7 @@
 </p>
 
 <p align="center">
+  <a href="https://drive.google.com/drive/folders/1wF35pBh4awI2251b6_6cCWQ3eeoQq-wj?usp=sharing"><img alt="apresentação" src="https://img.shields.io/badge/apresenta%C3%A7%C3%A3o-Google%20Drive-0B3B5C?logo=googledrive&logoColor=white"></a>
   <a href="app/entrada.html"><img alt="protótipo" src="https://img.shields.io/badge/prot%C3%B3tipo-abre%20sem%20servidor-0B3B5C"></a>
   <img alt="python" src="https://img.shields.io/badge/python-DuckDB%20%2B%20pandas-3776AB">
   <img alt="testes" src="https://img.shields.io/badge/testes-42%20pytest-2E7D32">
@@ -39,7 +40,7 @@ Os números saem da base oficial — 2021–2025, 837 mil opções de inscriçã
 
 ## A solução
 
-Cinco telas, um ciclo. O vocabulário de cada peça está em [`CONTEXT.md`](CONTEXT.md) —
+Quatro telas e três perfis, um ciclo. O vocabulário de cada peça está em [`CONTEXT.md`](CONTEXT.md) —
 nenhum termo técnico chega à tela da família.
 
 | Tela | Para quem | O que resolve |
@@ -82,12 +83,18 @@ bases brutas (fora do repo)          build (Python)                     runtime 
 
 Três decisões que sustentam o resto:
 
-1. **Nada de LLM em runtime.** A Claude API roda uma vez, em build, e o resultado
-   é texto estático em `data/copy.json`. A família nunca espera um modelo responder.
+1. **Nada de LLM em runtime.** A Claude API roda uma vez, em build, e o resultado é
+   texto estático commitado — `data/copy.json` (os 18 pares antes/depois) e
+   `data/ui_copy.json` (o texto que a tela renderiza). A família nunca espera um modelo
+   responder, e a tela funciona mesmo com a API fora do ar na hora da apresentação.
 2. **A leitura pesada é DuckDB.** A QueryB (4,3 milhões de linhas) nunca é carregada
    inteira em pandas — sempre agregada antes.
 3. **O agregado histórico não vai para o banco.** Só o que muda enquanto alguém
    usa (convocação, tentativa, resposta) tem tabela em [`sql/policies.sql`](sql/policies.sql).
+
+E uma decisão de forma: **HTML pré-renderizado, não SPA.** A ficha da família precisa
+carregar e ser legível em 3G sem depender de JavaScript, e um site estático não hiberna —
+o maior risco de qualquer demo ao vivo é o servidor acordando na hora errada.
 
 ### Acesso
 
@@ -95,7 +102,7 @@ Duas formas de entrar, e não são o mesmo sistema com permissões diferentes:
 
 | | Quem | Como |
 |---|---|---|
-| **Com conta** | SME · CRE · unidade | RLS por perfil e território |
+| **Com conta** | SME · CRE · unidade | RLS por perfil e território, no Supabase |
 | **Com link** | família · agente comunitário | token na URL, sem cadastro |
 
 O agente cai no segundo grupo por razão institucional, não técnica: ACS é da
@@ -108,14 +115,15 @@ credencial da Educação, nem em produção.
 |---|---|
 | `00-desafio/` | [`briefing.md`](00-desafio/briefing.md) (regras do hackathon), [`briefing-sme.md`](00-desafio/briefing-sme.md) (briefing oficial da SME), [`equipe-e-abordagem.md`](00-desafio/equipe-e-abordagem.md), `imagens/` |
 | `01-dados/` | [`sobre-os-dados.md`](01-dados/sobre-os-dados.md). Os dados brutos são clonados do repositório da SME e **não versionados** |
-| `02-projeto/` | [`PRD.md`](02-projeto/PRD.md), [`PLANO.md`](02-projeto/PLANO.md), [`ROADMAP.md`](02-projeto/ROADMAP.md), [`CONTRATO-DADOS.md`](02-projeto/CONTRATO-DADOS.md), `mockup.html` |
+| `02-projeto/` | [`PRD.md`](02-projeto/PRD.md) (requisitos e régua de linguagem), [`ROADMAP.md`](02-projeto/ROADMAP.md) (escopo congelado), [`CONTRATO-DADOS.md`](02-projeto/CONTRATO-DADOS.md) (contrato back ⇄ front), `mockup.html` |
 | `03-etl/` | Análise exploratória da base + [`ACHADOS.md`](03-etl/ACHADOS.md) (regras de limpeza e resultados) |
-| `etl/` | Pipeline de produção dos agregados (DuckDB) |
+| `etl/` | Pipeline de produção dos agregados (DuckDB); `config.py` e `db.py` são a base comum |
 | `data/` | Saídas agregadas — **versionadas**, é o que o app lê |
-| `app/` | As cinco telas, HTML/CSS/JS puro |
+| `app/` | As telas, em HTML/CSS/JS puro: `estilo.css` para todas, `video-cards.html` como storyboard do vídeo |
 | `sql/` | Esquema de runtime e políticas de acesso |
 | `tests/` | Suíte pytest (42 testes) |
 | `build/` | Banco DuckDB de build (git-ignored, reconstruível) |
+| raiz | [`CONTEXT.md`](CONTEXT.md) (vocabulário do domínio), [`DEMO.md`](DEMO.md) (roteiro), `build_dados.py` (gera o bundle do app), `index.html` (redireciona para a entrada) |
 
 ## Reproduzir
 
@@ -155,6 +163,21 @@ python etl/06_gerar_copy.py              # copy.json (pares antes/depois)
 As bases brutas ficam **fora do repo** (grandes e sensíveis), em
 `OferecimentosEvagas/` e `Bases IC_ ClassificadoseFila/` sob `VAGA_VIVA_RAW_DIR`.
 
+### Regenerar o bundle do app — obrigatório depois de mexer em `data/`
+
+```bash
+python3 build_dados.py
+```
+
+O protótipo abre por `file://`, e nesse modo o navegador bloqueia `fetch()` dos `.json`.
+As telas leem `window.DADOS` por `<script src="../data/dados.js">`, e este script mantém
+os dois lados em sincronia — ele também falha alto, na hora, se o ETL renomear alguma
+chave de que as telas dependem (as obrigatórias estão em
+[`CONTRATO-DADOS.md`](02-projeto/CONTRATO-DADOS.md)).
+
+**Trocar um `data/*.json` e esquecer de rodar isto é a falha mais silenciosa do projeto:**
+o app continua abrindo, sem erro nenhum, mostrando o dado antigo.
+
 ### Testes
 
 ```bash
@@ -174,7 +197,14 @@ pytest -q                                # 42 testes, ~4s
 | `fichas_exemplo.json` | Famílias-exemplo para a Ficha da Família |
 | `vagas.json` | Vagas ofertadas (parceiras) e matrículas por unidade, via join dos 2 formatos |
 | `convocacoes.json` · `unidades.json` · `indicadores.json` | Estado de demonstração das telas |
-| `copy.json` | 18 textos reescritos via Claude API (13 critérios + 5 mensagens), com antes/depois |
+| `copy.json` | 18 textos reescritos via Claude API (13 critérios + 5 mensagens), com antes/depois — saída do ETL, no formato `{meta, itens}` |
+| `ui_copy.json` | O texto que as telas renderizam: rótulos de documento, critérios de origem, telas de exemplo, casos de borda e os textos do agente |
+| `dados.js` | O `window.DADOS` que o app carrega — **gerado** por `build_dados.py`, não editar à mão |
+
+`copy.json` e `ui_copy.json` **não são o mesmo arquivo e não se substituem.** O primeiro é
+a saída do [`etl/06_gerar_copy.py`](etl/06_gerar_copy.py), coberta pelos testes; o segundo é
+o que a tela mostra, lido pelo app como `DADOS.ui_copy`. Os dois entram no `dados.js`, em
+chaves separadas — sobrescrever um com o outro quebra as telas em silêncio.
 
 ### Resultados 2025
 
@@ -197,8 +227,18 @@ pelo texto original) e a chave vem do `.env`, nunca hardcoded.
 - *"A criança é público-alvo da educação especial?"* → **"Sua filha ou seu filho tem deficiência?"**
 - *"A criança pertence a família monoparental?"* → **"Você cria seu filho sozinha, sem a ajuda de um parceiro?"**
 
-**No processo:** Claude Code para o perfilamento das duas bases (é dele o achado das
-armadilhas listadas abaixo), a suíte de testes e a modelagem de RLS.
+**No processo:**
+
+- **Perfilamento da base.** Os scripts de `03-etl/` foram construídos e depurados com
+  Claude Code — é dele o achado das nove armadilhas listadas abaixo, que juntas descartam
+  ou distorcem dezenas de milhares de linhas se ninguém as tratar.
+- **Modelagem de segurança.** As políticas de [`sql/policies.sql`](sql/policies.sql) —
+  acesso por perfil (SME, CRE, unidade, família por token, agente) e por território —
+  saíram da hierarquia definida no [`PRD.md`](02-projeto/PRD.md).
+- **Vocabulário do domínio.** [`CONTEXT.md`](CONTEXT.md) fixa **um** termo por conceito
+  (convocação, resposta, cascata, acionamento territorial, faixa) a partir do briefing da
+  SME, para que cada módulo não inventasse o seu.
+- **A suíte de testes**, incluindo as invariantes que travam cada armadilha.
 
 ## Notas metodológicas
 
@@ -273,8 +313,10 @@ Confirmadas em [`etl/01_validar_brutos.py`](etl/01_validar_brutos.py) e travadas
 
 ## Pendências da entrega
 
-- [ ] Link da aplicação publicada
-- [ ] Vídeo demo de 60s
+- [x] Arquitetura da solução e como o Claude foi usado
+- [x] Apresentação — [pasta no Google Drive](https://drive.google.com/drive/folders/1wF35pBh4awI2251b6_6cCWQ3eeoQq-wj?usp=sharing)
+- [ ] Link da aplicação publicada (opcional, havendo vídeo)
+- [ ] Vídeo demo de 60s — storyboard dos cortes em [`app/video-cards.html`](app/video-cards.html)
 
 ## Licença
 

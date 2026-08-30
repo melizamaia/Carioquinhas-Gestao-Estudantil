@@ -1,0 +1,70 @@
+{
+  "meta": {
+    "ano": 2025,
+    "gerado_em": "2026-08-30T16:45:11+00:00",
+    "aviso": "Dados anonimizados do Claude Impact Lab (Inscrição Creche SME-RJ). Os indicadores ilustram a dinâmica do processo e não representam a realidade."
+  },
+  "topo": [
+    {
+      "chave": "esperando",
+      "valor": 16345,
+      "rotulo": "Famílias na lista de espera"
+    },
+    {
+      "chave": "confirmadas",
+      "valor": 48688,
+      "rotulo": "Vagas confirmadas"
+    },
+    {
+      "chave": "perdidas",
+      "valor": 17838,
+      "rotulo": "Vagas perdidas na confirmação"
+    }
+  ],
+  "topo_familias_distintas": {
+    "esperando": 8117,
+    "confirmadas": 48688,
+    "perdidas": 10938,
+    "nota": "Grão família (inscrições distintas). Categorias se sobrepõem, não somam."
+  },
+  "funil": {
+    "simulado": true,
+    "nota": "Funil simulado sobre o estado final de cada opção (coluna situacao). A base não tem timestamp real de convocação/expiração.",
+    "taxa_expiracao_pct": 26.7,
+    "estagios": [
+      {
+        "chave": "ofertada",
+        "rotulo": "Ofertada",
+        "valor": 66697
+      },
+      {
+        "chave": "convocada",
+        "rotulo": "Convocada",
+        "valor": 66697
+      },
+      {
+        "chave": "confirmada",
+        "rotulo": "Confirmada",
+        "valor": 48699
+      },
+      {
+        "chave": "expirada",
+        "rotulo": "Expirada",
+        "valor": 17838
+      },
+      {
+        "chave": "reofertada",
+        "rotulo": "Reofertada",
+        "valor": 17838
+      }
+    ],
+    "em_analise": 160
+  },
+  "cobertura": {
+    "linhas_na_fila": 16335,
+    "filas_distintas": 822,
+    "unidades_com_fila": 476,
+    "unidades_publicas": 244,
+    "unidades_parceiras": 232
+  }
+}

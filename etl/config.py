@@ -47,6 +47,38 @@ SITUACAO_CONFIRMADO = "Confirmado"
 # opcao == 6 viola a regra de 5 opções (11 linhas) — descartar.
 OPCAO_MAX_VALIDA = 5
 
+# Faixas de posição na fila (requisito 2.12): NUNCA exibir número exato, por
+# causa dos empates massivos. (limite_superior_inclusivo, rótulo).
+FAIXAS_POSICAO = [
+    (3, "entre as 3 primeiras"),
+    (10, "entre a 4ª e a 10ª"),
+    (25, "entre a 11ª e a 25ª"),
+    (50, "entre a 26ª e a 50ª"),
+    (None, "depois da 50ª"),
+]
+
+
+def faixa_posicao(posicao: int) -> str:
+    """Traduz uma posição exata para a faixa exibível (requisito 2.12)."""
+    for limite, rotulo in FAIXAS_POSICAO:
+        if limite is None or posicao <= limite:
+            return rotulo
+    return FAIXAS_POSICAO[-1][1]
+
+
+def tipo_unidade(unidade: str) -> str:
+    """Armadilha #3: 7 dígitos = pública, 5 dígitos = parceira (conveniada).
+
+    A `unidade` é tratada como STRING (nunca numérica) para não perder as 350
+    unidades parceiras de 5 dígitos com zeros à esquerda.
+    """
+    n = len(str(unidade).strip())
+    if n == 7:
+        return "publica"
+    if n == 5:
+        return "parceira"
+    return "desconhecida"
+
 
 def read_csv_gz_sql(path: Path, all_varchar: bool = False) -> str:
     """Trecho SQL DuckDB para ler um .csv.gz/.csv com delim=';' e UTF-8 (BOM ok)."""

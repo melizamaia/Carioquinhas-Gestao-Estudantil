@@ -311,13 +311,6 @@ Confirmadas em [`etl/01_validar_brutos.py`](etl/01_validar_brutos.py) e travadas
 | <img src="https://github.com/rodrigorrpita-coder.png" width="48" height="48" alt=""> | **Rodrigo Pita** | [@rodrigorrpita-coder](https://github.com/rodrigorrpita-coder) |
 | <img src="https://github.com/Duque455.png" width="48" height="48" alt=""> | **Thiago Duque** | [@Duque455](https://github.com/Duque455) |
 
-## Pendências da entrega
-
-- [x] Arquitetura da solução e como o Claude foi usado
-- [x] Apresentação — [pasta no Google Drive](https://drive.google.com/drive/folders/1wF35pBh4awI2251b6_6cCWQ3eeoQq-wj?usp=sharing)
-- [ ] Link da aplicação publicada (opcional, havendo vídeo)
-- [ ] Vídeo demo de 60s — storyboard dos cortes em [`app/video-cards.html`](app/video-cards.html)
-
 ## Licença
 
 [MIT](LICENSE).

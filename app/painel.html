@@ -1,0 +1,380 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Painel Vaga Viva — Prefeitura do Rio</title>
+<link rel="stylesheet" href="estilo.css">
+<style>
+  /* Extra do painel — só classes novas, só variáveis já definidas em estilo.css:root */
+
+  .picker-rotulo{font-size:14px; color:var(--tinta-fraca); margin:0 0 8px; font-weight:600}
+
+  /* bloco da cascata — o momento mais importante da demo */
+  .cascata{
+    background:var(--marca-clara); border:2px solid var(--marca); border-radius:var(--raio);
+    padding:20px;
+  }
+  .cascata h2{font-size:19px; color:var(--marca)}
+  .cascata .sub{font-size:14px; color:var(--tinta-fraca); margin-top:4px}
+  .cascata ul{list-style:none; margin:14px 0 0; padding:0; display:flex; flex-direction:column; gap:6px}
+  .cascata li{font-size:15px; color:var(--tinta)}
+  .cascata .btn{margin-top:16px}
+
+  /* destaque: unidade que nunca conferiu nada — é o achado do projeto */
+  td.zero-conf{background:var(--urgente-fundo); color:var(--urgente); font-weight:700}
+
+  .doc-falta{font-size:14px; color:var(--tinta-fraca); margin-top:8px}
+  .doc-falta b{color:var(--tinta)}
+
+  .recusa-explica{font-size:14px; color:var(--tinta-fraca); margin-top:8px}
+
+  .excecao.resolvida{opacity:.5}
+  .excecao .feito{font-size:14px; font-weight:700; color:var(--ok)}
+
+  .vazio{color:var(--tinta-fraca); font-size:15px; padding:20px 0}
+
+  .fone-linha{font-size:16px; font-weight:600; color:var(--marca)}
+</style>
+</head>
+<body>
+
+<div class="institucional">
+  <div class="dentro">
+    <img src="brasao.svg" alt="" onerror="this.remove()">
+    <div>
+      <strong>Prefeitura do Rio</strong>
+      <span>Secretaria Municipal de Educação</span>
+    </div>
+    <a class="trocar" href="entrada.html">Trocar de perfil</a>
+    <span class="proto">protótipo</span>
+  </div>
+</div>
+
+<div class="pagina">
+
+  <h1 class="titulo-pagina">Painel Vaga Viva</h1>
+  <p class="subtitulo" id="subtitulo-perfil">Carregando…</p>
+
+  <div class="abas" id="abas-perfil">
+    <button data-perfil="unidade">Unidade</button>
+    <button data-perfil="cre">CRE</button>
+    <button data-perfil="sme">SME</button>
+  </div>
+
+  <div id="conteudo" class="secao"></div>
+
+</div>
+
+<script src="../data/dados.js"></script>
+<script>
+(function(){
+  var D = window.DADOS;
+  var MESES = ['janeiro','fevereiro','março','abril','maio','junho','julho','agosto',
+               'setembro','outubro','novembro','dezembro'];
+
+  // "agora" da demo é o instante em que os indicadores foram gerados —
+  // não o relógio do navegador, pra não depender de quando alguém abrir o arquivo.
+  var AGORA = D.indicadores.gerado_em;
+
+  var mapaUnidades = {};
+  D.unidades.forEach(function(u){ mapaUnidades[u.id] = u; });
+
+  // O perfil vem da tela de entrada (entrada.html). Sem ele, cai em unidade,
+  // que é onde a demonstração começa.
+  var perfisValidos = { sme:1, cre:1, unidade:1 };
+  var perfilUrl = (new URLSearchParams(window.location.search)).get('perfil');
+
+  var state = {
+    perfil: perfisValidos[perfilUrl] ? perfilUrl : 'unidade',
+    unidadeId: '02.22.001',   // EDI Vila Isabel — recebe a cascata e tem exceções: é onde o vídeo acontece
+    cre: '5.1',
+    resolvidos: {}            // feedback visual só, não muda os dados de origem
+  };
+
+  function pluralDia(n){ return n === 1 ? 'dia' : 'dias'; }
+
+  function diasDesde(iso){
+    if(!iso) return null;
+    var ms = new Date(AGORA) - new Date(iso);
+    return Math.max(0, Math.round(ms / 86400000));
+  }
+
+  function fmtDiaMes(dataStr){
+    if(!dataStr) return '';
+    var d = new Date(dataStr + 'T00:00:00-03:00');
+    return d.getDate() + ' de ' + MESES[d.getMonth()];
+  }
+
+  function pct(x){
+    return (x * 100).toFixed(1).replace('.', ',') + '%';
+  }
+
+  function esc(s){
+    return String(s == null ? '' : s).replace(/[&<>"]/g, function(c){
+      return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];
+    });
+  }
+
+  function rastro(c){
+    var feitas = Math.min(3, (c.tentativas || []).length);
+    var pontos = '';
+    for(var i = 0; i < 3; i++){
+      pontos += '<span class="ponto ' + (i < feitas ? 'cheio' : 'vazio') + '"></span>';
+    }
+    return '<span class="rastro">' + pontos + '</span>';
+  }
+
+  function linhaFalta(c){
+    var docs = c.documentos_faltando || [];
+    if(!docs.length) return '';
+    var textos = docs.map(function(d){
+      var info = D.copy.documentos[d];
+      return info ? info.texto : d;
+    });
+    return '<p class="doc-falta"><b>Falta:</b> ' + esc(textos.join(', ')) + '</p>';
+  }
+
+  // ---------- VISÃO UNIDADE ----------
+
+  var PRIORIDADE = { nao_abriu: 0, vencendo_hoje: 0, abriu_sem_resposta: 1, pediu_data: 1, recusou: 2 };
+
+  function cardExcecao(c, unidade){
+    var borda = 'e-atencao', titulo = '', acaoLabel = '', acaoClasse = 'btn';
+    var extra = '';
+
+    switch(c.excecao){
+      case 'nao_abriu': {
+        var dias = diasDesde((c.tentativas && c.tentativas[0]) ? c.tentativas[0].em : null);
+        titulo = dias == null ? 'Não abriu o link'
+               : (dias === 0 ? 'Não abriu o link — hoje' : 'Não abriu o link — há ' + dias + ' ' + pluralDia(dias));
+        borda = 'e-urgente'; acaoLabel = 'Acionar busca ativa'; acaoClasse = 'btn perigo';
+        break;
+      }
+      case 'abriu_sem_resposta': {
+        var dias2 = diasDesde(c.aberta_em);
+        titulo = dias2 == null ? 'Abriu e não respondeu'
+               : (dias2 === 0 ? 'Abriu e não respondeu — hoje' : 'Abriu e não respondeu — há ' + dias2 + ' ' + pluralDia(dias2));
+        borda = 'e-atencao'; acaoLabel = 'Ligar para a família'; acaoClasse = 'btn';
+        break;
+      }
+      case 'pediu_data': {
+        titulo = 'Pediu outra data';
+        borda = 'e-atencao'; acaoLabel = 'Aceitar dia ' + fmtDiaMes(c.data_escolhida); acaoClasse = 'btn';
+        break;
+      }
+      case 'recusou': {
+        titulo = 'A família recusou a vaga';
+        borda = 'e-marca'; acaoLabel = 'Liberar a vaga'; acaoClasse = 'btn';
+        extra = '<p class="recusa-explica">A família disse que não vai. Liberar agora devolve a vaga 3 dias mais cedo para a próxima criança da fila.</p>';
+        break;
+      }
+      case 'vencendo_hoje': {
+        titulo = 'Prazo vence hoje';
+        borda = 'e-urgente'; acaoLabel = 'Acionar busca ativa'; acaoClasse = 'btn perigo';
+        break;
+      }
+    }
+
+    var resolvida = state.resolvidos[c.token];
+
+    return (
+      '<div class="excecao ' + borda + (resolvida ? ' resolvida' : '') + '">' +
+        '<div>' +
+          '<div class="motivo">' + esc(titulo) + '</div>' +
+          '<div class="quem">Criança ' + esc(c.aluno_anon) + ' · ' + esc(unidade.nome) + ' · ' + esc(c.grupamento) + '</div>' +
+          '<div class="linha-extra">' +
+            rastro(c) +
+            '<span class="fone-linha">Telefone: ' + esc(c.contato) + '</span>' +
+          '</div>' +
+          extra +
+          linhaFalta(c) +
+        '</div>' +
+        '<div class="acoes">' +
+          (resolvida
+            ? '<span class="feito">Feito</span>'
+            : '<button class="' + acaoClasse + '" data-resolver="' + esc(c.token) + '">' + esc(acaoLabel) + '</button>') +
+        '</div>' +
+      '</div>'
+    );
+  }
+
+  // De onde a vaga voltou. A cascata só significa alguma coisa se a gestora
+  // enxerga que a devolução veio de uma matrícula em OUTRA creche.
+  function origemTexto(prontas){
+    var origens = {};
+    prontas.forEach(function(c){
+      if(c.origem_aluno) origens[c.origem_aluno] = c.origem_unidade || 'outra creche';
+    });
+    var alunos = Object.keys(origens);
+    if(!alunos.length) return 'Uma criança se matriculou em outra creche e devolveu estas posições.';
+    if(alunos.length === 1){
+      return 'A Criança ' + alunos[0] + ' se matriculou em ' + origens[alunos[0]] +
+             ' e devolveu estas posições na hora.';
+    }
+    return alunos.length + ' crianças se matricularam em outras creches e devolveram estas posições.';
+  }
+
+  function blocoCascata(prontas, unidade){
+    if(!prontas.length) return '';
+    var itens = prontas.map(function(c){
+      return '<li>Criança ' + esc(c.aluno_anon) + ' · ' + esc(c.grupamento) + '</li>';
+    }).join('');
+    var resolvidoTodas = prontas.every(function(c){ return state.resolvidos[c.aluno_anon + '-cascata']; });
+    return (
+      '<div class="cascata">' +
+        '<h2>' + prontas.length + (prontas.length === 1 ? ' vaga devolvida' : ' vagas devolvidas') + ' pela cascata, prontas para convocar</h2>' +
+        '<p class="sub">' + esc(origemTexto(prontas)) + '</p>' +
+        '<ul>' + itens + '</ul>' +
+        (resolvidoTodas
+          ? '<span class="feito">Convocadas</span>'
+          : '<button class="btn" data-convocar-cascata="' + esc(unidade.id) + '">Convocar as ' + prontas.length + '</button>') +
+      '</div>'
+    );
+  }
+
+  function renderUnidade(){
+    var unidade = mapaUnidades[state.unidadeId];
+    var todas = D.convocacoes.filter(function(c){ return c.unidade_id === state.unidadeId; });
+
+    var prontas = todas.filter(function(c){ return c.excecao === 'pronta_para_convocar'; });
+    var comExcecao = todas.filter(function(c){ return c.excecao && c.excecao !== 'pronta_para_convocar'; });
+    var emOrdem = todas.filter(function(c){ return !c.excecao; });
+
+    comExcecao.sort(function(a, b){
+      return (PRIORIDADE[a.excecao] != null ? PRIORIDADE[a.excecao] : 9) -
+             (PRIORIDADE[b.excecao] != null ? PRIORIDADE[b.excecao] : 9);
+    });
+
+    var picker = '<p class="picker-rotulo">Sua unidade</p><div class="abas" id="abas-unidade">' +
+      D.unidades.map(function(u){
+        return '<button data-unidade="' + esc(u.id) + '"' + (u.id === state.unidadeId ? ' aria-current="true"' : '') + '>' + esc(u.nome) + '</button>';
+      }).join('') + '</div>';
+
+    var html = picker;
+
+    html += '<div class="secao">' + blocoCascata(prontas, unidade) + '</div>';
+
+    if(emOrdem.length){
+      html += '<div class="secao"><div class="contagem">' + emOrdem.length + ' ' +
+        (emOrdem.length === 1 ? 'resposta em ordem' : 'respostas em ordem') + ', nada a fazer</div></div>';
+    }
+
+    if(comExcecao.length){
+      html += '<div class="secao pilha">' + comExcecao.map(function(c){ return cardExcecao(c, unidade); }).join('') + '</div>';
+    } else if(!prontas.length){
+      html += '<div class="secao vazio">Nenhuma exceção nesta unidade. Tudo em ordem.</div>';
+    }
+
+    return html;
+  }
+
+  // ---------- VISÃO CRE e VISÃO SME ----------
+
+  function blocoNumeros(){
+    var topo = D.indicadores.topo;
+    return (
+      '<div class="numeros">' +
+        topo.map(function(n, i){
+          return '<div class="numero' + (i === 0 ? ' forte' : '') + '">' +
+            '<div class="v">' + esc(n.valor) + '</div>' +
+            '<p>' + esc(n.titulo) + '</p>' +
+          '</div>';
+        }).join('') +
+      '</div>' +
+      '<div class="secao nota"><b>Nota metodológica.</b> O desfecho de cada inscrição é real. A posição dentro da janela de 3 dias é reconstruída pela regra do processo: a base não tem carimbo de hora de convocação nem de expiração.</div>'
+    );
+  }
+
+  function linhaTabela(u){
+    var zero = u.taxa_conferencia === 0;
+    return (
+      '<tr>' +
+        '<td>' + esc(u.nome) + '</td>' +
+        '<td>' + esc(u.cre) + '</td>' +
+        '<td class="num">' + u.convocadas + '</td>' +
+        '<td class="num">' + u.perdidas + '</td>' +
+        '<td class="num">' + pct(u.taxa_perda) + '</td>' +
+        '<td class="num' + (zero ? ' zero-conf' : '') + '">' + pct(u.taxa_conferencia) + '</td>' +
+      '</tr>'
+    );
+  }
+
+  function tabela(lista){
+    return (
+      '<div class="secao rolagem"><table class="tabela">' +
+        '<thead><tr><th>Unidade</th><th>CRE</th><th>Convocadas</th><th>Perdidas</th><th>Taxa de perda</th><th>Taxa de conferência</th></tr></thead>' +
+        '<tbody>' + lista.map(linhaTabela).join('') + '</tbody>' +
+      '</table></div>'
+    );
+  }
+
+  function renderCRE(){
+    var picker = '<p class="picker-rotulo">Sua CRE</p><div class="abas" id="abas-cre">' +
+      D.indicadores.cres.map(function(c){
+        return '<button data-cre="' + esc(c.cre) + '"' + (c.cre === state.cre ? ' aria-current="true"' : '') + '>CRE ' + esc(c.cre) + '</button>';
+      }).join('') + '</div>';
+
+    var lista = D.indicadores.unidades_por_perda
+      .filter(function(u){ return u.cre === state.cre; })
+      .slice()
+      .sort(function(a, b){ return b.taxa_perda - a.taxa_perda; });
+
+    return picker + '<div class="secao">' + blocoNumeros() + '</div>' + tabela(lista);
+  }
+
+  function renderSME(){
+    var lista = D.indicadores.unidades_por_perda.slice().sort(function(a, b){ return b.taxa_perda - a.taxa_perda; });
+    return '<div class="secao">' + blocoNumeros() + '</div>' + tabela(lista);
+  }
+
+  // ---------- orquestração ----------
+
+  var SUBTITULOS = {
+    unidade: 'Você vê: as crianças da sua unidade que precisam de uma ação agora. Pontuação e critério ficam com a CRE e a SME.',
+    cre: 'Você vê: as unidades do seu território, ordenadas por quem mais perde vaga.',
+    sme: 'Você vê: a rede inteira — os três números e o ranking de todas as unidades.'
+  };
+
+  function render(){
+    document.getElementById('subtitulo-perfil').textContent = SUBTITULOS[state.perfil];
+
+    var abas = document.querySelectorAll('#abas-perfil button');
+    abas.forEach(function(b){
+      if(b.dataset.perfil === state.perfil) b.setAttribute('aria-current', 'true');
+      else b.removeAttribute('aria-current');
+    });
+
+    var conteudo = document.getElementById('conteudo');
+    if(state.perfil === 'unidade') conteudo.innerHTML = renderUnidade();
+    else if(state.perfil === 'cre') conteudo.innerHTML = renderCRE();
+    else conteudo.innerHTML = renderSME();
+  }
+
+  document.body.addEventListener('click', function(e){
+    var b = e.target.closest('button');
+    if(!b) return;
+
+    if(b.dataset.perfil){ state.perfil = b.dataset.perfil; render(); return; }
+    if(b.dataset.unidade){ state.unidadeId = b.dataset.unidade; render(); return; }
+    if(b.dataset.cre){ state.cre = b.dataset.cre; render(); return; }
+
+    if(b.dataset.resolver){
+      state.resolvidos[b.dataset.resolver] = true;
+      render();
+      return;
+    }
+    if(b.dataset.convocarCascata){
+      D.convocacoes
+        .filter(function(c){ return c.unidade_id === b.dataset.convocarCascata && c.excecao === 'pronta_para_convocar'; })
+        .forEach(function(c){ state.resolvidos[c.aluno_anon + '-cascata'] = true; });
+      render();
+      return;
+    }
+  });
+
+  render();
+})();
+</script>
+</body>
+</html>

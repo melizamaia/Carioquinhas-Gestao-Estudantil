@@ -1,0 +1,294 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Busca ativa de vagas de creche — protótipo</title>
+<link rel="stylesheet" href="estilo.css">
+<style>
+  /* Extra só com as variáveis já existentes no :root de estilo.css.
+     Esta tela é a mais móvel das três: alvo de toque 56px, corpo 18px+. */
+  /* corpo mínimo 18px nesta tela — o resto de estilo.css usa 17px de base,
+     mas aqui o agente lê no sol, sem margem pra apertar os olhos */
+  .pagina-agente{padding-top:4px; font-size:18px}
+  .pagina-agente .subtitulo{font-size:18px}
+  .lista-cards{margin-top:16px}
+
+  /* cartão de família — reaproveita .excecao (motivo = título, quem = local, acoes = botões) */
+  .familia .motivo{font-size:22px}
+  .familia .quem{font-size:18px; margin-top:6px}
+  .familia .linha-extra{margin-top:12px}
+  .familia .espera{margin-top:10px; font-size:18px; color:var(--tinta-fraca)}
+  .familia .espera b{color:var(--tinta)}
+  .familia .acoes{margin-top:14px}
+  .familia .acoes .btn{min-height:56px; font-size:18px; width:100%}
+  .familia .fone{font-size:18px}
+
+  .contagem{font-size:18px}
+
+  .aviso-nao{
+    margin-top:10px; font-size:18px; color:var(--atencao);
+    background:var(--atencao-fundo); border:1px solid #DFC79A;
+    border-radius:var(--raio); padding:10px 12px;
+  }
+
+  /* cartão de "já visitada": mesma família, densidade menor, sem ações */
+  .visitada{
+    display:flex; align-items:center; gap:12px; padding:14px 16px;
+  }
+  .visitada .txt{flex:1; min-width:0}
+  .visitada .nome{font-size:18px; font-weight:700}
+  .visitada .local{font-size:16px; color:var(--tinta-fraca); margin-top:2px}
+
+  h2.subtitulo-secao{font-size:20px; margin-top:0}
+
+  .vazio-msg{
+    text-align:center; padding:32px 20px; font-size:19px; color:var(--tinta-fraca);
+  }
+
+  .nota{font-size:16px}
+
+  @media (max-width:400px){
+    .familia .motivo{font-size:20px}
+  }
+</style>
+</head>
+<body>
+
+<div class="institucional">
+  <div class="dentro">
+    <img src="brasao.svg" alt="" onerror="this.remove()">
+    <div>
+      <strong>Prefeitura do Rio</strong>
+      <span>Busca ativa de vagas de creche</span>
+    </div>
+    <span class="proto">protótipo</span>
+  </div>
+</div>
+
+<div class="pagina pagina-agente">
+
+  <h1 class="titulo-pagina" id="titulo-tela">Famílias para procurar hoje</h1>
+  <p class="subtitulo">Ligue antes de subir. Toque em "Encontrei a família" quando falar com ela.</p>
+
+  <div class="secao">
+    <div class="contagem neutra" id="contagem"></div>
+  </div>
+
+  <div class="secao lista-cards">
+    <div class="pilha" id="pendentes"></div>
+    <p class="cartao vazio-msg oculto" id="vazio"></p>
+  </div>
+
+  <div class="secao oculto" id="secao-visitadas">
+    <h2 class="subtitulo-secao">Já visitadas</h2>
+    <div class="pilha" id="visitadas" style="margin-top:12px; gap:10px"></div>
+  </div>
+
+  <div class="secao">
+    <div class="nota">
+      <b>Por que esta tela existe:</b> o aviso à rede sai no primeiro dia, junto
+      com a mensagem digital para a família — não depois de três tentativas
+      sem resposta. Sem isso, avisar o agente seria avisar quando a vaga já
+      tivesse vencido.
+    </div>
+  </div>
+
+</div>
+
+<script src="../data/dados.js"></script>
+<script>
+(function(){
+  "use strict";
+
+  var D = window.DADOS || { convocacoes:[], unidades:[], copy:{ agente:{} } };
+  var copy = (D.copy && D.copy.agente) || {};
+  var textoAcaoSim = copy.acao || "Encontrei a família";
+  var textoAcaoNao = copy.acao_nao || "Não encontrei";
+  var textoVazio = copy.vazio || "Nenhuma família aguardando na sua área.";
+  var textoTitulo = copy.titulo || "Famílias para procurar hoje";
+
+  document.getElementById("titulo-tela").textContent = textoTitulo;
+
+  var unidadesPorId = {};
+  (D.unidades || []).forEach(function(u){ unidadesPorId[u.id] = u; });
+
+  // ---------- data, sem dependência de fuso: compara só ano-mes-dia ----------
+  function hojeISO(){
+    var d = new Date();
+    var m = String(d.getMonth()+1).padStart(2,"0");
+    var dia = String(d.getDate()).padStart(2,"0");
+    return d.getFullYear() + "-" + m + "-" + dia;
+  }
+  function paraData(iso){
+    // aceita "YYYY-MM-DD" ou timestamp com hora
+    var soData = iso.slice(0,10).split("-");
+    return new Date(parseInt(soData[0],10), parseInt(soData[1],10)-1, parseInt(soData[2],10));
+  }
+  function diffDias(isoA, isoB){
+    var a = paraData(isoA), b = paraData(isoB);
+    return Math.round((a - b) / 86400000);
+  }
+  function formataData(iso){
+    var p = iso.slice(0,10).split("-");
+    return p[2] + "/" + p[1];
+  }
+
+  var HOJE = hojeISO();
+
+  // ---------- filtro: quem precisa de busca ativa hoje ----------
+  function precisaBuscaAtiva(c){
+    if (!c.acionamento_territorial) return false;
+    if (c.excecao === "nao_abriu") return true;
+    if (c.excecao === "vencendo_hoje") return true;
+    if (c.acionamento_territorial.estado === "em_busca_ativa") return true;
+    return false;
+  }
+
+  var pendentesData = (D.convocacoes || []).filter(precisaBuscaAtiva).map(function(c){
+    var unidade = unidadesPorId[c.unidade_id] || {};
+    var diasEsperando = diffDias(HOJE, c.acionamento_territorial.em);
+    var diasParaPrazo = c.prazo_em ? diffDias(c.prazo_em, HOJE) : 999;
+    var venceHoje = diasParaPrazo <= 0;
+    var atencao = diasParaPrazo > 0 && diasParaPrazo <= 2;
+    return {
+      token: c.token,
+      crianca: c.crianca,
+      creche: unidade.nome || "Creche não identificada",
+      bairro: unidade.bairro || "",
+      microarea: c.acionamento_territorial.microarea || unidade.microarea || "",
+      contato: c.contato || "",
+      diasEsperando: diasEsperando,
+      diasParaPrazo: diasParaPrazo,
+      prazoEm: c.prazo_em,
+      venceHoje: venceHoje,
+      atencao: atencao
+    };
+  });
+
+  // vence hoje primeiro; dentro do mesmo grupo, quem espera há mais dias primeiro
+  pendentesData.sort(function(a,b){
+    if (a.venceHoje !== b.venceHoje) return a.venceHoje ? -1 : 1;
+    if (a.diasParaPrazo !== b.diasParaPrazo) return (a.diasParaPrazo||0) - (b.diasParaPrazo||0);
+    return b.diasEsperando - a.diasEsperando;
+  });
+
+  var elPendentes = document.getElementById("pendentes");
+  var elVisitadas = document.getElementById("visitadas");
+  var elSecaoVisitadas = document.getElementById("secao-visitadas");
+  var elVazio = document.getElementById("vazio");
+  var elContagem = document.getElementById("contagem");
+
+  function telHref(contato){
+    var digitos = (contato || "").replace(/[^0-9]/g, "");
+    return "tel:" + digitos;
+  }
+
+  function textoEspera(item){
+    var dias = item.diasEsperando;
+    var base = dias <= 0 ? "Acionada hoje." : (dias === 1 ? "Esperando há <b>1 dia</b>." : "Esperando há <b>" + dias + " dias</b>.");
+    var prazo;
+    if (!item.prazoEm) {
+      prazo = "";
+    } else if (item.venceHoje) {
+      prazo = " Vence <b>hoje</b>.";
+    } else {
+      prazo = " Vence em " + formataData(item.prazoEm) + ".";
+    }
+    return base + prazo;
+  }
+
+  function atualizaContagem(){
+    var n = elPendentes.children.length;
+    if (n === 0) {
+      elContagem.style.display = "none";
+      return;
+    }
+    elContagem.style.display = "";
+    elContagem.textContent = n === 1
+      ? "1 família esperando na sua área"
+      : n + " famílias esperando na sua área";
+  }
+
+  function atualizaVazio(){
+    var n = elPendentes.children.length;
+    if (n === 0) {
+      elVazio.textContent = textoVazio;
+      elVazio.classList.remove("oculto");
+    } else {
+      elVazio.classList.add("oculto");
+    }
+  }
+
+  function marcaVisitada(item, card){
+    card.remove();
+    atualizaContagem();
+    atualizaVazio();
+
+    var v = document.createElement("div");
+    v.className = "cartao visitada";
+    v.innerHTML =
+      '<span class="selo ok">Visitada</span>' +
+      '<div class="txt">' +
+        '<p class="nome">' + item.crianca + '</p>' +
+        '<p class="local">' + item.creche + (item.bairro ? " · " + item.bairro : "") + '</p>' +
+      '</div>';
+    elVisitadas.appendChild(v);
+    elSecaoVisitadas.classList.remove("oculto");
+  }
+
+  function marcaNaoEncontrada(botao, card){
+    botao.setAttribute("disabled", "disabled");
+    if (card.querySelector(".aviso-nao")) return;
+    var aviso = document.createElement("p");
+    aviso.className = "aviso-nao";
+    aviso.textContent = "Sem sinal dela agora. A família continua na lista para você tentar de novo.";
+    card.appendChild(aviso);
+  }
+
+  function criaCard(item){
+    var card = document.createElement("div");
+    var classeUrgencia = item.venceHoje ? "e-urgente" : (item.atencao ? "e-atencao" : "e-marca");
+    card.className = "excecao familia " + classeUrgencia;
+
+    var selos = "";
+    if (item.microarea) selos += '<span class="selo marca">' + item.microarea + '</span>';
+    if (item.venceHoje) selos += '<span class="selo urgente">Vence hoje</span>';
+    else if (item.atencao) selos += '<span class="selo atencao">Vence em breve</span>';
+
+    card.innerHTML =
+      '<div>' +
+        '<p class="motivo">' + item.crianca + '</p>' +
+        '<p class="quem">' + item.creche + (item.bairro ? " · " + item.bairro : "") + '</p>' +
+        '<div class="linha-extra">' +
+          selos +
+          (item.contato ? '<a class="fone" href="' + telHref(item.contato) + '">📞 ' + item.contato + '</a>' : "") +
+        '</div>' +
+        '<p class="espera">' + textoEspera(item) + '</p>' +
+      '</div>' +
+      '<div class="acoes">' +
+        '<button type="button" class="btn" data-acao="sim">' + textoAcaoSim + '</button>' +
+        '<button type="button" class="btn neutro" data-acao="nao">' + textoAcaoNao + '</button>' +
+      '</div>';
+
+    card.querySelector('[data-acao="sim"]').addEventListener("click", function(){
+      marcaVisitada(item, card);
+    });
+    card.querySelector('[data-acao="nao"]').addEventListener("click", function(e){
+      marcaNaoEncontrada(e.currentTarget, card);
+    });
+
+    return card;
+  }
+
+  pendentesData.forEach(function(item){
+    elPendentes.appendChild(criaCard(item));
+  });
+
+  atualizaContagem();
+  atualizaVazio();
+})();
+</script>
+
+</body>
+</html>

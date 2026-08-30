@@ -1,0 +1,22 @@
+# Dados brutos — clonados do repo oficial, nunca vão pro nosso commit
+01-dados/dadoscreche/
+
+# Ferramentas locais do Claude Code — não fazem parte da entrega
+.agents/
+.claude/
+skills-lock.json
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Node
+node_modules/
+.next/
+.vercel/
+.env*.local
+
+# macOS
+.DS_Store

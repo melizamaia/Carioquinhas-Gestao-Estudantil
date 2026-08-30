@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#0B3B5C">
+<title>Vaga Viva — entrar</title>
+<link rel="stylesheet" href="estilo.css">
+<style>
+  .entrada{max-width:720px; margin:0 auto; padding:0 20px 80px}
+  .entrada h1{font-size:32px; margin-top:36px}
+  .entrada .abertura{color:var(--tinta-fraca); font-size:17px; margin-top:10px; max-width:52ch}
+
+  .grupo{margin-top:36px}
+  .grupo h2{font-size:15px; text-transform:uppercase; letter-spacing:.07em; color:var(--tinta-fraca)}
+  .grupo .explica{font-size:15px; color:var(--tinta-fraca); margin-top:6px; max-width:56ch}
+
+  .perfis{display:flex; flex-direction:column; gap:12px; margin-top:18px}
+  .perfil-btn{
+    display:flex; align-items:center; gap:16px; width:100%; text-align:left;
+    background:var(--papel); border:1px solid var(--linha); border-left:6px solid var(--marca);
+    border-radius:var(--raio); padding:16px 18px; min-height:var(--toque);
+    color:var(--tinta); text-decoration:none; font-family:inherit; font-size:17px;
+  }
+  .perfil-btn:hover,.perfil-btn:focus-visible{border-color:var(--marca); border-left-color:var(--marca)}
+  .perfil-btn .nome{font-size:19px; font-weight:700; display:block}
+  .perfil-btn .ve{font-size:15px; color:var(--tinta-fraca); display:block; margin-top:2px}
+  .perfil-btn .seta{margin-left:auto; color:var(--marca); font-weight:700; font-size:20px}
+
+  .link-btn{border-left-color:#B6CBD9; background:var(--marca-clara)}
+
+  .divisor{
+    margin-top:40px; padding-top:8px; border-top:1px solid var(--linha);
+  }
+</style>
+</head>
+<body>
+
+<div class="institucional">
+  <div class="dentro">
+    <img src="brasao.svg" alt="" onerror="this.remove()">
+    <div>
+      <strong>Prefeitura do Rio</strong>
+      <span>Secretaria Municipal de Educação</span>
+    </div>
+    <span class="proto">protótipo</span>
+  </div>
+</div>
+
+<main class="entrada">
+
+  <h1>Quem é você?</h1>
+  <p class="abertura">
+    O Vaga Viva tem dois modos de acesso, e eles não são o mesmo sistema com
+    permissões diferentes. Quem trabalha na Prefeitura entra com conta. Quem está
+    fora dela entra por link, sem cadastro.
+  </p>
+
+  <section class="grupo">
+    <h2>Trabalho na Prefeitura</h2>
+    <p class="explica">
+      Acesso com conta. Cada perfil enxerga um recorte diferente: a rede, o
+      território, ou a própria creche. Na demonstração, a escolha aqui substitui
+      o login; em produção, é o Registro Municipal Integrado quem diz quem é você.
+    </p>
+    <div class="perfis">
+      <a class="perfil-btn" href="painel.html?perfil=sme">
+        <span>
+          <span class="nome">Secretaria</span>
+          <span class="ve">Vê a rede inteira. Age sobre unidades, não sobre crianças.</span>
+        </span>
+        <span class="seta" aria-hidden="true">→</span>
+      </a>
+      <a class="perfil-btn" href="painel.html?perfil=cre">
+        <span>
+          <span class="nome">Coordenadoria regional</span>
+          <span class="ve">Vê as creches do seu território e onde a vaga se perde.</span>
+        </span>
+        <span class="seta" aria-hidden="true">→</span>
+      </a>
+      <a class="perfil-btn" href="painel.html?perfil=unidade">
+        <span>
+          <span class="nome">Creche</span>
+          <span class="ve">Vê só o que precisa de uma ação hoje. Não vê critério sensível.</span>
+        </span>
+        <span class="seta" aria-hidden="true">→</span>
+      </a>
+    </div>
+  </section>
+
+  <section class="grupo divisor">
+    <h2>Não trabalho na Prefeitura</h2>
+    <p class="explica">
+      Sem conta, sem senha, sem cadastro. O link com token é o acesso. A família
+      usa isto uma ou duas vezes na vida. E o agente comunitário é da Saúde, não
+      da Educação: ele não teria credencial da Secretaria de Educação nem em
+      produção.
+    </p>
+    <div class="perfis">
+      <a class="perfil-btn link-btn" href="familia.html?token=demo-b">
+        <span>
+          <span class="nome">Sou responsável por uma criança</span>
+          <span class="ve">Recebi um link dizendo que consegui uma vaga.</span>
+        </span>
+        <span class="seta" aria-hidden="true">→</span>
+      </a>
+      <a class="perfil-btn link-btn" href="agente.html">
+        <span>
+          <span class="nome">Sou agente comunitário</span>
+          <span class="ve">Vou até a casa das famílias que ninguém conseguiu falar.</span>
+        </span>
+        <span class="seta" aria-hidden="true">→</span>
+      </a>
+    </div>
+  </section>
+
+  <div class="grupo divisor">
+    <p class="nota">
+      <b>Por que não existe tela de senha aqui.</b> Autenticação real está fora do
+      escopo desta demonstração, e está modelada em <code>sql/policies.sql</code>.
+      Uma tela com a marca da Prefeitura pedindo senha, num protótipo, é um
+      formulário que ninguém deveria preencher.
+    </p>
+  </div>
+
+</main>
+
+</body>
+</html>

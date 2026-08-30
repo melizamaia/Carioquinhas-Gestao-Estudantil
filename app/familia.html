@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#0B3B5C">
+<title>Vaga Viva - Sua vaga de creche</title>
+<link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+
+<div class="institucional">
+  <div class="dentro">
+    <img src="brasao.svg" alt="" onerror="this.remove()">
+    <div>
+      <strong>Prefeitura do Rio</strong>
+      <span>Secretaria Municipal de Educação</span>
+    </div>
+    <span class="proto">protótipo</span>
+  </div>
+</div>
+
+<main class="ficha" id="ficha">
+
+  <div class="bloco">
+    <h1 id="titulo">Você conseguiu uma vaga de creche.</h1>
+  </div>
+
+  <div class="bloco" id="blocoProva">
+    <p class="prova" id="prova">Você inscreveu a criança nesta creche em 12 de março.</p>
+  </div>
+
+  <div class="bloco" id="blocoOuvir">
+    <button type="button" class="ouvir" id="btnOuvir">🔊 Ouvir esta página</button>
+  </div>
+
+  <div class="bloco" id="blocoCreche">
+    <p class="rotulo">A creche</p>
+    <p class="chave" id="crecheNome">Vila Isabel</p>
+    <p id="crecheEndereco">Bairro Vila Isabel, Rio de Janeiro</p>
+  </div>
+
+  <div class="bloco" id="blocoPrazo">
+    <p class="prazo-forte" id="prazo">Vá até sexta, dia 4 de setembro.</p>
+  </div>
+
+  <div class="bloco" id="blocoLevar">
+    <p class="rotulo">O que levar</p>
+    <ul class="levar" id="levar">
+      <li><span class="ic" aria-hidden="true">📄</span><span>Certidão de nascimento da criança</span></li>
+      <li><span class="ic" aria-hidden="true">💉</span><span>Caderneta de vacinação</span></li>
+      <li><span class="ic" aria-hidden="true">🏠</span><span>Conta de luz ou de água</span></li>
+    </ul>
+  </div>
+
+  <div class="bloco" id="blocoOrigem">
+    <p class="origem" id="origem">
+      <span id="origemPrincipal">Sua pontuação: 51, já confirmada pelo Cadastro Único.</span>
+      <small id="origemNota">Nesta demonstração o dado vem da própria base. Em produção, do Registro Municipal Integrado.</small>
+    </p>
+  </div>
+
+  <div class="bloco" id="blocoDecisao" aria-live="polite">
+
+    <div class="bloco" id="passo1">
+      <p class="chave" id="pergunta">Você vai?</p>
+      <div class="decisao">
+        <button type="button" class="btn largo" id="btnSim">Sim, eu vou</button>
+        <a href="#passo2" class="btn sec largo" id="btnNao">Não vou conseguir</a>
+      </div>
+    </div>
+
+    <div class="bloco" id="passo2">
+      <p class="chave" id="tela2Titulo">Tudo bem. O que aconteceu?</p>
+      <div class="decisao">
+        <a href="#escolherData" class="btn largo" id="btnOutraData">Quero ir, mas em outro dia</a>
+        <a href="#confirmaDesistir" class="btn neutro largo" id="btnDesistir1">Não quero mais a vaga</a>
+      </div>
+    </div>
+
+    <div class="bloco" id="escolherData">
+      <p class="chave" id="datasTitulo">Escolha o melhor dia para você.</p>
+      <div class="decisao" id="botoesData">
+        <button type="button" class="btn largo" data-data="2026-09-08">Terça, 8 de setembro</button>
+        <button type="button" class="btn largo" data-data="2026-09-09">Quarta, 9 de setembro</button>
+        <button type="button" class="btn largo" data-data="2026-09-10">Quinta, 10 de setembro</button>
+      </div>
+    </div>
+
+    <div class="bloco oculto" id="resultadoDesistir">
+      <span class="selo">Entendido</span>
+      <p class="chave">Você não vai usar esta vaga.</p>
+    </div>
+
+    <div class="bloco oculto" id="resultadoData">
+      <span class="selo marca">Combinado</span>
+      <p class="chave" id="resultadoDataTexto">Combinado para o dia escolhido.</p>
+    </div>
+
+    <div class="bloco oculto" id="jaRespondeu">
+      <span class="selo ok">Já respondida</span>
+      <p class="chave">Você já disse que vai.</p>
+      <p>Se mudou de ideia, toque abaixo.</p>
+      <button type="button" class="btn sec largo" id="btnMudarResposta">Mudar resposta</button>
+    </div>
+
+    <div class="bloco oculto" id="sucesso">
+      <span class="selo ok">Confirmado</span>
+      <p class="chave">Pronto. A creche está esperando você.</p>
+      <p>Guarde esta página. Ela mostra o que levar.</p>
+    </div>
+
+  </div>
+
+  <div class="bloco oculto" id="blocoBordaSimples" aria-live="polite">
+    <span class="selo urgente" id="bordaSelo">Aviso</span>
+    <p id="bordaTexto"></p>
+  </div>
+
+</main>
+
+<script src="../data/dados.js"></script>
+<script>
+(function(){
+  var DADOS = (window.DADOS && window.DADOS.copy) ? window.DADOS : {
+    unidades: [], convocacoes: [],
+    copy: { documentos:{}, criterios_origem:{}, telas:{}, bordas:{} }
+  };
+
+  var MESES = ['janeiro','fevereiro','março','abril','maio','junho','julho',
+               'agosto','setembro','outubro','novembro','dezembro'];
+  var DIAS  = ['domingo','segunda','terça','quarta','quinta','sexta','sábado'];
+
+  function formatarData(iso){
+    var p = iso.split('-').map(Number);
+    var d = new Date(p[0], p[1]-1, p[2]);
+    return { dia: p[2], mes: MESES[p[1]-1], semana: DIAS[d.getDay()] };
+  }
+  function capitaliza(s){ return s ? s.charAt(0).toUpperCase() + s.slice(1) : s; }
+
+  // Retira os prefixos de tipo de unidade (EDI, CM, CP) do texto exibido
+  // e falado para a família. A régua de linguagem proíbe sigla na tela
+  // da família; o nome oficial da unidade na base costuma trazer esse
+  // prefixo ("EDI Vila Isabel"), então saneamos aqui antes de mostrar.
+  function semSigla(t){
+    return (t || '').replace(/\b(EDI|CM|CP)\b\s*/g, '');
+  }
+
+  function textoProva(conv){
+    if(!conv.inscrita_em) return 'Você está inscrito nesta creche.';
+    var d = formatarData(conv.inscrita_em);
+    return 'Você inscreveu a criança nesta creche em ' + d.dia + ' de ' + d.mes + '.';
+  }
+  function textoPrazo(conv){
+    if(conv.excecao === 'vencendo_hoje') return 'O prazo termina hoje.';
+    if(!conv.prazo_em) return 'Fale com a creche sobre o prazo.';
+    var d = formatarData(conv.prazo_em);
+    return 'Vá até ' + d.semana + ', dia ' + d.dia + ' de ' + d.mes + '.';
+  }
+  function textoOrigem(conv){
+    var n = conv.pontuacao_declarada;
+    if(conv.verificado_na_origem && conv.verificado_na_origem.indexOf('cadunico') !== -1){
+      return 'Sua pontuação: ' + n + ', já confirmada pelo Cadastro Único.';
+    }
+    return 'Sua pontuação: ' + n + ', ainda não conferida.';
+  }
+  function itensLevar(conv){
+    return (conv.documentos_faltando || [])
+      .map(function(chave){ return DADOS.copy.documentos[chave]; })
+      .filter(Boolean);
+  }
+
+  function hide(){ for(var i=0;i<arguments.length;i++){ var el=document.getElementById(arguments[i]); if(el) el.classList.add('oculto'); } }
+  function show(){ for(var i=0;i<arguments.length;i++){ var el=document.getElementById(arguments[i]); if(el) el.classList.remove('oculto'); } }
+
+  var audioAtual = '';
+
+  function renderNormal(conv, unidade){
+    var tela = DADOS.copy.telas[conv.token] || null;
+
+    var titulo = semSigla(tela ? tela.titulo : 'Você conseguiu uma vaga de creche.');
+    document.getElementById('titulo').textContent = titulo;
+
+    var prova = semSigla(tela ? tela.prova : textoProva(conv));
+    document.getElementById('prova').textContent = prova;
+
+    var nomeCreche = semSigla(unidade ? unidade.nome : 'sua creche');
+    document.getElementById('crecheNome').textContent = nomeCreche;
+    document.getElementById('crecheEndereco').textContent = unidade ?
+      ('Bairro ' + unidade.bairro + ', Rio de Janeiro') : '';
+
+    var prazoTxt = semSigla(tela ? tela.prazo : textoPrazo(conv));
+    document.getElementById('prazo').textContent = prazoTxt;
+
+    var itens = itensLevar(conv);
+    var ul = document.getElementById('levar');
+    ul.innerHTML = '';
+    if(itens.length){
+      itens.forEach(function(item){
+        var li = document.createElement('li');
+        var icone = document.createElement('span');
+        icone.className = 'ic'; icone.setAttribute('aria-hidden','true'); icone.textContent = item.icone;
+        var texto = document.createElement('span');
+        texto.textContent = item.texto;
+        li.appendChild(icone); li.appendChild(texto);
+        ul.appendChild(li);
+      });
+    } else {
+      var li2 = document.createElement('li');
+      var ic2 = document.createElement('span');
+      ic2.className = 'ic'; ic2.setAttribute('aria-hidden','true'); ic2.textContent = '✅';
+      var tx2 = document.createElement('span');
+      tx2.textContent = 'Você não precisa levar nenhum papel.';
+      li2.appendChild(ic2); li2.appendChild(tx2);
+      ul.appendChild(li2);
+    }
+
+    document.getElementById('origemPrincipal').textContent = textoOrigem(conv);
+    var nota = '';
+    if(conv.verificado_na_origem && conv.verificado_na_origem.indexOf('cadunico') !== -1 && DADOS.copy.criterios_origem.cadunico){
+      nota = DADOS.copy.criterios_origem.cadunico.nota;
+    }
+    document.getElementById('origemNota').textContent = nota;
+
+    document.getElementById('pergunta').textContent = (tela && tela.pergunta) || 'Você vai?';
+    document.getElementById('btnSim').textContent = (tela && tela.sim) || 'Sim, eu vou';
+    document.getElementById('btnNao').textContent = (tela && tela.nao) || 'Não vou conseguir';
+    document.getElementById('tela2Titulo').textContent = (tela && tela.tela2_titulo) || 'Tudo bem. O que aconteceu?';
+    document.getElementById('btnOutraData').textContent = (tela && tela.tela2_outra_data) || 'Quero ir, mas em outro dia';
+    document.getElementById('btnDesistir1').textContent = (tela && tela.tela2_desistir) || 'Não quero mais a vaga';
+    document.getElementById('datasTitulo').textContent = (tela && tela.datas_titulo) || 'Escolha o melhor dia para você.';
+
+    var datas = conv.datas_oferecidas || [];
+    var cont = document.getElementById('botoesData');
+    cont.innerHTML = '';
+    datas.forEach(function(iso){
+      var d = formatarData(iso);
+      var btn = document.createElement('button');
+      btn.type = 'button';
+      btn.className = 'btn largo';
+      btn.setAttribute('data-data', iso);
+      btn.textContent = capitaliza(d.semana) + ', ' + d.dia + ' de ' + d.mes;
+      cont.appendChild(btn);
+    });
+
+    var fraseAudio = itens.length ?
+      ('Leve ' + itens.map(function(i){ return i.texto.toLowerCase(); }).join(', ') + '.') : '';
+    audioAtual = semSigla(tela ? tela.audio : [
+      titulo, prazoTxt, fraseAudio, 'Toque no botão azul para dizer que você vai.'
+    ].filter(Boolean).join(' '));
+  }
+
+  function ativarSucesso(){
+    hide('passo1','passo2','escolherData','resultadoDesistir','resultadoData','jaRespondeu');
+    show('sucesso');
+    if(DADOS.copy.bordas.confirmado) audioAtual = DADOS.copy.bordas.confirmado.audio;
+  }
+  function ativarJaRespondeu(){
+    hide('passo1','passo2','escolherData','resultadoDesistir','resultadoData','sucesso');
+    show('jaRespondeu');
+    if(DADOS.copy.bordas.ja_respondeu) audioAtual = DADOS.copy.bordas.ja_respondeu.audio;
+  }
+  function renderBordaSimples(chave){
+    var b = DADOS.copy.bordas[chave];
+    if(!b) return;
+    document.getElementById('titulo').textContent = b.titulo;
+    hide('blocoProva','blocoCreche','blocoPrazo','blocoLevar','blocoOrigem','blocoDecisao');
+    document.getElementById('bordaTexto').textContent = b.texto;
+    var selo = document.getElementById('bordaSelo');
+    selo.className = 'selo ' + (chave === 'vaga_ocupada' ? 'atencao' : 'urgente');
+    selo.textContent = chave === 'vaga_ocupada' ? 'Vaga ocupada' : 'Prazo terminado';
+    show('blocoBordaSimples');
+    audioAtual = b.audio;
+  }
+
+  function ligarBotoesData(){
+    var botoes = document.querySelectorAll('#botoesData button');
+    for(var i=0;i<botoes.length;i++){
+      botoes[i].addEventListener('click', function(e){
+        var label = e.currentTarget.textContent;
+        hide('escolherData');
+        document.getElementById('resultadoDataTexto').textContent = 'Combinado para ' + label + '.';
+        show('resultadoData');
+      });
+    }
+  }
+
+  function ligarDecisao(){
+    hide('passo2','escolherData','resultadoDesistir','resultadoData','jaRespondeu','sucesso');
+    show('passo1');
+
+    document.getElementById('btnSim').addEventListener('click', ativarSucesso);
+
+    document.getElementById('btnNao').addEventListener('click', function(e){
+      e.preventDefault(); hide('passo1'); show('passo2');
+    });
+    document.getElementById('btnOutraData').addEventListener('click', function(e){
+      e.preventDefault(); hide('passo2'); show('escolherData');
+    });
+    document.getElementById('btnDesistir1').addEventListener('click', function(e){
+      e.preventDefault(); hide('passo2'); show('resultadoDesistir');
+    });
+    document.getElementById('btnMudarResposta').addEventListener('click', function(){
+      hide('jaRespondeu'); show('passo1');
+    });
+    ligarBotoesData();
+  }
+
+  // ---------- áudio (Web Speech API) ----------
+  var falando = false, vozPt = null, vozPronta = false;
+
+  function atualizarBotaoOuvir(){
+    var b = document.getElementById('btnOuvir');
+    if(b) b.textContent = falando ? '⏹ Parar' : '🔊 Ouvir esta página';
+  }
+  function configurarVoz(cb){
+    if(!('speechSynthesis' in window)){ cb(null); return; }
+    function achar(vs){
+      vozPronta = true;
+      for(var i=0;i<vs.length;i++){ if(/^pt/i.test(vs[i].lang)){ vozPt = vs[i]; break; } }
+      cb(vozPt);
+    }
+    var vs = window.speechSynthesis.getVoices();
+    if(vs && vs.length){ achar(vs); return; }
+    window.speechSynthesis.onvoiceschanged = function(){
+      if(!vozPronta) achar(window.speechSynthesis.getVoices());
+    };
+    setTimeout(function(){ if(!vozPronta) achar(window.speechSynthesis.getVoices()); }, 800);
+  }
+  function ligarAudio(){
+    configurarVoz(function(voz){
+      if(!('speechSynthesis' in window) || !voz){ hide('btnOuvir'); return; }
+      document.getElementById('btnOuvir').addEventListener('click', function(){
+        if(falando){ window.speechSynthesis.cancel(); return; }
+        if(!audioAtual) return;
+        var u = new SpeechSynthesisUtterance(audioAtual);
+        u.lang = 'pt-BR';
+        if(vozPt) u.voice = vozPt;
+        u.onend = u.onerror = function(){ falando = false; atualizarBotaoOuvir(); };
+        falando = true; atualizarBotaoOuvir();
+        window.speechSynthesis.speak(u);
+      });
+    });
+  }
+
+  // ---------- inicialização ----------
+  function iniciar(){
+    var params = new URLSearchParams(window.location.search);
+    var tokenParam = params.get('token');
+    var estadoParam = params.get('estado');
+    var bordasCategoriaB = ['prazo_vencido', 'vaga_ocupada'];
+    var bordasCategoriaA = ['confirmado', 'ja_respondeu'];
+
+    var conv = null;
+    if(tokenParam){
+      conv = (DADOS.convocacoes || []).filter(function(c){ return c.token === tokenParam; })[0] || null;
+    }
+    if(!conv){
+      conv = (DADOS.convocacoes || []).filter(function(c){ return c.token === 'demo-b'; })[0] || null;
+    }
+    var unidade = conv ? (DADOS.unidades || []).filter(function(u){ return u.id === conv.unidade_id; })[0] : null;
+
+    if(estadoParam && bordasCategoriaB.indexOf(estadoParam) !== -1){
+      renderBordaSimples(estadoParam);
+      ligarAudio();
+      return;
+    }
+
+    var precisaRerender = (tokenParam && conv && tokenParam !== 'demo-b') ||
+                           (estadoParam && bordasCategoriaA.indexOf(estadoParam) !== -1);
+    if(precisaRerender && conv){
+      renderNormal(conv, unidade);
+    } else {
+      audioAtual = semSigla((DADOS.copy.telas['demo-b'] && DADOS.copy.telas['demo-b'].audio) || '');
+    }
+
+    ligarDecisao();
+
+    if(estadoParam === 'confirmado'){ ativarSucesso(); }
+    else if(estadoParam === 'ja_respondeu'){ ativarJaRespondeu(); }
+
+    ligarAudio();
+  }
+
+  if(document.readyState === 'loading'){
+    document.addEventListener('DOMContentLoaded', iniciar);
+  } else {
+    iniciar();
+  }
+})();
+</script>
+
+</body>
+</html>

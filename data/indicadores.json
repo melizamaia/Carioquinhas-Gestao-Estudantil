@@ -1,0 +1,41 @@
+{
+  "ano": 2025,
+  "gerado_em": "2026-08-30T13:45:00-03:00",
+  "topo": [
+    {
+      "chave": "perda_confirmacao",
+      "valor": "26,8%",
+      "titulo": "das vagas oferecidas se perdem na confirmação",
+      "detalhe": "44.041 crianças foram chamadas e ficaram sem vaga. Era 49% em 2021."
+    },
+    {
+      "chave": "multiplicidade",
+      "valor": "2,76",
+      "titulo": "posições ocupadas por criança matriculada",
+      "detalhe": "337.870 posições travadas em outras unidades."
+    },
+    {
+      "chave": "sem_conferencia",
+      "valor": "90%",
+      "titulo": "das inscrições tiveram a pontuação aceita sem nenhuma conferência",
+      "detalhe": "64.675 de 71.930 inscrições de 2025. A régua muda a cada processo."
+    }
+  ],
+  "unidades_por_perda": [
+    { "unidade_id": "05.11.030", "nome": "CP Creche Giz Colorido", "cre": "5.1", "convocadas": 148, "perdidas": 61, "taxa_perda": 0.412, "taxa_conferencia": 0.0 },
+    { "unidade_id": "02.22.019", "nome": "CM Direitos Humanos",    "cre": "2.2", "convocadas": 203, "perdidas": 74, "taxa_perda": 0.365, "taxa_conferencia": 0.0 },
+    { "unidade_id": "05.11.012", "nome": "CM Tia Auta",            "cre": "5.1", "convocadas": 176, "perdidas": 58, "taxa_perda": 0.330, "taxa_conferencia": 0.0 },
+    { "unidade_id": "05.11.004", "nome": "EDI Realengo",           "cre": "5.1", "convocadas": 241, "perdidas": 61, "taxa_perda": 0.253, "taxa_conferencia": 0.071 },
+    { "unidade_id": "02.22.001", "nome": "EDI Vila Isabel",        "cre": "2.2", "convocadas": 312, "perdidas": 66, "taxa_perda": 0.212, "taxa_conferencia": 0.118 },
+    { "unidade_id": "02.22.007", "nome": "CM Raízes do Salgueiro", "cre": "2.2", "convocadas": 287, "perdidas": 41, "taxa_perda": 0.143, "taxa_conferencia": 0.906 }
+  ],
+  "cres": [
+    { "cre": "2.2", "unidades": 3, "convocadas": 802, "perdidas": 181, "taxa_perda": 0.226 },
+    { "cre": "5.1", "unidades": 3, "convocadas": 565, "perdidas": 180, "taxa_perda": 0.319 }
+  ],
+  "ressalvas": [
+    "O desfecho de cada inscrição é real. A posição dentro da janela de 3 dias é reconstruída pela regra do processo: a base não tem carimbo de hora de convocação nem de expiração.",
+    "2021 está excluído de qualquer análise de conferência: o campo confirmado daquele ano não é comparável.",
+    "Recorte territorial pela unidade, nunca pelo bairro declarado."
+  ]
+}

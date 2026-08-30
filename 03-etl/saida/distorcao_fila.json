@@ -1,0 +1,34 @@
+{
+  "ano": "2025",
+  "pontos_possiveis": 100,
+  "inscricoes": 71930,
+  "perfil_conferencia": {
+    "nunca conferida": {
+      "outro": 8918,
+      "matriculou": 43205,
+      "perdeu_na_confirmacao": 7258,
+      "lista_de_espera": 5294
+    },
+    "conferida em bloco": {
+      "matriculou": 3588,
+      "outro": 463,
+      "perdeu_na_confirmacao": 324,
+      "lista_de_espera": 519
+    },
+    "conferida em parte": {
+      "matriculou": 1888,
+      "perdeu_na_confirmacao": 99,
+      "outro": 214,
+      "lista_de_espera": 160
+    }
+  },
+  "media_pontos_declarados": 27.71,
+  "media_pontos_verificados": 7.91,
+  "deslocamento_mediano": 18208,
+  "deslocamento_p90": 41546,
+  "pct_desloca_mais_de_10pct": 74.8,
+  "alta_pontuacao_declarada": 35141,
+  "alta_pontuacao_sem_conferencia": 32347,
+  "unidades_zero_conferencia": 48,
+  "unidades_avaliadas": 556
+}

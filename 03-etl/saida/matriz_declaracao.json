@@ -1,0 +1,652 @@
+{
+  "2021|2": {
+    "pontos": 100,
+    "texto": "A criança tem alguma deficiência?",
+    "declarou_confirmou": 774,
+    "declarou_nao_confirmou": 98,
+    "nao_declarou_confirmou": 18945,
+    "nao_nao": 45342,
+    "taxa_comprovacao": 88.8,
+    "pct_confirmacoes_automaticas": 96.1
+  },
+  "2022|2": {
+    "pontos": 100,
+    "texto": "A criança tem alguma deficiência?",
+    "declarou_confirmou": 185,
+    "declarou_nao_confirmou": 889,
+    "nao_declarou_confirmou": 4131,
+    "nao_nao": 58850,
+    "taxa_comprovacao": 17.2,
+    "pct_confirmacoes_automaticas": 95.7
+  },
+  "2023|2": {
+    "pontos": 100,
+    "texto": "A criança tem alguma deficiência?",
+    "declarou_confirmou": 136,
+    "declarou_nao_confirmou": 920,
+    "nao_declarou_confirmou": 2815,
+    "nao_nao": 47460,
+    "taxa_comprovacao": 12.9,
+    "pct_confirmacoes_automaticas": 95.4
+  },
+  "2024|2": {
+    "pontos": 25,
+    "texto": "A criança tem alguma deficiência?",
+    "declarou_confirmou": 238,
+    "declarou_nao_confirmou": 1416,
+    "nao_declarou_confirmou": 5711,
+    "nao_nao": 75323,
+    "taxa_comprovacao": 14.4,
+    "pct_confirmacoes_automaticas": 96.0
+  },
+  "2021|11": {
+    "pontos": 100,
+    "texto": "Faz parte do programa bolsa família?",
+    "declarou_confirmou": 15887,
+    "declarou_nao_confirmou": 1867,
+    "nao_declarou_confirmou": 10977,
+    "nao_nao": 36428,
+    "taxa_comprovacao": 89.5,
+    "pct_confirmacoes_automaticas": 40.9
+  },
+  "2022|11": {
+    "pontos": 100,
+    "texto": "Faz parte do programa bolsa família?",
+    "declarou_confirmou": 1296,
+    "declarou_nao_confirmou": 14148,
+    "nao_declarou_confirmou": 3373,
+    "nao_nao": 45238,
+    "taxa_comprovacao": 8.4,
+    "pct_confirmacoes_automaticas": 72.2
+  },
+  "2023|11": {
+    "pontos": 100,
+    "texto": "Faz parte do programa bolsa família?",
+    "declarou_confirmou": 1419,
+    "declarou_nao_confirmou": 21324,
+    "nao_declarou_confirmou": 1947,
+    "nao_nao": 26641,
+    "taxa_comprovacao": 6.2,
+    "pct_confirmacoes_automaticas": 57.8
+  },
+  "2021|21": {
+    "pontos": 100,
+    "texto": "A criança pertence ao Programa Territórios Sociais?",
+    "declarou_confirmou": 916,
+    "declarou_nao_confirmou": 152,
+    "nao_declarou_confirmou": 18851,
+    "nao_nao": 45240,
+    "taxa_comprovacao": 85.8,
+    "pct_confirmacoes_automaticas": 95.4
+  },
+  "2022|21": {
+    "pontos": 100,
+    "texto": "A criança pertence ao Programa Territórios Sociais?",
+    "declarou_confirmou": 85,
+    "declarou_nao_confirmou": 778,
+    "nao_declarou_confirmou": 4128,
+    "nao_nao": 59064,
+    "taxa_comprovacao": 9.8,
+    "pct_confirmacoes_automaticas": 98.0
+  },
+  "2023|21": {
+    "pontos": 100,
+    "texto": "A criança pertence ao Programa Territórios Sociais?",
+    "declarou_confirmou": 54,
+    "declarou_nao_confirmou": 880,
+    "nao_declarou_confirmou": 2796,
+    "nao_nao": 47601,
+    "taxa_comprovacao": 5.8,
+    "pct_confirmacoes_automaticas": 98.1
+  },
+  "2021|3": {
+    "pontos": 100,
+    "texto": "Possui Cartão Carioca?",
+    "declarou_confirmou": 1979,
+    "declarou_nao_confirmou": 538,
+    "nao_declarou_confirmou": 18316,
+    "nao_nao": 44326,
+    "taxa_comprovacao": 78.6,
+    "pct_confirmacoes_automaticas": 90.2
+  },
+  "2022|3": {
+    "pontos": 100,
+    "texto": "Possui Cartão Carioca?",
+    "declarou_confirmou": 269,
+    "declarou_nao_confirmou": 2112,
+    "nao_declarou_confirmou": 4027,
+    "nao_nao": 57647,
+    "taxa_comprovacao": 11.3,
+    "pct_confirmacoes_automaticas": 93.7
+  },
+  "2023|3": {
+    "pontos": 100,
+    "texto": "Possui Cartão Carioca?",
+    "declarou_confirmou": 304,
+    "declarou_nao_confirmou": 2443,
+    "nao_declarou_confirmou": 2608,
+    "nao_nao": 45976,
+    "taxa_comprovacao": 11.1,
+    "pct_confirmacoes_automaticas": 89.6
+  },
+  "2024|28": {
+    "pontos": 25,
+    "texto": "Criança cuja família seja inscrita no CadÚnico (Cadastro Único para Programas Sociais)?",
+    "declarou_confirmou": 2949,
+    "declarou_nao_confirmou": 35285,
+    "nao_declarou_confirmou": 3837,
+    "nao_nao": 40617,
+    "taxa_comprovacao": 7.7,
+    "pct_confirmacoes_automaticas": 56.5
+  },
+  "2025|28": {
+    "pontos": 51,
+    "texto": "Criança cuja família seja inscrita no CadÚnico (Cadastro Único para Programas Sociais)?",
+    "declarou_confirmou": 2390,
+    "declarou_nao_confirmou": 32751,
+    "nao_declarou_confirmou": 3560,
+    "nao_nao": 33229,
+    "taxa_comprovacao": 6.8,
+    "pct_confirmacoes_automaticas": 59.8
+  },
+  "2025|31": {
+    "pontos": 25,
+    "texto": "A criança é público-alvo da educação especial?",
+    "declarou_confirmou": 221,
+    "declarou_nao_confirmou": 1443,
+    "nao_declarou_confirmou": 5140,
+    "nao_nao": 65126,
+    "taxa_comprovacao": 13.3,
+    "pct_confirmacoes_automaticas": 95.9
+  },
+  "2024|6": {
+    "pontos": 15,
+    "texto": "Faz parte do programa bolsa família ou possui Cartão Carioca?",
+    "declarou_confirmou": 3263,
+    "declarou_nao_confirmou": 39770,
+    "nao_declarou_confirmou": 3703,
+    "nao_nao": 35952,
+    "taxa_comprovacao": 7.6,
+    "pct_confirmacoes_automaticas": 53.2
+  },
+  "2025|6": {
+    "pontos": 2,
+    "texto": "Faz parte do programa bolsa família ou possui Cartão Carioca?",
+    "declarou_confirmou": 2464,
+    "declarou_nao_confirmou": 31075,
+    "nao_declarou_confirmou": 3553,
+    "nao_nao": 34838,
+    "taxa_comprovacao": 7.3,
+    "pct_confirmacoes_automaticas": 59.0
+  },
+  "2024|16": {
+    "pontos": 10,
+    "texto": "Existe algum membro do núcleo familiar que faz uso abusivo de drogas e/ou alcoól?",
+    "declarou_confirmou": 499,
+    "declarou_nao_confirmou": 3002,
+    "nao_declarou_confirmou": 5467,
+    "nao_nao": 73720,
+    "taxa_comprovacao": 14.3,
+    "pct_confirmacoes_automaticas": 91.6
+  },
+  "2025|16": {
+    "pontos": 2,
+    "texto": "Existe algum membro do núcleo familiar que faz uso abusivo de drogas e/ou alcoól?",
+    "declarou_confirmou": 363,
+    "declarou_nao_confirmou": 2676,
+    "nao_declarou_confirmou": 4991,
+    "nao_nao": 63900,
+    "taxa_comprovacao": 11.9,
+    "pct_confirmacoes_automaticas": 93.2
+  },
+  "2021|8": {
+    "pontos": 10,
+    "texto": "Já ocorreu alguma situação de violência na residência da criança praticado por algum membro do núcleo familiar?",
+    "declarou_confirmou": 1486,
+    "declarou_nao_confirmou": 200,
+    "nao_declarou_confirmou": 18608,
+    "nao_nao": 44865,
+    "taxa_comprovacao": 88.1,
+    "pct_confirmacoes_automaticas": 92.6
+  },
+  "2022|8": {
+    "pontos": 10,
+    "texto": "Já ocorreu alguma situação de violência na residência da criança praticado por algum membro do núcleo familiar?",
+    "declarou_confirmou": 310,
+    "declarou_nao_confirmou": 1300,
+    "nao_declarou_confirmou": 4014,
+    "nao_nao": 58431,
+    "taxa_comprovacao": 19.3,
+    "pct_confirmacoes_automaticas": 92.8
+  },
+  "2023|8": {
+    "pontos": 10,
+    "texto": "Já ocorreu alguma situação de violência na residência da criança praticado por algum membro do núcleo familiar?",
+    "declarou_confirmou": 282,
+    "declarou_nao_confirmou": 1124,
+    "nao_declarou_confirmou": 2680,
+    "nao_nao": 47245,
+    "taxa_comprovacao": 20.1,
+    "pct_confirmacoes_automaticas": 90.5
+  },
+  "2021|7": {
+    "pontos": 10,
+    "texto": "A criança tem déficit nutricional ou doença crônica ou familiar com doença crônica?",
+    "declarou_confirmou": 2743,
+    "declarou_nao_confirmou": 332,
+    "nao_declarou_confirmou": 17953,
+    "nao_nao": 44131,
+    "taxa_comprovacao": 89.2,
+    "pct_confirmacoes_automaticas": 86.7
+  },
+  "2022|7": {
+    "pontos": 10,
+    "texto": "A criança tem déficit nutricional ou doença crônica ou familiar com doença crônica?",
+    "declarou_confirmou": 423,
+    "declarou_nao_confirmou": 2301,
+    "nao_declarou_confirmou": 3969,
+    "nao_nao": 57362,
+    "taxa_comprovacao": 15.5,
+    "pct_confirmacoes_automaticas": 90.4
+  },
+  "2023|7": {
+    "pontos": 10,
+    "texto": "A criança tem déficit nutricional ou doença crônica ou familiar com doença crônica?",
+    "declarou_confirmou": 378,
+    "declarou_nao_confirmou": 2009,
+    "nao_declarou_confirmou": 2667,
+    "nao_nao": 46277,
+    "taxa_comprovacao": 15.8,
+    "pct_confirmacoes_automaticas": 87.6
+  },
+  "2021|25": {
+    "pontos": 10,
+    "texto": "Candidato tem pais ou responsáveis deficientes ?",
+    "declarou_confirmou": 661,
+    "declarou_nao_confirmou": 77,
+    "nao_declarou_confirmou": 18937,
+    "nao_nao": 45484,
+    "taxa_comprovacao": 89.6,
+    "pct_confirmacoes_automaticas": 96.6
+  },
+  "2022|25": {
+    "pontos": 10,
+    "texto": "Candidato tem pais ou responsáveis deficientes ?",
+    "declarou_confirmou": 62,
+    "declarou_nao_confirmou": 631,
+    "nao_declarou_confirmou": 4154,
+    "nao_nao": 59208,
+    "taxa_comprovacao": 8.9,
+    "pct_confirmacoes_automaticas": 98.5
+  },
+  "2023|25": {
+    "pontos": 10,
+    "texto": "Candidato tem pais ou responsáveis deficientes ?",
+    "declarou_confirmou": 71,
+    "declarou_nao_confirmou": 575,
+    "nao_declarou_confirmou": 2734,
+    "nao_nao": 47951,
+    "taxa_comprovacao": 11.0,
+    "pct_confirmacoes_automaticas": 97.5
+  },
+  "2024|25": {
+    "pontos": 2,
+    "texto": "Candidato tem pais ou responsáveis deficientes ?",
+    "declarou_confirmou": 121,
+    "declarou_nao_confirmou": 1042,
+    "nao_declarou_confirmou": 5785,
+    "nao_nao": 75740,
+    "taxa_comprovacao": 10.4,
+    "pct_confirmacoes_automaticas": 98.0
+  },
+  "2025|25": {
+    "pontos": 3,
+    "texto": "Candidato tem pais ou responsáveis deficientes ?",
+    "declarou_confirmou": 121,
+    "declarou_nao_confirmou": 1014,
+    "nao_declarou_confirmou": 5200,
+    "nao_nao": 65595,
+    "taxa_comprovacao": 10.7,
+    "pct_confirmacoes_automaticas": 97.7
+  },
+  "2021|9": {
+    "pontos": 10,
+    "texto": "Existe algum membro do núcleo familiar que faz uso de drogas ou é alcoólatra?",
+    "declarou_confirmou": 3299,
+    "declarou_nao_confirmou": 447,
+    "nao_declarou_confirmou": 17667,
+    "nao_nao": 43746,
+    "taxa_comprovacao": 88.1,
+    "pct_confirmacoes_automaticas": 84.3
+  },
+  "2022|9": {
+    "pontos": 10,
+    "texto": "Existe algum membro do núcleo familiar que faz uso de drogas ou é alcoólatra?",
+    "declarou_confirmou": 423,
+    "declarou_nao_confirmou": 2840,
+    "nao_declarou_confirmou": 3903,
+    "nao_nao": 56889,
+    "taxa_comprovacao": 13.0,
+    "pct_confirmacoes_automaticas": 90.2
+  },
+  "2023|9": {
+    "pontos": 10,
+    "texto": "Existe algum membro do núcleo familiar que faz uso de drogas ou é alcoólatra?",
+    "declarou_confirmou": 381,
+    "declarou_nao_confirmou": 2477,
+    "nao_declarou_confirmou": 2607,
+    "nao_nao": 45866,
+    "taxa_comprovacao": 13.3,
+    "pct_confirmacoes_automaticas": 87.2
+  },
+  "2021|23": {
+    "pontos": 10,
+    "texto": "O candidato é refugiado?",
+    "declarou_confirmou": 139,
+    "declarou_nao_confirmou": 21,
+    "nao_declarou_confirmou": 19282,
+    "nao_nao": 45717,
+    "taxa_comprovacao": 86.9,
+    "pct_confirmacoes_automaticas": 99.3
+  },
+  "2022|23": {
+    "pontos": 10,
+    "texto": "O candidato é refugiado?",
+    "declarou_confirmou": 13,
+    "declarou_nao_confirmou": 141,
+    "nao_declarou_confirmou": 4208,
+    "nao_nao": 59693,
+    "taxa_comprovacao": 8.4,
+    "pct_confirmacoes_automaticas": 99.7
+  },
+  "2023|23": {
+    "pontos": 10,
+    "texto": "O candidato é refugiado?",
+    "declarou_confirmou": 17,
+    "declarou_nao_confirmou": 151,
+    "nao_declarou_confirmou": 2818,
+    "nao_nao": 48345,
+    "taxa_comprovacao": 10.1,
+    "pct_confirmacoes_automaticas": 99.4
+  },
+  "2024|23": {
+    "pontos": 5,
+    "texto": "O candidato é refugiado?",
+    "declarou_confirmou": 46,
+    "declarou_nao_confirmou": 525,
+    "nao_declarou_confirmou": 5848,
+    "nao_nao": 76269,
+    "taxa_comprovacao": 8.1,
+    "pct_confirmacoes_automaticas": 99.2
+  },
+  "2025|23": {
+    "pontos": 2,
+    "texto": "O candidato é refugiado?",
+    "declarou_confirmou": 36,
+    "declarou_nao_confirmou": 544,
+    "nao_declarou_confirmou": 5254,
+    "nao_nao": 66096,
+    "taxa_comprovacao": 6.2,
+    "pct_confirmacoes_automaticas": 99.3
+  },
+  "2021|24": {
+    "pontos": 10,
+    "texto": "Candidato tem pais ou responsáveis com idade igual ou superior a sessenta anos ?",
+    "declarou_confirmou": 2067,
+    "declarou_nao_confirmou": 217,
+    "nao_declarou_confirmou": 18257,
+    "nao_nao": 44618,
+    "taxa_comprovacao": 90.5,
+    "pct_confirmacoes_automaticas": 89.8
+  },
+  "2022|24": {
+    "pontos": 10,
+    "texto": "Candidato tem pais ou responsáveis com idade igual ou superior a sessenta anos ?",
+    "declarou_confirmou": 101,
+    "declarou_nao_confirmou": 1792,
+    "nao_declarou_confirmou": 4135,
+    "nao_nao": 58027,
+    "taxa_comprovacao": 5.3,
+    "pct_confirmacoes_automaticas": 97.6
+  },
+  "2023|24": {
+    "pontos": 10,
+    "texto": "Candidato tem pais ou responsáveis com idade igual ou superior a sessenta anos ?",
+    "declarou_confirmou": 78,
+    "declarou_nao_confirmou": 1567,
+    "nao_declarou_confirmou": 2796,
+    "nao_nao": 46890,
+    "taxa_comprovacao": 4.7,
+    "pct_confirmacoes_automaticas": 97.3
+  },
+  "2024|17": {
+    "pontos": 10,
+    "texto": "A criança e/ou familiar do seu convívio diário é vitima de violência doméstica?",
+    "declarou_confirmou": 367,
+    "declarou_nao_confirmou": 1119,
+    "nao_declarou_confirmou": 5561,
+    "nao_nao": 75641,
+    "taxa_comprovacao": 24.7,
+    "pct_confirmacoes_automaticas": 93.8
+  },
+  "2025|17": {
+    "pontos": 4,
+    "texto": "A criança e/ou familiar do seu convívio diário é vitima de violência doméstica?",
+    "declarou_confirmou": 224,
+    "declarou_nao_confirmou": 1004,
+    "nao_declarou_confirmou": 5112,
+    "nao_nao": 65590,
+    "taxa_comprovacao": 18.2,
+    "pct_confirmacoes_automaticas": 95.8
+  },
+  "2021|12": {
+    "pontos": 5,
+    "texto": "Existe algum membro do núcleo familiar que é presidiário ou ex-presidiário nos últimos 5 anos?",
+    "declarou_confirmou": 3539,
+    "declarou_nao_confirmou": 438,
+    "nao_declarou_confirmou": 17521,
+    "nao_nao": 43661,
+    "taxa_comprovacao": 89.0,
+    "pct_confirmacoes_automaticas": 83.2
+  },
+  "2023|12": {
+    "pontos": 5,
+    "texto": "Existe algum membro do núcleo familiar que é presidiário ou ex-presidiário nos últimos 5 anos?",
+    "declarou_confirmou": 292,
+    "declarou_nao_confirmou": 2655,
+    "nao_declarou_confirmou": 2635,
+    "nao_nao": 45749,
+    "taxa_comprovacao": 9.9,
+    "pct_confirmacoes_automaticas": 90.0
+  },
+  "2025|12": {
+    "pontos": 2,
+    "texto": "Existe algum membro do núcleo familiar que é presidiário ou ex-presidiário nos últimos 5 anos?",
+    "declarou_confirmou": 374,
+    "declarou_nao_confirmou": 3417,
+    "nao_declarou_confirmou": 5001,
+    "nao_nao": 63138,
+    "taxa_comprovacao": 9.9,
+    "pct_confirmacoes_automaticas": 93.0
+  },
+  "2022|10": {
+    "pontos": 5,
+    "texto": "Existe algum membro do núcleo familiar que é presidiário ou ex-presidiário?",
+    "declarou_confirmou": 422,
+    "declarou_nao_confirmou": 3474,
+    "nao_declarou_confirmou": 3908,
+    "nao_nao": 56251,
+    "taxa_comprovacao": 10.8,
+    "pct_confirmacoes_automaticas": 90.3
+  },
+  "2024|10": {
+    "pontos": 2,
+    "texto": "Existe algum membro do núcleo familiar que é presidiário ou ex-presidiário?",
+    "declarou_confirmou": 490,
+    "declarou_nao_confirmou": 4465,
+    "nao_declarou_confirmou": 5459,
+    "nao_nao": 72274,
+    "taxa_comprovacao": 9.9,
+    "pct_confirmacoes_automaticas": 91.8
+  },
+  "2024|20": {
+    "pontos": 2,
+    "texto": "A criança pertence a família monoparental?",
+    "declarou_confirmou": 1012,
+    "declarou_nao_confirmou": 10261,
+    "nao_declarou_confirmou": 5033,
+    "nao_nao": 66382,
+    "taxa_comprovacao": 9.0,
+    "pct_confirmacoes_automaticas": 83.3
+  },
+  "2025|20": {
+    "pontos": 4,
+    "texto": "A criança pertence a família monoparental?",
+    "declarou_confirmou": 866,
+    "declarou_nao_confirmou": 8489,
+    "nao_declarou_confirmou": 4590,
+    "nao_nao": 57985,
+    "taxa_comprovacao": 9.3,
+    "pct_confirmacoes_automaticas": 84.1
+  },
+  "2024|18": {
+    "pontos": 3,
+    "texto": "A criança e/ou alguém do núcleo familiar apresentam doenças crônicas graves?",
+    "declarou_confirmou": 639,
+    "declarou_nao_confirmou": 3771,
+    "nao_declarou_confirmou": 5380,
+    "nao_nao": 72898,
+    "taxa_comprovacao": 14.5,
+    "pct_confirmacoes_automaticas": 89.4
+  },
+  "2025|18": {
+    "pontos": 3,
+    "texto": "A criança e/ou alguém do núcleo familiar apresentam doenças crônicas graves?",
+    "declarou_confirmou": 501,
+    "declarou_nao_confirmou": 3239,
+    "nao_declarou_confirmou": 4937,
+    "nao_nao": 63253,
+    "taxa_comprovacao": 13.4,
+    "pct_confirmacoes_automaticas": 90.8
+  },
+  "2024|27": {
+    "pontos": 1,
+    "texto": "Criança aguardou em fila de espera no ano anterior sem ter sido atendida?",
+    "declarou_confirmou": 622,
+    "declarou_nao_confirmou": 10110,
+    "nao_declarou_confirmou": 5400,
+    "nao_nao": 66556,
+    "taxa_comprovacao": 5.8,
+    "pct_confirmacoes_automaticas": 89.7
+  },
+  "2025|27": {
+    "pontos": 2,
+    "texto": "Criança aguardou em fila de espera no ano anterior sem ter sido atendida?",
+    "declarou_confirmou": 1257,
+    "declarou_nao_confirmou": 9155,
+    "nao_declarou_confirmou": 4776,
+    "nao_nao": 56742,
+    "taxa_comprovacao": 12.1,
+    "pct_confirmacoes_automaticas": 79.2
+  },
+  "2024|29": {
+    "pontos": 0,
+    "texto": "O Candidato possui irmão matriculado na rede pública ou parceria?",
+    "declarou_confirmou": 1645,
+    "declarou_nao_confirmou": 27046,
+    "nao_declarou_confirmou": 4551,
+    "nao_nao": 49446,
+    "taxa_comprovacao": 5.7,
+    "pct_confirmacoes_automaticas": 73.5
+  },
+  "2025|29": {
+    "pontos": 0,
+    "texto": "O Candidato possui irmão matriculado na rede pública ou parceria?",
+    "declarou_confirmou": 1546,
+    "declarou_nao_confirmou": 24288,
+    "nao_declarou_confirmou": 4102,
+    "nao_nao": 41994,
+    "taxa_comprovacao": 6.0,
+    "pct_confirmacoes_automaticas": 72.6
+  },
+  "2021|1": {
+    "pontos": 0,
+    "texto": "A mãe é mãe adolescente?",
+    "declarou_confirmou": 2550,
+    "declarou_nao_confirmou": 163,
+    "nao_declarou_confirmou": 24663,
+    "nao_nao": 37783,
+    "taxa_comprovacao": 94.0,
+    "pct_confirmacoes_automaticas": 90.6
+  },
+  "2022|1": {
+    "pontos": 0,
+    "texto": "A mãe é mãe adolescente?",
+    "declarou_confirmou": 460,
+    "declarou_nao_confirmou": 1826,
+    "nao_declarou_confirmou": 14178,
+    "nao_nao": 47591,
+    "taxa_comprovacao": 20.1,
+    "pct_confirmacoes_automaticas": 96.9
+  },
+  "2023|1": {
+    "pontos": 0,
+    "texto": "A mãe é mãe adolescente?",
+    "declarou_confirmou": 292,
+    "declarou_nao_confirmou": 1601,
+    "nao_declarou_confirmou": 11447,
+    "nao_nao": 37991,
+    "taxa_comprovacao": 15.4,
+    "pct_confirmacoes_automaticas": 97.5
+  },
+  "2024|30": {
+    "pontos": 0,
+    "texto": "O Candidato possui pais ou responsáveis com idade menor que 18 anos?",
+    "declarou_confirmou": 207,
+    "declarou_nao_confirmou": 2456,
+    "nao_declarou_confirmou": 5600,
+    "nao_nao": 74425,
+    "taxa_comprovacao": 7.8,
+    "pct_confirmacoes_automaticas": 96.4
+  },
+  "2025|30": {
+    "pontos": 0,
+    "texto": "O Candidato possui pais ou responsáveis com idade menor que 18 anos?",
+    "declarou_confirmou": 156,
+    "declarou_nao_confirmou": 2060,
+    "nao_declarou_confirmou": 5096,
+    "nao_nao": 64618,
+    "taxa_comprovacao": 7.0,
+    "pct_confirmacoes_automaticas": 97.0
+  },
+  "2021|26": {
+    "pontos": 0,
+    "texto": "Possui irmão participando de processo classificatório na creche?",
+    "declarou_confirmou": 2907,
+    "declarou_nao_confirmou": 336,
+    "nao_declarou_confirmou": 17921,
+    "nao_nao": 43995,
+    "taxa_comprovacao": 89.6,
+    "pct_confirmacoes_automaticas": 86.0
+  },
+  "2022|26": {
+    "pontos": 0,
+    "texto": "Possui irmão participando de processo classificatório na creche?",
+    "declarou_confirmou": 165,
+    "declarou_nao_confirmou": 2653,
+    "nao_declarou_confirmou": 4082,
+    "nao_nao": 57155,
+    "taxa_comprovacao": 5.9,
+    "pct_confirmacoes_automaticas": 96.1
+  },
+  "2023|26": {
+    "pontos": 0,
+    "texto": "Possui irmão participando de processo classificatório na creche?",
+    "declarou_confirmou": 136,
+    "declarou_nao_confirmou": 2340,
+    "nao_declarou_confirmou": 2742,
+    "nao_nao": 46113,
+    "taxa_comprovacao": 5.5,
+    "pct_confirmacoes_automaticas": 95.3
+  }
+}

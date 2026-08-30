@@ -1,0 +1,130 @@
+{
+  "total_linhas": 837179,
+  "total_inscricoes": 343308,
+  "unidades_distintas": 872,
+  "por_ano": {
+    "2021": 198498,
+    "2022": 158122,
+    "2023": 123174,
+    "2024": 197406,
+    "2025": 159979
+  },
+  "situacao_geral": {
+    "Cancelado na confirmacao": 118816,
+    "Cancelado pelo sistema": 326316,
+    "Confirmado": 192570,
+    "Ativo": 606,
+    "Lista de espera": 178731,
+    "Selecionado": 227,
+    "Cancelado": 18722,
+    "Selecionado da lista": 1191
+  },
+  "situacao_por_ano": {
+    "2021": {
+      "Cancelado na confirmacao": 27992,
+      "Cancelado pelo sistema": 72054,
+      "Confirmado": 29166,
+      "Ativo": 333,
+      "Lista de espera": 68392,
+      "Selecionado": 69,
+      "Cancelado": 482,
+      "Selecionado da lista": 10
+    },
+    "2022": {
+      "Cancelado pelo sistema": 57294,
+      "Confirmado": 34893,
+      "Cancelado na confirmacao": 32046,
+      "Lista de espera": 33338,
+      "Selecionado da lista": 348,
+      "Cancelado": 77,
+      "Selecionado": 8,
+      "Ativo": 118
+    },
+    "2023": {
+      "Cancelado pelo sistema": 41800,
+      "Lista de espera": 29715,
+      "Confirmado": 28329,
+      "Cancelado na confirmacao": 22031,
+      "Cancelado": 935,
+      "Selecionado da lista": 234,
+      "Selecionado": 8,
+      "Ativo": 122
+    },
+    "2024": {
+      "Confirmado": 51494,
+      "Cancelado pelo sistema": 84638,
+      "Lista de espera": 30941,
+      "Cancelado na confirmacao": 18909,
+      "Cancelado": 10821,
+      "Selecionado": 73,
+      "Selecionado da lista": 508,
+      "Ativo": 22
+    },
+    "2025": {
+      "Confirmado": 48688,
+      "Cancelado pelo sistema": 70530,
+      "Cancelado": 6407,
+      "Cancelado na confirmacao": 17838,
+      "Lista de espera": 16345,
+      "Selecionado da lista": 91,
+      "Selecionado": 69,
+      "Ativo": 11
+    }
+  },
+  "vazios_por_coluna": {
+    "ano": 0,
+    "prm_id": 0,
+    "plm_id": 0,
+    "ipl_id": 0,
+    "opcao": 0,
+    "unidade": 0,
+    "nome_unidade": 0,
+    "grupamento": 0,
+    "horario": 0,
+    "data_criacao": 0,
+    "aluno_anon": 0,
+    "sexo_crianca": 0,
+    "nascimento_aluno_anomes": 0,
+    "responsavel_anon": 0,
+    "CEP": 23617,
+    "bairro": 23725,
+    "situacao": 0
+  },
+  "opcoes_por_inscricao_dist": {
+    "5": 55618,
+    "2": 68152,
+    "4": 29938,
+    "3": 56704,
+    "1": 132891,
+    "6": 5
+  },
+  "inscricoes_acima_de_5_opcoes": 5,
+  "duplicatas_de_grao": 0,
+  "h1_criancas_confirmadas": 191741,
+  "h1_vagas_travadas": 337870,
+  "h1_travadas_por_ano": {
+    "2021": 71842,
+    "2022": 58467,
+    "2023": 45097,
+    "2024": 88962,
+    "2025": 73502
+  },
+  "h1_confirmados_por_ano": {
+    "2021": 29113,
+    "2022": 34795,
+    "2023": 28199,
+    "2024": 50954,
+    "2025": 48680
+  },
+  "h1_anomalia_multi_confirmado": 741,
+  "h2_cancelado_na_confirmacao": 118816,
+  "h2_por_ano": {
+    "2021": 27992,
+    "2022": 32046,
+    "2023": 22031,
+    "2024": 18909,
+    "2025": 17838
+  },
+  "h2_criancas_sem_vaga_apos_chamada": 44041,
+  "idade_fora_da_faixa": 3
+}

@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Vaga Viva — cards do vídeo</title>
+<link rel="stylesheet" href="estilo.css">
+<style>
+  html,body{height:100%; overflow:hidden; background:var(--marca)}
+  .deck{height:100vh; width:100vw; position:relative}
+  .slide{
+    position:absolute; inset:0; display:none;
+    flex-direction:column; align-items:center; justify-content:center;
+    text-align:center; padding:40px; background:var(--marca); color:#fff;
+  }
+  .slide.ativo{display:flex}
+  .slide.clara{background:var(--fundo); color:var(--tinta)}
+  .eyebrow{
+    font-size:20px; letter-spacing:.08em; text-transform:uppercase;
+    opacity:.75; margin-bottom:18px; font-weight:600;
+  }
+  .titulo-slide{font-size:64px; font-weight:800; letter-spacing:-.02em; max-width:900px}
+  .sub-slide{font-size:24px; margin-top:20px; opacity:.85; max-width:720px}
+  .stats{display:flex; gap:64px; margin-top:8px; flex-wrap:wrap; justify-content:center}
+  .stat .v{font-size:96px; font-weight:800; line-height:1; letter-spacing:-.03em}
+  .stat p{margin-top:12px; font-size:20px; opacity:.85; max-width:320px}
+  .equipe{font-size:22px; margin-top:28px; opacity:.9}
+  .marca-nome{font-size:80px; font-weight:800; letter-spacing:-.03em}
+  .contador{
+    position:fixed; bottom:20px; right:24px; font-size:14px;
+    color:#fff; opacity:.5; font-variant-numeric:tabular-nums;
+  }
+  .ajuda{
+    position:fixed; bottom:20px; left:24px; font-size:14px;
+    color:#fff; opacity:.5;
+  }
+</style>
+</head>
+<body>
+<div class="deck">
+
+  <div class="slide ativo" data-slide="1">
+    <div class="eyebrow">Vaga Viva · Grupo 18</div>
+    <h1 class="titulo-slide">O problema</h1>
+    <p class="sub-slide">Uma em cada quatro vagas de creche se perde só na confirmação.</p>
+  </div>
+
+  <div class="slide" data-slide="2">
+    <div class="stats">
+      <div class="stat">
+        <div class="v">26,8%</div>
+        <p>das vagas oferecidas em 2025 se perderam na confirmação</p>
+      </div>
+      <div class="stat">
+        <div class="v">44.041</div>
+        <p>crianças chamadas que ficaram sem nenhuma vaga</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- corte pra: app/entrada.html → painel.html?perfil=sme (os três números + tabela) -->
+  <div class="slide" data-slide="3">
+    <div class="eyebrow">Painel · Secretaria</div>
+    <h1 class="titulo-slide">A rede inteira, numa tela</h1>
+    <p class="sub-slide">Três números e o ranking de quem mais perde vaga.</p>
+  </div>
+
+  <!-- corte pra: painel.html?perfil=unidade (a creche, e o bloco de cascata) -->
+  <div class="slide" data-slide="4">
+    <div class="eyebrow">Painel · Creche</div>
+    <h1 class="titulo-slide">A creche vê 6 casos, não 40</h1>
+    <p class="sub-slide">E a vaga que uma criança travava em outra creche volta na hora.</p>
+  </div>
+
+  <div class="slide" data-slide="5">
+    <div class="stats">
+      <div class="stat">
+        <div class="v">2,76</div>
+        <p>posições travadas em outras creches por criança matriculada</p>
+      </div>
+      <div class="stat">
+        <div class="v">337.870</div>
+        <p>vagas presas assim em 2025</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- corte pra: familia.html?token=demo-b, com o áudio tocando -->
+  <div class="slide" data-slide="6">
+    <div class="eyebrow">Ficha da família</div>
+    <h1 class="titulo-slide">É isto que a mãe recebe</h1>
+    <p class="sub-slide">Sem sigla, sem jargão — e ela pode ouvir a página.</p>
+  </div>
+
+  <!-- corte pra: agente.html -->
+  <div class="slide" data-slide="7">
+    <div class="eyebrow">Agente comunitário</div>
+    <h1 class="titulo-slide">Avisado no dia 1, não no dia 3</h1>
+    <p class="sub-slide">Quando a vaga já venceu, é tarde para o ACS ajudar.</p>
+  </div>
+
+  <div class="slide clara" data-slide="8">
+    <div class="marca-nome" style="color:var(--marca)">Vaga Viva</div>
+    <div class="equipe">Grupo 18 — Meliza Maia, Rodrigo Pita, Thiago Duque e Renata Ribeiro</div>
+  </div>
+
+</div>
+<div class="contador" id="contador">1 / 8</div>
+<div class="ajuda">← → para navegar · Espaço avança</div>
+
+<script>
+  const slides = document.querySelectorAll('.slide');
+  let atual = 0;
+  function mostrar(i){
+    slides.forEach(s => s.classList.remove('ativo'));
+    slides[i].classList.add('ativo');
+    document.getElementById('contador').textContent = (i+1) + ' / ' + slides.length;
+  }
+  document.addEventListener('keydown', e => {
+    if(e.key === 'ArrowRight' || e.key === ' '){ atual = Math.min(atual+1, slides.length-1); mostrar(atual); }
+    if(e.key === 'ArrowLeft'){ atual = Math.max(atual-1, 0); mostrar(atual); }
+  });
+  document.addEventListener('click', () => { atual = Math.min(atual+1, slides.length-1); mostrar(atual); });
+</script>
+</body>
+</html>

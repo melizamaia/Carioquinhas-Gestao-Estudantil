@@ -1,0 +1,234 @@
+/* ============================================================
+   Vaga Viva — base compartilhada
+   Uma paleta, duas densidades: painel denso, ficha rarefeita.
+   Todas as cores no :root. Trocar pelo azul oficial da
+   Prefeitura = mudar --marca e mais nada.
+   ============================================================ */
+
+:root{
+  /* marca — cor única */
+  --marca:#0B3B5C;
+  --marca-clara:#E7EEF3;
+
+  /* neutros */
+  --fundo:#F5F6F7;
+  --papel:#FFFFFF;
+  --tinta:#14171A;
+  --tinta-fraca:#4A5058;
+  --linha:#D8DBDF;
+
+  /* urgência — função, não decoração. Todas ≥7:1 sobre --fundo */
+  --urgente:#A11722;      --urgente-fundo:#FBE9EA;
+  --atencao:#7A4A00;      --atencao-fundo:#FCF0D8;
+  --ok:#1B5E32;           --ok-fundo:#E6F0E9;
+
+  /* tipografia — fonte do sistema, 0KB (requisito de 3G) */
+  --fonte: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+           "Helvetica Neue", Arial, sans-serif;
+
+  --raio:8px;
+  --toque:48px;
+}
+
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{
+  margin:0; background:var(--fundo); color:var(--tinta);
+  font-family:var(--fonte); font-size:17px; line-height:1.55;
+}
+h1,h2,h3{line-height:1.2; margin:0; letter-spacing:-.01em}
+p{margin:0}
+button{font-family:inherit; cursor:pointer}
+a{color:var(--marca)}
+:focus-visible{outline:3px solid var(--marca); outline-offset:2px}
+
+/* ---------- assinatura institucional ----------
+   Q9: brasão + assinatura em texto. O <img> aponta para o SVG
+   oficial quando alguém baixar da pasta da Prefeitura; sem ele,
+   a assinatura em texto sustenta sozinha. */
+.institucional{
+  background:var(--marca); color:#fff;
+  padding:10px 0; font-size:14px; line-height:1.3;
+}
+.institucional .dentro{
+  max-width:1080px; margin:0 auto; padding:0 20px;
+  display:flex; align-items:center; gap:12px;
+}
+.institucional img{height:28px; width:auto; display:block}
+.institucional strong{display:block; font-size:15px; font-weight:700}
+.institucional span{opacity:.85}
+.institucional .proto{
+  font-size:12px; opacity:.85;
+  border:1px solid rgba(255,255,255,.4); border-radius:4px; padding:2px 8px;
+}
+.institucional .trocar{
+  margin-left:auto; color:#fff; font-size:14px; text-decoration:underline;
+  text-underline-offset:3px;
+}
+/* .proto vem depois de .trocar; sem .trocar na página, ele mesmo empurra */
+.institucional .dentro > .proto:not(:last-child),
+.institucional .trocar ~ .proto{margin-left:0}
+.institucional .dentro > div + .proto{margin-left:auto}
+
+/* ---------- estrutura ---------- */
+.pagina{max-width:1080px; margin:0 auto; padding:0 20px 80px}
+.secao{margin-top:32px}
+
+/* ---------- botões ---------- */
+/* inline-flex para que <a class="btn"> tenha a mesma altura de um <button> */
+.btn{
+  display:inline-flex; align-items:center; justify-content:center; text-align:center;
+  min-height:var(--toque); padding:0 18px; border-radius:var(--raio);
+  font-size:16px; font-weight:600; border:2px solid var(--marca);
+  background:var(--marca); color:#fff; text-decoration:none;
+}
+.btn.sec{background:transparent; color:var(--marca)}
+.btn.perigo{background:var(--urgente); border-color:var(--urgente); color:#fff}
+.btn.neutro{background:transparent; border-color:var(--linha); color:var(--tinta-fraca)}
+.btn[disabled]{opacity:.4; cursor:not-allowed}
+/* NÃO usar .bloco aqui: dentro da ficha, .bloco é a seção (padding + borda). */
+.btn.largo{width:100%}
+
+/* ---------- cartão ---------- */
+.cartao{
+  background:var(--papel); border:1px solid var(--linha);
+  border-radius:var(--raio); padding:18px 20px;
+}
+
+/* ---------- selo ---------- */
+.selo{
+  display:inline-block; font-size:14px; font-weight:600;
+  padding:4px 10px; border-radius:5px;
+  border:1px solid var(--linha); background:var(--fundo); color:var(--tinta-fraca);
+}
+.selo.urgente{color:var(--urgente); background:var(--urgente-fundo); border-color:#E4BFC2}
+.selo.atencao{color:var(--atencao); background:var(--atencao-fundo); border-color:#DFC79A}
+.selo.ok{color:var(--ok); background:var(--ok-fundo); border-color:#A8C7B2}
+.selo.marca{color:var(--marca); background:var(--marca-clara); border-color:#B6CBD9}
+
+/* ---------- nota metodológica ---------- */
+.nota{
+  border-left:4px solid var(--marca); background:var(--marca-clara);
+  padding:14px 16px; border-radius:0 var(--raio) var(--raio) 0;
+  font-size:15px; color:var(--tinta-fraca);
+}
+.nota b{color:var(--tinta)}
+
+/* ============================================================
+   DENSIDADE 1 — painel e agente (informacional)
+   ============================================================ */
+.titulo-pagina{font-size:28px; margin-top:24px}
+.subtitulo{color:var(--tinta-fraca); font-size:16px; margin-top:6px}
+
+.abas{display:flex; gap:8px; flex-wrap:wrap; margin-top:20px}
+.abas button{
+  min-height:44px; padding:0 16px; border:1px solid var(--linha);
+  background:var(--papel); color:var(--tinta-fraca);
+  border-radius:var(--raio); font-size:16px;
+}
+.abas button[aria-current="true"]{
+  border-color:var(--marca); color:var(--marca); font-weight:700;
+  box-shadow:inset 0 0 0 1px var(--marca);
+}
+
+.numeros{display:grid; grid-template-columns:1.6fr 1fr 1fr; gap:16px}
+@media (max-width:820px){.numeros{grid-template-columns:1fr}}
+.numero .v{font-size:42px; font-weight:800; line-height:1; letter-spacing:-.02em}
+.numero.forte .v{font-size:56px; color:var(--marca)}
+.numero p{margin-top:8px; font-size:15px; color:var(--tinta-fraca)}
+
+.contagem{
+  display:flex; align-items:center; gap:10px; padding:12px 16px;
+  background:var(--ok-fundo); border:1px solid #A8C7B2; border-radius:var(--raio);
+  color:var(--ok); font-weight:600; font-size:16px;
+}
+/* verde = "nada a fazer". Para contar trabalho pendente, use .neutra. */
+.contagem.neutra{
+  background:var(--papel); border-color:var(--linha); color:var(--tinta);
+}
+
+.pilha{display:flex; flex-direction:column; gap:14px}
+
+/* cartão de exceção: o motivo é o título (Q13) */
+.excecao{
+  background:var(--papel); border:1px solid var(--linha);
+  border-left:6px solid var(--linha); border-radius:var(--raio);
+  padding:18px 20px; display:grid; grid-template-columns:1fr auto;
+  gap:16px; align-items:center;
+}
+@media (max-width:720px){.excecao{grid-template-columns:1fr}}
+.excecao.e-urgente{border-left-color:var(--urgente)}
+.excecao.e-atencao{border-left-color:var(--atencao)}
+.excecao.e-marca{border-left-color:var(--marca)}
+.excecao .motivo{font-size:20px; font-weight:700}
+.excecao .quem{font-size:15px; color:var(--tinta-fraca); margin-top:4px}
+.excecao .linha-extra{margin-top:10px; display:flex; gap:8px; flex-wrap:wrap; align-items:center}
+.excecao .fone{font-size:16px; font-weight:600; color:var(--marca)}
+.excecao .acoes{display:flex; flex-direction:column; gap:8px; min-width:210px}
+@media (max-width:720px){.excecao .acoes{min-width:0}}
+
+/* rastro de tentativas */
+.rastro{display:flex; align-items:center; gap:7px; font-size:14px; color:var(--tinta-fraca)}
+.ponto{width:12px; height:12px; flex:0 0 12px; border-radius:50%; border:2px solid var(--tinta-fraca)}
+.ponto.cheio{background:var(--tinta-fraca)}
+.ponto.vazio{opacity:.3}
+
+/* tabela de ranking (visão CRE e SME) */
+.tabela{width:100%; border-collapse:collapse; background:var(--papel);
+  border:1px solid var(--linha); border-radius:var(--raio); overflow:hidden}
+.tabela th,.tabela td{padding:12px 14px; text-align:left; font-size:15px;
+  border-bottom:1px solid var(--linha)}
+.tabela th{background:var(--fundo); font-size:14px; text-transform:uppercase;
+  letter-spacing:.05em; color:var(--tinta-fraca)}
+.tabela tr:last-child td{border-bottom:0}
+.tabela td.num{text-align:right; font-variant-numeric:tabular-nums; font-weight:600}
+.rolagem{overflow-x:auto}
+
+/* ============================================================
+   DENSIDADE 2 — ficha da família (rarefeita, 360px)
+   corpo 20px · chave 30px · título 34px · toque 56px
+   ============================================================ */
+.ficha{
+  max-width:420px; margin:0 auto; background:var(--papel);
+  min-height:100vh; padding:24px 20px 40px; font-size:20px; line-height:1.5;
+}
+.ficha .bloco{padding:24px 0; border-bottom:1px solid var(--linha)}
+.ficha .bloco:last-child{border-bottom:0}
+/* bloco dentro de bloco não repete moldura — senão sobram linhas soltas */
+.ficha .bloco .bloco{padding:0; border-bottom:0}
+.ficha .bloco .bloco + .bloco{padding-top:20px}
+.ficha h1{font-size:34px}
+.ficha .rotulo{font-size:16px; color:var(--tinta-fraca); margin-bottom:6px}
+.ficha .chave{font-size:30px; font-weight:800; line-height:1.15}
+.ficha .btn{font-size:19px; min-height:56px}
+
+/* prova anti-golpe: o sistema sabe algo que só ele saberia (Q9) */
+.prova{
+  background:var(--marca-clara); border-radius:var(--raio);
+  padding:12px 14px; font-size:17px; color:var(--tinta-fraca);
+}
+
+.ouvir{
+  display:flex; align-items:center; justify-content:center; gap:10px;
+  width:100%; min-height:56px; margin-top:16px;
+  border:2px solid var(--marca); background:transparent; color:var(--marca);
+  border-radius:var(--raio); font-size:19px; font-weight:700;
+}
+
+.origem{
+  background:var(--ok-fundo); border-radius:var(--raio);
+  padding:12px 14px; font-size:18px; color:var(--ok); font-weight:600;
+}
+.origem small{display:block; font-weight:400; color:var(--tinta-fraca);
+  font-size:14px; margin-top:4px; line-height:1.4}
+
+.prazo-forte{color:var(--urgente); font-size:30px; font-weight:800}
+
+.levar{list-style:none; margin:14px 0 0; padding:0}
+.levar li{display:flex; gap:14px; align-items:flex-start; padding:12px 0; font-size:19px}
+.levar .ic{font-size:28px; line-height:1}
+
+/* a decisão: Sim e Não do mesmo peso (Q1, passo 1) */
+.decisao{display:flex; flex-direction:column; gap:12px; margin-top:8px}
+
+.oculto{display:none}

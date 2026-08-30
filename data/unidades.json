@@ -1,0 +1,8 @@
+[
+  { "id": "02.22.001", "nome": "EDI Vila Isabel",           "cre": "2.2", "bairro": "Vila Isabel",  "microarea": "AP2.2-014" },
+  { "id": "02.22.007", "nome": "CM Raízes do Salgueiro",    "cre": "2.2", "bairro": "Tijuca",       "microarea": "AP2.2-003" },
+  { "id": "02.22.019", "nome": "CM Direitos Humanos",       "cre": "2.2", "bairro": "Andaraí",      "microarea": "AP2.2-021" },
+  { "id": "05.11.004", "nome": "EDI Realengo",              "cre": "5.1", "bairro": "Realengo",     "microarea": "AP5.1-008" },
+  { "id": "05.11.012", "nome": "CM Tia Auta",               "cre": "5.1", "bairro": "Bangu",        "microarea": "AP5.1-002" },
+  { "id": "05.11.030", "nome": "CP Creche Giz Colorido",    "cre": "5.1", "bairro": "Padre Miguel", "microarea": "AP5.1-011" }
+]

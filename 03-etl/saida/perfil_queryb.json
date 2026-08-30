@@ -1,0 +1,424 @@
+{
+  "total_linhas_queryb": 4357119,
+  "sem_correspondencia": 221,
+  "combinacoes_resposta_confirmado": {
+    "Nao|Nao": 3474194,
+    "Nao|Sim": 472047,
+    "Sim|Sim": 69618,
+    "Sim|Nao": 341260
+  },
+  "taxa_comprovacao": {
+    "2021|1": {
+      "declarou": 2713,
+      "comprovou": 2550,
+      "pontos": 0,
+      "texto": "A mãe é mãe adolescente?"
+    },
+    "2021|11": {
+      "declarou": 17754,
+      "comprovou": 15887,
+      "pontos": 100,
+      "texto": "Faz parte do programa bolsa família?"
+    },
+    "2021|12": {
+      "declarou": 3977,
+      "comprovou": 3539,
+      "pontos": 5,
+      "texto": "Existe algum membro do núcleo familiar que é presidiário ou ex-presidiário nos últimos 5 anos?"
+    },
+    "2021|2": {
+      "declarou": 872,
+      "comprovou": 774,
+      "pontos": 100,
+      "texto": "A criança tem alguma deficiência?"
+    },
+    "2021|21": {
+      "declarou": 1068,
+      "comprovou": 916,
+      "pontos": 100,
+      "texto": "A criança pertence ao Programa Territórios Sociais?"
+    },
+    "2021|23": {
+      "declarou": 160,
+      "comprovou": 139,
+      "pontos": 10,
+      "texto": "O candidato é refugiado?"
+    },
+    "2021|24": {
+      "declarou": 2284,
+      "comprovou": 2067,
+      "pontos": 10,
+      "texto": "Candidato tem pais ou responsáveis com idade igual ou superior a sessenta anos ?"
+    },
+    "2021|25": {
+      "declarou": 738,
+      "comprovou": 661,
+      "pontos": 10,
+      "texto": "Candidato tem pais ou responsáveis deficientes ?"
+    },
+    "2021|26": {
+      "declarou": 3243,
+      "comprovou": 2907,
+      "pontos": 0,
+      "texto": "Possui irmão participando de processo classificatório na creche?"
+    },
+    "2021|3": {
+      "declarou": 2517,
+      "comprovou": 1979,
+      "pontos": 100,
+      "texto": "Possui Cartão Carioca?"
+    },
+    "2021|7": {
+      "declarou": 3075,
+      "comprovou": 2743,
+      "pontos": 10,
+      "texto": "A criança tem déficit nutricional ou doença crônica ou familiar com doença crônica?"
+    },
+    "2021|8": {
+      "declarou": 1686,
+      "comprovou": 1486,
+      "pontos": 10,
+      "texto": "Já ocorreu alguma situação de violência na residência da criança praticado por algum membro do núcleo familiar?"
+    },
+    "2021|9": {
+      "declarou": 3746,
+      "comprovou": 3299,
+      "pontos": 10,
+      "texto": "Existe algum membro do núcleo familiar que faz uso de drogas ou é alcoólatra?"
+    },
+    "2022|1": {
+      "declarou": 2286,
+      "comprovou": 460,
+      "pontos": 0,
+      "texto": "A mãe é mãe adolescente?"
+    },
+    "2022|10": {
+      "declarou": 3896,
+      "comprovou": 422,
+      "pontos": 5,
+      "texto": "Existe algum membro do núcleo familiar que é presidiário ou ex-presidiário?"
+    },
+    "2022|11": {
+      "declarou": 15444,
+      "comprovou": 1296,
+      "pontos": 100,
+      "texto": "Faz parte do programa bolsa família?"
+    },
+    "2022|2": {
+      "declarou": 1074,
+      "comprovou": 185,
+      "pontos": 100,
+      "texto": "A criança tem alguma deficiência?"
+    },
+    "2022|21": {
+      "declarou": 863,
+      "comprovou": 85,
+      "pontos": 100,
+      "texto": "A criança pertence ao Programa Territórios Sociais?"
+    },
+    "2022|23": {
+      "declarou": 154,
+      "comprovou": 13,
+      "pontos": 10,
+      "texto": "O candidato é refugiado?"
+    },
+    "2022|24": {
+      "declarou": 1893,
+      "comprovou": 101,
+      "pontos": 10,
+      "texto": "Candidato tem pais ou responsáveis com idade igual ou superior a sessenta anos ?"
+    },
+    "2022|25": {
+      "declarou": 693,
+      "comprovou": 62,
+      "pontos": 10,
+      "texto": "Candidato tem pais ou responsáveis deficientes ?"
+    },
+    "2022|26": {
+      "declarou": 2818,
+      "comprovou": 165,
+      "pontos": 0,
+      "texto": "Possui irmão participando de processo classificatório na creche?"
+    },
+    "2022|3": {
+      "declarou": 2381,
+      "comprovou": 269,
+      "pontos": 100,
+      "texto": "Possui Cartão Carioca?"
+    },
+    "2022|7": {
+      "declarou": 2724,
+      "comprovou": 423,
+      "pontos": 10,
+      "texto": "A criança tem déficit nutricional ou doença crônica ou familiar com doença crônica?"
+    },
+    "2022|8": {
+      "declarou": 1610,
+      "comprovou": 310,
+      "pontos": 10,
+      "texto": "Já ocorreu alguma situação de violência na residência da criança praticado por algum membro do núcleo familiar?"
+    },
+    "2022|9": {
+      "declarou": 3263,
+      "comprovou": 423,
+      "pontos": 10,
+      "texto": "Existe algum membro do núcleo familiar que faz uso de drogas ou é alcoólatra?"
+    },
+    "2023|1": {
+      "declarou": 1893,
+      "comprovou": 292,
+      "pontos": 0,
+      "texto": "A mãe é mãe adolescente?"
+    },
+    "2023|11": {
+      "declarou": 22743,
+      "comprovou": 1419,
+      "pontos": 100,
+      "texto": "Faz parte do programa bolsa família?"
+    },
+    "2023|12": {
+      "declarou": 2947,
+      "comprovou": 292,
+      "pontos": 5,
+      "texto": "Existe algum membro do núcleo familiar que é presidiário ou ex-presidiário nos últimos 5 anos?"
+    },
+    "2023|2": {
+      "declarou": 1056,
+      "comprovou": 136,
+      "pontos": 100,
+      "texto": "A criança tem alguma deficiência?"
+    },
+    "2023|21": {
+      "declarou": 934,
+      "comprovou": 54,
+      "pontos": 100,
+      "texto": "A criança pertence ao Programa Territórios Sociais?"
+    },
+    "2023|23": {
+      "declarou": 168,
+      "comprovou": 17,
+      "pontos": 10,
+      "texto": "O candidato é refugiado?"
+    },
+    "2023|24": {
+      "declarou": 1645,
+      "comprovou": 78,
+      "pontos": 10,
+      "texto": "Candidato tem pais ou responsáveis com idade igual ou superior a sessenta anos ?"
+    },
+    "2023|25": {
+      "declarou": 646,
+      "comprovou": 71,
+      "pontos": 10,
+      "texto": "Candidato tem pais ou responsáveis deficientes ?"
+    },
+    "2023|26": {
+      "declarou": 2476,
+      "comprovou": 136,
+      "pontos": 0,
+      "texto": "Possui irmão participando de processo classificatório na creche?"
+    },
+    "2023|3": {
+      "declarou": 2747,
+      "comprovou": 304,
+      "pontos": 100,
+      "texto": "Possui Cartão Carioca?"
+    },
+    "2023|7": {
+      "declarou": 2387,
+      "comprovou": 378,
+      "pontos": 10,
+      "texto": "A criança tem déficit nutricional ou doença crônica ou familiar com doença crônica?"
+    },
+    "2023|8": {
+      "declarou": 1406,
+      "comprovou": 282,
+      "pontos": 10,
+      "texto": "Já ocorreu alguma situação de violência na residência da criança praticado por algum membro do núcleo familiar?"
+    },
+    "2023|9": {
+      "declarou": 2858,
+      "comprovou": 381,
+      "pontos": 10,
+      "texto": "Existe algum membro do núcleo familiar que faz uso de drogas ou é alcoólatra?"
+    },
+    "2024|10": {
+      "declarou": 4955,
+      "comprovou": 490,
+      "pontos": 2,
+      "texto": "Existe algum membro do núcleo familiar que é presidiário ou ex-presidiário?"
+    },
+    "2024|16": {
+      "declarou": 3501,
+      "comprovou": 499,
+      "pontos": 10,
+      "texto": "Existe algum membro do núcleo familiar que faz uso abusivo de drogas e/ou alcoól?"
+    },
+    "2024|17": {
+      "declarou": 1486,
+      "comprovou": 367,
+      "pontos": 10,
+      "texto": "A criança e/ou familiar do seu convívio diário é vitima de violência doméstica?"
+    },
+    "2024|18": {
+      "declarou": 4410,
+      "comprovou": 639,
+      "pontos": 3,
+      "texto": "A criança e/ou alguém do núcleo familiar apresentam doenças crônicas graves?"
+    },
+    "2024|2": {
+      "declarou": 1654,
+      "comprovou": 238,
+      "pontos": 25,
+      "texto": "A criança tem alguma deficiência?"
+    },
+    "2024|20": {
+      "declarou": 11273,
+      "comprovou": 1012,
+      "pontos": 2,
+      "texto": "A criança pertence a família monoparental?"
+    },
+    "2024|23": {
+      "declarou": 571,
+      "comprovou": 46,
+      "pontos": 5,
+      "texto": "O candidato é refugiado?"
+    },
+    "2024|25": {
+      "declarou": 1163,
+      "comprovou": 121,
+      "pontos": 2,
+      "texto": "Candidato tem pais ou responsáveis deficientes ?"
+    },
+    "2024|27": {
+      "declarou": 10732,
+      "comprovou": 622,
+      "pontos": 1,
+      "texto": "Criança aguardou em fila de espera no ano anterior sem ter sido atendida?"
+    },
+    "2024|28": {
+      "declarou": 38234,
+      "comprovou": 2949,
+      "pontos": 25,
+      "texto": "Criança cuja família seja inscrita no CadÚnico (Cadastro Único para Programas Sociais)?"
+    },
+    "2024|29": {
+      "declarou": 28691,
+      "comprovou": 1645,
+      "pontos": 0,
+      "texto": "O Candidato possui irmão matriculado na rede pública ou parceria?"
+    },
+    "2024|30": {
+      "declarou": 2663,
+      "comprovou": 207,
+      "pontos": 0,
+      "texto": "O Candidato possui pais ou responsáveis com idade menor que 18 anos?"
+    },
+    "2024|6": {
+      "declarou": 43033,
+      "comprovou": 3263,
+      "pontos": 15,
+      "texto": "Faz parte do programa bolsa família ou possui Cartão Carioca?"
+    },
+    "2025|12": {
+      "declarou": 3791,
+      "comprovou": 374,
+      "pontos": 2,
+      "texto": "Existe algum membro do núcleo familiar que é presidiário ou ex-presidiário nos últimos 5 anos?"
+    },
+    "2025|16": {
+      "declarou": 3039,
+      "comprovou": 363,
+      "pontos": 2,
+      "texto": "Existe algum membro do núcleo familiar que faz uso abusivo de drogas e/ou alcoól?"
+    },
+    "2025|17": {
+      "declarou": 1228,
+      "comprovou": 224,
+      "pontos": 4,
+      "texto": "A criança e/ou familiar do seu convívio diário é vitima de violência doméstica?"
+    },
+    "2025|18": {
+      "declarou": 3740,
+      "comprovou": 501,
+      "pontos": 3,
+      "texto": "A criança e/ou alguém do núcleo familiar apresentam doenças crônicas graves?"
+    },
+    "2025|20": {
+      "declarou": 9355,
+      "comprovou": 866,
+      "pontos": 4,
+      "texto": "A criança pertence a família monoparental?"
+    },
+    "2025|23": {
+      "declarou": 580,
+      "comprovou": 36,
+      "pontos": 2,
+      "texto": "O candidato é refugiado?"
+    },
+    "2025|25": {
+      "declarou": 1135,
+      "comprovou": 121,
+      "pontos": 3,
+      "texto": "Candidato tem pais ou responsáveis deficientes ?"
+    },
+    "2025|27": {
+      "declarou": 10412,
+      "comprovou": 1257,
+      "pontos": 2,
+      "texto": "Criança aguardou em fila de espera no ano anterior sem ter sido atendida?"
+    },
+    "2025|28": {
+      "declarou": 35141,
+      "comprovou": 2390,
+      "pontos": 51,
+      "texto": "Criança cuja família seja inscrita no CadÚnico (Cadastro Único para Programas Sociais)?"
+    },
+    "2025|29": {
+      "declarou": 25834,
+      "comprovou": 1546,
+      "pontos": 0,
+      "texto": "O Candidato possui irmão matriculado na rede pública ou parceria?"
+    },
+    "2025|30": {
+      "declarou": 2216,
+      "comprovou": 156,
+      "pontos": 0,
+      "texto": "O Candidato possui pais ou responsáveis com idade menor que 18 anos?"
+    },
+    "2025|31": {
+      "declarou": 1664,
+      "comprovou": 221,
+      "pontos": 25,
+      "texto": "A criança é público-alvo da educação especial?"
+    },
+    "2025|6": {
+      "declarou": 33539,
+      "comprovou": 2464,
+      "pontos": 2,
+      "texto": "Faz parte do programa bolsa família ou possui Cartão Carioca?"
+    }
+  },
+  "desfecho_por_faixa_comprovacao": {
+    "comprovou_tudo": {
+      "outro": 3938,
+      "matriculou": 24044,
+      "perdeu_na_confirmacao": 5591,
+      "lista_de_espera": 4246,
+      "sem_desfecho": 1
+    },
+    "nao_comprovou_nada": {
+      "outro": 18771,
+      "matriculou": 96531,
+      "perdeu_na_confirmacao": 22668,
+      "lista_de_espera": 19404,
+      "sem_desfecho": 15
+    },
+    "comprovou_em_parte": {
+      "matriculou": 1906,
+      "outro": 232,
+      "perdeu_na_confirmacao": 243,
+      "lista_de_espera": 386
+    }
+  }
+}

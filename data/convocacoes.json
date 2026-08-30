@@ -1,0 +1,392 @@
+[
+  {
+    "token": "demo-a",
+    "aluno_anon": "3391-C",
+    "crianca": "Criança 3391-C",
+    "unidade_id": "05.11.012",
+    "grupamento": "Berçário I",
+    "turno": "Integral",
+    "prazo_em": "2026-08-30",
+    "estado": "matriculada",
+    "excecao": null,
+    "aberta_em": "2026-08-29T08:12:00-03:00",
+    "respondida_em": "2026-08-29T08:15:00-03:00",
+    "resposta": "vou",
+    "data_escolhida": null,
+    "pontuacao_declarada": 51,
+    "verificado_na_origem": [
+      "cadunico"
+    ],
+    "documentos_faltando": [],
+    "posicao_faixa": "entre as 10 primeiras",
+    "contato": "98xxx-1201",
+    "inscrita_em": "2026-03-12",
+    "tentativas": [
+      {
+        "canal": "whatsapp",
+        "em": "2026-08-29T08:00:00-03:00",
+        "resultado": "sem_resposta"
+      }
+    ],
+    "acionamento_territorial": {
+      "em": "2026-08-29T08:00:00-03:00",
+      "microarea": "AP5.1-002",
+      "estado": "acionada"
+    },
+    "outras_posicoes": 4,
+    "posicoes_devolvidas": 4,
+    "datas_oferecidas": [
+      "2026-09-01",
+      "2026-09-02",
+      "2026-09-03"
+    ]
+  },
+  {
+    "token": "demo-b",
+    "aluno_anon": "8842-B",
+    "crianca": "Criança 8842-B",
+    "unidade_id": "02.22.001",
+    "grupamento": "Berçário II",
+    "turno": "Integral",
+    "prazo_em": "2026-09-04",
+    "estado": "aguardando",
+    "excecao": "abriu_sem_resposta",
+    "aberta_em": "2026-08-30T09:04:00-03:00",
+    "respondida_em": null,
+    "resposta": null,
+    "data_escolhida": null,
+    "pontuacao_declarada": 51,
+    "verificado_na_origem": [
+      "cadunico"
+    ],
+    "documentos_faltando": [
+      "certidao_nascimento",
+      "caderneta_vacinacao",
+      "comprovante_residencia"
+    ],
+    "posicao_faixa": "entre as 30 primeiras",
+    "contato": "98xxx-4477",
+    "inscrita_em": "2026-03-12",
+    "tentativas": [
+      {
+        "canal": "whatsapp",
+        "em": "2026-08-28T10:00:00-03:00",
+        "resultado": "sem_resposta"
+      },
+      {
+        "canal": "sms",
+        "em": "2026-08-29T16:20:00-03:00",
+        "resultado": "sem_resposta"
+      }
+    ],
+    "acionamento_territorial": {
+      "em": "2026-08-28T10:00:00-03:00",
+      "microarea": "AP2.2-014",
+      "estado": "acionada"
+    },
+    "outras_posicoes": 2,
+    "posicoes_devolvidas": 0,
+    "datas_oferecidas": [
+      "2026-09-08",
+      "2026-09-09",
+      "2026-09-10"
+    ]
+  },
+  {
+    "token": "demo-c",
+    "aluno_anon": "5107-A",
+    "crianca": "Criança 5107-A",
+    "unidade_id": "02.22.007",
+    "grupamento": "Maternal I",
+    "turno": "Parcial manhã",
+    "prazo_em": "2026-08-30",
+    "estado": "aguardando",
+    "excecao": "nao_abriu",
+    "aberta_em": null,
+    "respondida_em": null,
+    "resposta": null,
+    "data_escolhida": null,
+    "pontuacao_declarada": 27,
+    "verificado_na_origem": [],
+    "documentos_faltando": [
+      "certidao_nascimento",
+      "caderneta_vacinacao"
+    ],
+    "posicao_faixa": "entre as 50 primeiras",
+    "contato": "98xxx-9032",
+    "inscrita_em": "2026-03-04",
+    "tentativas": [
+      {
+        "canal": "whatsapp",
+        "em": "2026-08-27T09:10:00-03:00",
+        "resultado": "sem_resposta"
+      },
+      {
+        "canal": "telefone",
+        "em": "2026-08-28T14:40:00-03:00",
+        "resultado": "nao_atendeu"
+      },
+      {
+        "canal": "sms",
+        "em": "2026-08-29T16:20:00-03:00",
+        "resultado": "sem_resposta"
+      }
+    ],
+    "acionamento_territorial": {
+      "em": "2026-08-27T09:10:00-03:00",
+      "microarea": "AP2.2-003",
+      "estado": "acionada"
+    },
+    "outras_posicoes": 4,
+    "posicoes_devolvidas": 0,
+    "datas_oferecidas": [
+      "2026-09-01",
+      "2026-09-02",
+      "2026-09-03"
+    ]
+  },
+  {
+    "token": "demo-d",
+    "aluno_anon": "7724-D",
+    "crianca": "Criança 7724-D",
+    "unidade_id": "05.11.004",
+    "grupamento": "Maternal II",
+    "turno": "Integral",
+    "prazo_em": "2026-09-02",
+    "estado": "aguardando",
+    "excecao": "pediu_data",
+    "aberta_em": "2026-08-29T19:31:00-03:00",
+    "respondida_em": "2026-08-29T19:36:00-03:00",
+    "resposta": "outra_data",
+    "data_escolhida": "2026-09-03",
+    "pontuacao_declarada": 38,
+    "verificado_na_origem": [
+      "cadunico"
+    ],
+    "documentos_faltando": [
+      "comprovante_residencia"
+    ],
+    "posicao_faixa": "entre as 30 primeiras",
+    "contato": "98xxx-2288",
+    "inscrita_em": "2026-02-28",
+    "tentativas": [
+      {
+        "canal": "whatsapp",
+        "em": "2026-08-29T09:00:00-03:00",
+        "resultado": "entregue"
+      }
+    ],
+    "acionamento_territorial": {
+      "em": "2026-08-29T09:00:00-03:00",
+      "microarea": "AP5.1-008",
+      "estado": "acionada"
+    },
+    "outras_posicoes": 1,
+    "posicoes_devolvidas": 0,
+    "datas_oferecidas": [
+      "2026-09-03",
+      "2026-09-04",
+      "2026-09-05"
+    ]
+  },
+  {
+    "token": "demo-e",
+    "aluno_anon": "2210-E",
+    "crianca": "Criança 2210-E",
+    "unidade_id": "02.22.019",
+    "grupamento": "Berçário II",
+    "turno": "Integral",
+    "prazo_em": "2026-09-01",
+    "estado": "aguardando",
+    "excecao": "recusou",
+    "aberta_em": "2026-08-30T07:45:00-03:00",
+    "respondida_em": "2026-08-30T07:47:00-03:00",
+    "resposta": "nao_vou",
+    "data_escolhida": null,
+    "pontuacao_declarada": 12,
+    "verificado_na_origem": [],
+    "documentos_faltando": [],
+    "posicao_faixa": "entre as 80 primeiras",
+    "contato": "98xxx-6614",
+    "inscrita_em": "2026-03-19",
+    "tentativas": [
+      {
+        "canal": "whatsapp",
+        "em": "2026-08-30T07:30:00-03:00",
+        "resultado": "entregue"
+      }
+    ],
+    "acionamento_territorial": {
+      "em": "2026-08-30T07:30:00-03:00",
+      "microarea": "AP2.2-021",
+      "estado": "acionada"
+    },
+    "outras_posicoes": 3,
+    "posicoes_devolvidas": 0,
+    "datas_oferecidas": [
+      "2026-09-04",
+      "2026-09-05",
+      "2026-09-08"
+    ]
+  },
+  {
+    "token": "demo-f",
+    "aluno_anon": "6693-F",
+    "crianca": "Criança 6693-F",
+    "unidade_id": "05.11.030",
+    "grupamento": "Maternal I",
+    "turno": "Parcial tarde",
+    "prazo_em": "2026-08-30",
+    "estado": "aguardando",
+    "excecao": "vencendo_hoje",
+    "aberta_em": "2026-08-28T21:02:00-03:00",
+    "respondida_em": null,
+    "resposta": null,
+    "data_escolhida": null,
+    "pontuacao_declarada": 44,
+    "verificado_na_origem": [
+      "cadunico"
+    ],
+    "documentos_faltando": [
+      "caderneta_vacinacao"
+    ],
+    "posicao_faixa": "entre as 20 primeiras",
+    "contato": "98xxx-3350",
+    "inscrita_em": "2026-03-08",
+    "tentativas": [
+      {
+        "canal": "whatsapp",
+        "em": "2026-08-28T09:00:00-03:00",
+        "resultado": "entregue"
+      },
+      {
+        "canal": "telefone",
+        "em": "2026-08-29T11:15:00-03:00",
+        "resultado": "nao_atendeu"
+      },
+      {
+        "canal": "sms",
+        "em": "2026-08-30T08:00:00-03:00",
+        "resultado": "sem_resposta"
+      }
+    ],
+    "acionamento_territorial": {
+      "em": "2026-08-28T09:00:00-03:00",
+      "microarea": "AP5.1-011",
+      "estado": "em_busca_ativa"
+    },
+    "outras_posicoes": 2,
+    "posicoes_devolvidas": 0,
+    "datas_oferecidas": [
+      "2026-09-01",
+      "2026-09-02",
+      "2026-09-03"
+    ]
+  },
+  {
+    "token": "demo-g",
+    "aluno_anon": "4418-G",
+    "crianca": "Criança 4418-G",
+    "unidade_id": "02.22.001",
+    "grupamento": "Berçário I",
+    "turno": "Integral",
+    "prazo_em": "2026-09-04",
+    "estado": "respondeu_vou",
+    "excecao": null,
+    "aberta_em": "2026-08-29T13:20:00-03:00",
+    "respondida_em": "2026-08-29T13:22:00-03:00",
+    "resposta": "vou",
+    "data_escolhida": null,
+    "pontuacao_declarada": 51,
+    "verificado_na_origem": [
+      "cadunico"
+    ],
+    "documentos_faltando": [
+      "certidao_nascimento"
+    ],
+    "posicao_faixa": "entre as 10 primeiras",
+    "contato": "98xxx-7712",
+    "inscrita_em": "2026-03-01",
+    "tentativas": [
+      {
+        "canal": "whatsapp",
+        "em": "2026-08-29T09:00:00-03:00",
+        "resultado": "entregue"
+      }
+    ],
+    "acionamento_territorial": {
+      "em": "2026-08-29T09:00:00-03:00",
+      "microarea": "AP2.2-014",
+      "estado": "acionada"
+    },
+    "outras_posicoes": 0,
+    "posicoes_devolvidas": 0,
+    "datas_oferecidas": [
+      "2026-09-04",
+      "2026-09-05",
+      "2026-09-08"
+    ]
+  },
+  {
+    "token": null,
+    "aluno_anon": "9902-H",
+    "crianca": "Criança 9902-H",
+    "unidade_id": "02.22.001",
+    "grupamento": "Berçário II",
+    "turno": "Integral",
+    "prazo_em": null,
+    "estado": "proposta",
+    "excecao": "pronta_para_convocar",
+    "aberta_em": null,
+    "respondida_em": null,
+    "resposta": null,
+    "data_escolhida": null,
+    "pontuacao_declarada": 51,
+    "verificado_na_origem": [
+      "cadunico"
+    ],
+    "documentos_faltando": [],
+    "posicao_faixa": "entre as 10 primeiras",
+    "contato": "98xxx-8890",
+    "inscrita_em": "2026-03-15",
+    "tentativas": [],
+    "acionamento_territorial": null,
+    "outras_posicoes": 2,
+    "posicoes_devolvidas": 0,
+    "origem_devolucao": "cascata",
+    "datas_oferecidas": [],
+    "origem_aluno": "3391-C",
+    "origem_unidade": "CM Tia Auta"
+  },
+  {
+    "token": null,
+    "aluno_anon": "1175-I",
+    "crianca": "Criança 1175-I",
+    "unidade_id": "02.22.001",
+    "grupamento": "Berçário II",
+    "turno": "Integral",
+    "prazo_em": null,
+    "estado": "proposta",
+    "excecao": "pronta_para_convocar",
+    "aberta_em": null,
+    "respondida_em": null,
+    "resposta": null,
+    "data_escolhida": null,
+    "pontuacao_declarada": 44,
+    "verificado_na_origem": [
+      "cadunico"
+    ],
+    "documentos_faltando": [],
+    "posicao_faixa": "entre as 20 primeiras",
+    "contato": "98xxx-5541",
+    "inscrita_em": "2026-03-21",
+    "tentativas": [],
+    "acionamento_territorial": null,
+    "outras_posicoes": 1,
+    "posicoes_devolvidas": 0,
+    "origem_devolucao": "cascata",
+    "datas_oferecidas": [],
+    "origem_aluno": "3391-C",
+    "origem_unidade": "CM Tia Auta"
+  }
+]

@@ -1,0 +1,132 @@
+{
+  "meta": {
+    "ano": 2025,
+    "gerado_em": "2026-08-30T16:54:35+00:00",
+    "modelo": "claude-opus-4-8",
+    "system_prompt": "Reescreva textos de formulário público para uma mãe com baixa escolaridade. Frases de no máximo 12 palavras. Zero siglas. Zero jargão. Voz ativa, segunda pessoa. Números em algarismo. Responda apenas com o texto reescrito.",
+    "nota": "Textos reescritos via Claude API em build. Pares antes/depois."
+  },
+  "itens": [
+    {
+      "chave": "criterio_1",
+      "categoria": "criterio",
+      "pontos": 51,
+      "original": "Criança cuja família seja inscrita no CadÚnico (Cadastro Único para Programas Sociais)?",
+      "reescrito": "Sua família está inscrita no Cadastro Único?\n\nO Cadastro Único é uma lista do governo.\n\nEle ajuda famílias a receber programas sociais."
+    },
+    {
+      "chave": "criterio_2",
+      "categoria": "criterio",
+      "pontos": 25,
+      "original": "A criança é público-alvo da educação especial?",
+      "reescrito": "Sua filha ou seu filho tem deficiência?"
+    },
+    {
+      "chave": "criterio_3",
+      "categoria": "criterio",
+      "pontos": 2,
+      "original": "Faz parte do programa bolsa família ou possui Cartão Carioca?",
+      "reescrito": "Você recebe o Bolsa Família? Você tem o Cartão Carioca?"
+    },
+    {
+      "chave": "criterio_4",
+      "categoria": "criterio",
+      "pontos": 4,
+      "original": "A criança e/ou familiar do seu convívio diário é vitima de violência doméstica?",
+      "reescrito": "Alguém da sua casa bate em você ou na criança?"
+    },
+    {
+      "chave": "criterio_5",
+      "categoria": "criterio",
+      "pontos": 4,
+      "original": "A criança pertence a família monoparental?",
+      "reescrito": "Você cria seu filho sozinha, sem a ajuda de um parceiro?"
+    },
+    {
+      "chave": "criterio_6",
+      "categoria": "criterio",
+      "pontos": 3,
+      "original": "Candidato tem pais ou responsáveis deficientes ?",
+      "reescrito": "Você tem pai, mãe ou responsável com deficiência?"
+    },
+    {
+      "chave": "criterio_7",
+      "categoria": "criterio",
+      "pontos": 3,
+      "original": "A criança e/ou alguém do núcleo familiar apresentam doenças crônicas graves?",
+      "reescrito": "Seu filho tem alguma doença séria que não passa?\n\nAlguém da sua família tem uma doença séria assim?"
+    },
+    {
+      "chave": "criterio_8",
+      "categoria": "criterio",
+      "pontos": 2,
+      "original": "Existe algum membro do núcleo familiar que faz uso abusivo de drogas e/ou alcoól?",
+      "reescrito": "Alguém da sua família bebe muito ou usa drogas?"
+    },
+    {
+      "chave": "criterio_9",
+      "categoria": "criterio",
+      "pontos": 2,
+      "original": "Existe algum membro do núcleo familiar que é presidiário ou ex-presidiário nos últimos 5 anos?",
+      "reescrito": "Alguém que mora com você está preso hoje?\n\nOu saiu da prisão nos últimos 5 anos?"
+    },
+    {
+      "chave": "criterio_10",
+      "categoria": "criterio",
+      "pontos": 2,
+      "original": "O candidato é refugiado?",
+      "reescrito": "Você saiu do seu país por perigo ou guerra?"
+    },
+    {
+      "chave": "criterio_11",
+      "categoria": "criterio",
+      "pontos": 2,
+      "original": "Criança aguardou em fila de espera no ano anterior sem ter sido atendida?",
+      "reescrito": "Seu filho ficou na fila no ano passado e não foi chamado?"
+    },
+    {
+      "chave": "criterio_12",
+      "categoria": "criterio",
+      "pontos": 0,
+      "original": "O Candidato possui irmão matriculado na rede pública ou parceria?",
+      "reescrito": "Seu filho tem irmão que estuda em escola pública?"
+    },
+    {
+      "chave": "criterio_13",
+      "categoria": "criterio",
+      "pontos": 0,
+      "original": "O Candidato possui pais ou responsáveis com idade menor que 18 anos?",
+      "reescrito": "Seu pai ou sua mãe tem menos de 18 anos?"
+    },
+    {
+      "chave": "situacao_lista_espera",
+      "categoria": "situacao",
+      "original": "Sua inscrição encontra-se em lista de espera, aguardando a disponibilização de vaga na unidade escolar pleiteada.",
+      "reescrito": "Sua inscrição está na fila de espera.\n\nVocê aguarda uma vaga na escola que escolheu.\n\nVamos avisar quando a vaga aparecer."
+    },
+    {
+      "chave": "situacao_cancelado_confirmacao",
+      "categoria": "situacao",
+      "original": "Inscrição cancelada em decorrência do não comparecimento para confirmação da matrícula dentro do prazo estipulado.",
+      "reescrito": "Cancelamos sua inscrição. Você não confirmou a matrícula no prazo."
+    },
+    {
+      "chave": "situacao_confirmado",
+      "categoria": "situacao",
+      "original": "Matrícula confirmada com êxito na unidade escolar de destino.",
+      "reescrito": "Pronto! Você conseguiu a vaga na nova escola."
+    },
+    {
+      "chave": "explica_faixa_posicao",
+      "categoria": "fila",
+      "original": "Sua colocação na fila de classificação é apresentada em faixa aproximada, em virtude da existência de empates na pontuação.",
+      "reescrito": "Você está em um grupo na fila.\n\nNão mostramos seu número exato.\n\nIsso acontece porque várias pessoas têm a mesma nota."
+    },
+    {
+      "chave": "explica_pontuacao",
+      "categoria": "fila",
+      "original": "A pontuação é atribuída conforme os critérios socioeconômicos declarados e validados no ato da inscrição.",
+      "reescrito": "Você ganha pontos conforme as informações que você declara.\n\nNós conferimos essas informações quando você faz a inscrição."
+    }
+  ]
+}

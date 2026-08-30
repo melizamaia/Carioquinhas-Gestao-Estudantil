@@ -1,0 +1,74 @@
+{
+  "meta": {
+    "ano": 2025,
+    "gerado_em": "2026-08-30T16:45:11+00:00",
+    "aviso": "Dados anonimizados do Claude Impact Lab (Inscrição Creche SME-RJ). Os indicadores ilustram a dinâmica do processo e não representam a realidade."
+  },
+  "fichas": [
+    {
+      "familia": "responsavel_0194313",
+      "crianca": "aluno_0059512",
+      "unidade": "0716601",
+      "tipo": "publica",
+      "nome_unidade": "CM OTÁVIO HENRIQUE DE OLIVEIRA",
+      "bairro": "RIO DAS PEDRAS",
+      "grupamento": "Maternal II",
+      "horario": "Integral",
+      "pontos": 84,
+      "faixa": "entre as 3 primeiras",
+      "tamanho_fila": 332
+    },
+    {
+      "familia": "responsavel_0338040",
+      "crianca": "aluno_0052935",
+      "unidade": "0716601",
+      "tipo": "publica",
+      "nome_unidade": "CM OTÁVIO HENRIQUE DE OLIVEIRA",
+      "bairro": "RIO DAS PEDRAS",
+      "grupamento": "Maternal II",
+      "horario": "Integral",
+      "pontos": 80,
+      "faixa": "entre a 4ª e a 10ª",
+      "tamanho_fila": 332
+    },
+    {
+      "familia": "responsavel_0362799",
+      "crianca": "aluno_0088611",
+      "unidade": "0716601",
+      "tipo": "publica",
+      "nome_unidade": "CM OTÁVIO HENRIQUE DE OLIVEIRA",
+      "bairro": "RIO DAS PEDRAS",
+      "grupamento": "Maternal II",
+      "horario": "Integral",
+      "pontos": 59,
+      "faixa": "entre a 11ª e a 25ª",
+      "tamanho_fila": 332
+    },
+    {
+      "familia": "responsavel_0190115",
+      "crianca": "aluno_0081591",
+      "unidade": "0716601",
+      "tipo": "publica",
+      "nome_unidade": "CM OTÁVIO HENRIQUE DE OLIVEIRA",
+      "bairro": "RIO DAS PEDRAS",
+      "grupamento": "Maternal II",
+      "horario": "Integral",
+      "pontos": 57,
+      "faixa": "entre a 26ª e a 50ª",
+      "tamanho_fila": 332
+    },
+    {
+      "familia": "responsavel_0307628",
+      "crianca": "aluno_0073644",
+      "unidade": "0716601",
+      "tipo": "publica",
+      "nome_unidade": "CM OTÁVIO HENRIQUE DE OLIVEIRA",
+      "bairro": "RIO DAS PEDRAS",
+      "grupamento": "Maternal II",
+      "horario": "Integral",
+      "pontos": 55,
+      "faixa": "depois da 50ª",
+      "tamanho_fila": 332
+    }
+  ]
+}

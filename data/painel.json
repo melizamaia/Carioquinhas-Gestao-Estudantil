@@ -66,5 +66,16 @@
     "unidades_com_fila": 476,
     "unidades_publicas": 244,
     "unidades_parceiras": 232
+  },
+  "vagas_ofertadas": {
+    "fonte": "OferecimentosEvagas (xlsx 2025)",
+    "vagas_ofertadas_parceiras": 44174,
+    "matriculados_parceiras": 41634,
+    "matriculados_publicas": 93950,
+    "cobertura_join_pct": {
+      "publica": 100.0,
+      "parceira": 98.6
+    },
+    "nota": "Join dos 2 formatos: pública=Designacao(7); parceira=CRE+últ.3 SGA(5). Vagas ofertadas (Meta) só existem para parceiras; para públicas o xlsx traz matrículas/turmas, não capacidade ofertada."
   }
 }

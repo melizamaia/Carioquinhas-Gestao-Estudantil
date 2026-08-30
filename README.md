@@ -17,6 +17,7 @@ python etl/02_score.py                   # tabela score (2025)
 python etl/03_fila.py                    # tabela fila com posição/desempate
 python etl/04_funil.py                   # funil simulado + 3 números do topo
 python etl/05_gerar_jsons.py             # data/painel.json, fila.json, fichas_exemplo.json
+python etl/07_vagas_oferecimento.py      # data/vagas.json + augmenta painel.json (roda após 05)
 
 # Geração de texto — SÓ EM BUILD, nunca em runtime. Requer .env com ANTHROPIC_API_KEY.
 python etl/06_gerar_copy.py              # data/copy.json (pares antes/depois)
@@ -33,7 +34,20 @@ nunca é carregada inteira em pandas — sempre agregada antes.
 | `painel.json` | Três números do topo (req. 1.4); funil de vaga; cobertura; taxa de expiração |
 | `fila.json` | 822 filas (unidade × grupamento × horário) com posição em **faixa** (req. 2.12) |
 | `fichas_exemplo.json` | Famílias-exemplo para a Ficha da Família |
+| `vagas.json` | Vagas ofertadas (parceiras) e matrículas por unidade, via join dos 2 formatos |
 | `copy.json` | 18 textos reescritos via Claude API (13 critérios + 5 mensagens), com antes/depois |
+
+### Join dos dois formatos de unidade (etapa 7)
+
+`etl/07_vagas_oferecimento.py` lê os `OferecimentosEvagas/*.xlsx` (openpyxl
+`read_only`/`data_only`) e cruza com `QueryA.unidade` resolvendo os dois formatos:
+
+- **7 dígitos = pública** → `zfill(7)` casa com `Designacao` (totalalunos): **488/488 (100%)**
+- **5 dígitos = parceira** → `CRE(2) + últimos 3 do CÓDIGO SGA` casa com Parceiras: **343/348 (98,6%)**
+
+As 5 parceiras não casadas estão ausentes do snapshot de maio/2025 (lacuna de dado,
+não erro de join). Vagas ofertadas (`Meta`) só existem para parceiras; para públicas
+o arquivo traz matrículas/turmas, não capacidade ofertada.
 
 ## ⚠️ Funil de convocação é SIMULADO
 

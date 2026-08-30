@@ -23,6 +23,16 @@ python etl/07_vagas_oferecimento.py      # data/vagas.json + augmenta painel.jso
 python etl/06_gerar_copy.py              # data/copy.json (pares antes/depois)
 ```
 
+## Testes
+
+```bash
+pytest -q                                # 42 testes
+```
+
+- `tests/test_config.py` — funções puras (faixas de posição, tipo de unidade 7/5 díg).
+- `tests/test_outputs.py` — invariantes dos `data/*.json` (funil consistente, faixas somam o tamanho da fila, nunca expõe posição exata, 18 textos no copy, cobertura do join).
+- `tests/test_pipeline.py` — armadilhas e regras direto no DuckDB (situação sem acento, `opcao=6` fora da fila, dois formatos de unidade, score só 2025 e 0–100, posições contíguas, **desempate `pontos↓/data↑/ipl↑`**, consistência do funil).
+
 As etapas 2→5 compartilham um banco DuckDB de build em `build/vagaviva.duckdb`
 (não versionado). Toda a leitura pesada é feita em DuckDB; a QueryB (4,3M linhas)
 nunca é carregada inteira em pandas — sempre agregada antes.

@@ -1,7 +1,7 @@
 {
   "meta": {
     "ano": 2025,
-    "gerado_em": "2026-08-30T16:45:11+00:00",
+    "gerado_em": "2026-08-30T17:08:28+00:00",
     "aviso": "Dados anonimizados do Claude Impact Lab (Inscrição Creche SME-RJ). Os indicadores ilustram a dinâmica do processo e não representam a realidade."
   },
   "faixas": [
@@ -11,7 +11,7 @@
     "entre a 26ª e a 50ª",
     "depois da 50ª"
   ],
-  "total_filas": 877,
+  "total_filas": 822,
   "filas": [
     {
       "unidade": "0716601",
@@ -187,22 +187,6 @@
         "entre a 11ª e a 25ª": 15,
         "entre a 26ª e a 50ª": 25,
         "depois da 50ª": 162
-      }
-    },
-    {
-      "unidade": "07042",
-      "tipo": "parceira",
-      "nome": "CP INSTITUTO EDUCACIONAL DIVA ALVES II",
-      "bairro": "TAQUARA",
-      "grupamento": "Berçário",
-      "horario": "Integral",
-      "tamanho": 205,
-      "faixas": {
-        "entre as 3 primeiras": 3,
-        "entre a 4ª e a 10ª": 7,
-        "entre a 11ª e a 25ª": 15,
-        "entre a 26ª e a 50ª": 25,
-        "depois da 50ª": 155
       }
     },
     {
@@ -416,22 +400,6 @@
     {
       "unidade": "07040",
       "tipo": "parceira",
-      "nome": "CP CRECHE VALE DO SOL PRAÇA SECA",
-      "bairro": "PRAÇA SECA",
-      "grupamento": "Berçário",
-      "horario": "Integral",
-      "tamanho": 131,
-      "faixas": {
-        "entre as 3 primeiras": 3,
-        "entre a 4ª e a 10ª": 7,
-        "entre a 11ª e a 25ª": 15,
-        "entre a 26ª e a 50ª": 25,
-        "depois da 50ª": 81
-      }
-    },
-    {
-      "unidade": "07040",
-      "tipo": "parceira",
       "nome": "CRECHE VALE DO SOL PRAÇA SECA",
       "bairro": null,
       "grupamento": "Berçário",
@@ -640,22 +608,6 @@
     {
       "unidade": "07040",
       "tipo": "parceira",
-      "nome": "CP CRECHE VALE DO SOL PRAÇA SECA",
-      "bairro": "PRAÇA SECA",
-      "grupamento": "Maternal I",
-      "horario": "Integral",
-      "tamanho": 83,
-      "faixas": {
-        "entre as 3 primeiras": 3,
-        "entre a 4ª e a 10ª": 7,
-        "entre a 11ª e a 25ª": 15,
-        "entre a 26ª e a 50ª": 25,
-        "depois da 50ª": 33
-      }
-    },
-    {
-      "unidade": "07040",
-      "tipo": "parceira",
       "nome": "CRECHE VALE DO SOL PRAÇA SECA",
       "bairro": null,
       "grupamento": "Maternal I",
@@ -706,22 +658,6 @@
       "tipo": "parceira",
       "nome": "CP CRECHE PLANTANDO O AMANHÃ",
       "bairro": "DEL CASTILHO",
-      "grupamento": "Berçário",
-      "horario": "Integral",
-      "tamanho": 80,
-      "faixas": {
-        "entre as 3 primeiras": 3,
-        "entre a 4ª e a 10ª": 7,
-        "entre a 11ª e a 25ª": 15,
-        "entre a 26ª e a 50ª": 25,
-        "depois da 50ª": 30
-      }
-    },
-    {
-      "unidade": "07034",
-      "tipo": "parceira",
-      "nome": "CP INSTITUTO EDUCACIONAL DIVA ALVES",
-      "bairro": "CURICICA",
       "grupamento": "Berçário",
       "horario": "Integral",
       "tamanho": 80,
@@ -1106,22 +1042,6 @@
       "tipo": "parceira",
       "nome": "CC ASSOCIAÇÃO CENTRO EDUCACIONAL REBRAL",
       "bairro": null,
-      "grupamento": "Berçário",
-      "horario": "Integral",
-      "tamanho": 59,
-      "faixas": {
-        "entre as 3 primeiras": 3,
-        "entre a 4ª e a 10ª": 7,
-        "entre a 11ª e a 25ª": 15,
-        "entre a 26ª e a 50ª": 25,
-        "depois da 50ª": 9
-      }
-    },
-    {
-      "unidade": "04027",
-      "tipo": "parceira",
-      "nome": "CP ASSOCIAÇÃO CENTRO EDUCACIONAL REBRAL IV",
-      "bairro": "VIGARIO GERAL",
       "grupamento": "Berçário",
       "horario": "Integral",
       "tamanho": 59,
@@ -1598,22 +1518,6 @@
       }
     },
     {
-      "unidade": "0410801",
-      "tipo": "publica",
-      "nome": "EDI DR.DOMINGOS ARTHUR MACHADO FILHO",
-      "bairro": null,
-      "grupamento": "Berçário",
-      "horario": "Integral",
-      "tamanho": 38,
-      "faixas": {
-        "entre as 3 primeiras": 3,
-        "entre a 4ª e a 10ª": 7,
-        "entre a 11ª e a 25ª": 15,
-        "entre a 26ª e a 50ª": 13,
-        "depois da 50ª": 0
-      }
-    },
-    {
       "unidade": "0716603",
       "tipo": "publica",
       "nome": "CM CRIANÇA DO FUTURO",
@@ -1870,22 +1774,6 @@
       }
     },
     {
-      "unidade": "0817808",
-      "tipo": "publica",
-      "nome": "EDI PROFESSOR ANTONIO FLAVIO PIERUCCI",
-      "bairro": null,
-      "grupamento": "Berçário",
-      "horario": "Parcial",
-      "tamanho": 34,
-      "faixas": {
-        "entre as 3 primeiras": 3,
-        "entre a 4ª e a 10ª": 7,
-        "entre a 11ª e a 25ª": 15,
-        "entre a 26ª e a 50ª": 9,
-        "depois da 50ª": 0
-      }
-    },
-    {
       "unidade": "10081",
       "tipo": "parceira",
       "nome": "CP CENTRO EDUCACIONAL ESTRELA DO AMANHÃ",
@@ -2098,22 +1986,6 @@
       "tipo": "publica",
       "nome": "EDI DOUTOR DOMINGOS ARTHUR MACHADO FILHO",
       "bairro": "BENFICA",
-      "grupamento": "Maternal II",
-      "horario": "Integral",
-      "tamanho": 31,
-      "faixas": {
-        "entre as 3 primeiras": 3,
-        "entre a 4ª e a 10ª": 7,
-        "entre a 11ª e a 25ª": 15,
-        "entre a 26ª e a 50ª": 6,
-        "depois da 50ª": 0
-      }
-    },
-    {
-      "unidade": "0410801",
-      "tipo": "publica",
-      "nome": "EDI DR.DOMINGOS ARTHUR MACHADO FILHO",
-      "bairro": null,
       "grupamento": "Maternal II",
       "horario": "Integral",
       "tamanho": 31,
@@ -2398,22 +2270,6 @@
       }
     },
     {
-      "unidade": "07037",
-      "tipo": "parceira",
-      "nome": "23.07037 - CP CAAD UNIVERSO DA CRIANÇA",
-      "bairro": null,
-      "grupamento": "Berçário",
-      "horario": "Integral",
-      "tamanho": 28,
-      "faixas": {
-        "entre as 3 primeiras": 6,
-        "entre a 4ª e a 10ª": 14,
-        "entre a 11ª e a 25ª": 8,
-        "entre a 26ª e a 50ª": 0,
-        "depois da 50ª": 0
-      }
-    },
-    {
       "unidade": "0716820",
       "tipo": "publica",
       "nome": "EDI MEDALHISTA OLÍMPICA ÁGATHA BEDNARCZUK RIPPEL",
@@ -2466,22 +2322,6 @@
       "tipo": "publica",
       "nome": "EDI MEDALHISTA OLÍMPICO WILLIAM PEIXOTO ARJONA",
       "bairro": "MARÉ",
-      "grupamento": "Maternal I",
-      "horario": "Integral",
-      "tamanho": 27,
-      "faixas": {
-        "entre as 3 primeiras": 3,
-        "entre a 4ª e a 10ª": 7,
-        "entre a 11ª e a 25ª": 15,
-        "entre a 26ª e a 50ª": 2,
-        "depois da 50ª": 0
-      }
-    },
-    {
-      "unidade": "07034",
-      "tipo": "parceira",
-      "nome": "CP INSTITUTO EDUCACIONAL DIVA ALVES",
-      "bairro": "CURICICA",
       "grupamento": "Maternal I",
       "horario": "Integral",
       "tamanho": 27,
@@ -2658,22 +2498,6 @@
       "tipo": "publica",
       "nome": "EDI SENHOR JOÃO GOMES",
       "bairro": "BANGU",
-      "grupamento": "Berçário",
-      "horario": "Parcial",
-      "tamanho": 26,
-      "faixas": {
-        "entre as 3 primeiras": 3,
-        "entre a 4ª e a 10ª": 7,
-        "entre a 11ª e a 25ª": 15,
-        "entre a 26ª e a 50ª": 1,
-        "depois da 50ª": 0
-      }
-    },
-    {
-      "unidade": "0817815",
-      "tipo": "publica",
-      "nome": "EDI SENHOR JOÃO GOMES_",
-      "bairro": null,
       "grupamento": "Berçário",
       "horario": "Parcial",
       "tamanho": 26,
@@ -3102,22 +2926,6 @@
       }
     },
     {
-      "unidade": "06016",
-      "tipo": "parceira",
-      "nome": "CP CRECHE NOSSO LAR II",
-      "bairro": "RICARDO DE ALBUQUERQUE",
-      "grupamento": "Maternal I",
-      "horario": "Integral",
-      "tamanho": 22,
-      "faixas": {
-        "entre as 3 primeiras": 3,
-        "entre a 4ª e a 10ª": 7,
-        "entre a 11ª e a 25ª": 12,
-        "entre a 26ª e a 50ª": 0,
-        "depois da 50ª": 0
-      }
-    },
-    {
       "unidade": "0622804",
       "tipo": "publica",
       "nome": "EDI MEDALHISTA PARALÍMPICO DANIEL MARTINS",
@@ -3504,22 +3312,6 @@
     {
       "unidade": "07040",
       "tipo": "parceira",
-      "nome": "CP CRECHE VALE DO SOL PRAÇA SECA",
-      "bairro": "PRAÇA SECA",
-      "grupamento": "Maternal II",
-      "horario": "Integral",
-      "tamanho": 19,
-      "faixas": {
-        "entre as 3 primeiras": 3,
-        "entre a 4ª e a 10ª": 7,
-        "entre a 11ª e a 25ª": 9,
-        "entre a 26ª e a 50ª": 0,
-        "depois da 50ª": 0
-      }
-    },
-    {
-      "unidade": "07040",
-      "tipo": "parceira",
       "nome": "CRECHE VALE DO SOL PRAÇA SECA",
       "bairro": null,
       "grupamento": "Maternal II",
@@ -3554,22 +3346,6 @@
       "tipo": "publica",
       "nome": "EDI PROFESSOR ANTONIO FLAVIO PIERUCCI",
       "bairro": "SENADOR CAMARÁ",
-      "grupamento": "Maternal II",
-      "horario": "Parcial",
-      "tamanho": 19,
-      "faixas": {
-        "entre as 3 primeiras": 3,
-        "entre a 4ª e a 10ª": 7,
-        "entre a 11ª e a 25ª": 9,
-        "entre a 26ª e a 50ª": 0,
-        "depois da 50ª": 0
-      }
-    },
-    {
-      "unidade": "0817808",
-      "tipo": "publica",
-      "nome": "EDI PROFESSOR ANTONIO FLAVIO PIERUCCI",
-      "bairro": null,
       "grupamento": "Maternal II",
       "horario": "Parcial",
       "tamanho": 19,
@@ -3633,22 +3409,6 @@
       "unidade": "05013",
       "tipo": "parceira",
       "nome": "CP CENTRO EDUCACIONAL SOMAR",
-      "bairro": "BENTO RIBEIRO",
-      "grupamento": "Maternal I",
-      "horario": "Integral",
-      "tamanho": 18,
-      "faixas": {
-        "entre as 3 primeiras": 3,
-        "entre a 4ª e a 10ª": 7,
-        "entre a 11ª e a 25ª": 8,
-        "entre a 26ª e a 50ª": 0,
-        "depois da 50ª": 0
-      }
-    },
-    {
-      "unidade": "05013",
-      "tipo": "parceira",
-      "nome": "CP CENTRO EDUCACIONAL SOMAR",
       "bairro": null,
       "grupamento": "Maternal I",
       "horario": "Integral",
@@ -3666,22 +3426,6 @@
       "tipo": "parceira",
       "nome": "CP CRECHE NOVO PALMARES",
       "bairro": "VARGRM PEQUENA",
-      "grupamento": "Maternal II",
-      "horario": "Integral",
-      "tamanho": 18,
-      "faixas": {
-        "entre as 3 primeiras": 3,
-        "entre a 4ª e a 10ª": 7,
-        "entre a 11ª e a 25ª": 8,
-        "entre a 26ª e a 50ª": 0,
-        "depois da 50ª": 0
-      }
-    },
-    {
-      "unidade": "07034",
-      "tipo": "parceira",
-      "nome": "CP INSTITUTO EDUCACIONAL DIVA ALVES",
-      "bairro": "CURICICA",
       "grupamento": "Maternal II",
       "horario": "Integral",
       "tamanho": 18,
@@ -3842,22 +3586,6 @@
       "tipo": "parceira",
       "nome": "CP CRECHE CANTINHO FELIZ II - VARGEM GRANDE",
       "bairro": null,
-      "grupamento": "Maternal II",
-      "horario": "Integral",
-      "tamanho": 17,
-      "faixas": {
-        "entre as 3 primeiras": 3,
-        "entre a 4ª e a 10ª": 7,
-        "entre a 11ª e a 25ª": 7,
-        "entre a 26ª e a 50ª": 0,
-        "depois da 50ª": 0
-      }
-    },
-    {
-      "unidade": "07043",
-      "tipo": "parceira",
-      "nome": "CP ESPAÇO DE EDUCAÇÃO INFANTIL PEQUENO APRENDIZ",
-      "bairro": "VARGEM PEQUENA",
       "grupamento": "Maternal II",
       "horario": "Integral",
       "tamanho": 17,
@@ -4034,22 +3762,6 @@
       "tipo": "parceira",
       "nome": "CP CRECHE PINTINHO DOURADO",
       "bairro": "QUINTINO BOCAIÚVA",
-      "grupamento": "Maternal II",
-      "horario": "Integral",
-      "tamanho": 16,
-      "faixas": {
-        "entre as 3 primeiras": 3,
-        "entre a 4ª e a 10ª": 7,
-        "entre a 11ª e a 25ª": 6,
-        "entre a 26ª e a 50ª": 0,
-        "depois da 50ª": 0
-      }
-    },
-    {
-      "unidade": "05013",
-      "tipo": "parceira",
-      "nome": "CP CENTRO EDUCACIONAL SOMAR",
-      "bairro": "BENTO RIBEIRO",
       "grupamento": "Maternal II",
       "horario": "Integral",
       "tamanho": 16,
@@ -4350,22 +4062,6 @@
       }
     },
     {
-      "unidade": "0515809",
-      "tipo": "publica",
-      "nome": "EDI PROFESSOR UBIRAJARA DE PAULA CASTRO",
-      "bairro": null,
-      "grupamento": "Berçário",
-      "horario": "Integral",
-      "tamanho": 15,
-      "faixas": {
-        "entre as 3 primeiras": 3,
-        "entre a 4ª e a 10ª": 7,
-        "entre a 11ª e a 25ª": 5,
-        "entre a 26ª e a 50ª": 0,
-        "depois da 50ª": 0
-      }
-    },
-    {
       "unidade": "0734801",
       "tipo": "publica",
       "nome": "EDI JARDIM DO AMANHÃ",
@@ -4419,22 +4115,6 @@
       "nome": "CP ASSOCIAÇÃO CENTRO EDUCACIONAL REBRAL III",
       "bairro": "REALENGO",
       "grupamento": "Maternal II",
-      "horario": "Integral",
-      "tamanho": 15,
-      "faixas": {
-        "entre as 3 primeiras": 3,
-        "entre a 4ª e a 10ª": 7,
-        "entre a 11ª e a 25ª": 5,
-        "entre a 26ª e a 50ª": 0,
-        "depois da 50ª": 0
-      }
-    },
-    {
-      "unidade": "09045",
-      "tipo": "parceira",
-      "nome": "CP CRECHE COMUNITÁRIA AQUARELA DO SABER (GUARATIBA)",
-      "bairro": null,
-      "grupamento": "Berçário",
       "horario": "Integral",
       "tamanho": 15,
       "faixas": {
@@ -4576,8 +4256,8 @@
     {
       "unidade": "07037",
       "tipo": "parceira",
-      "nome": "CP CAAD UNIVERSO DA CRIANÇA",
-      "bairro": "TANQUE",
+      "nome": "23.07037 - CP CAAD UNIVERSO DA CRIANÇA",
+      "bairro": null,
       "grupamento": "Berçário",
       "horario": "Integral",
       "tamanho": 14,
@@ -4718,22 +4398,6 @@
       }
     },
     {
-      "unidade": "0430805",
-      "tipo": "publica",
-      "nome": "EDI PROFESSORA SOLANGE CONCEIÇÃO TRICARICO",
-      "bairro": null,
-      "grupamento": "Berçário",
-      "horario": "Integral",
-      "tamanho": 13,
-      "faixas": {
-        "entre as 3 primeiras": 3,
-        "entre a 4ª e a 10ª": 7,
-        "entre a 11ª e a 25ª": 3,
-        "entre a 26ª e a 50ª": 0,
-        "depois da 50ª": 0
-      }
-    },
-    {
       "unidade": "06002",
       "tipo": "parceira",
       "nome": "CP CRECHE GUADALUPE",
@@ -4787,22 +4451,6 @@
       "nome": "EDI UGOCIONE JOSÉ DE MEDEIROS \"SEU UGO\"",
       "bairro": "VARGEM PEQUENA",
       "grupamento": "Maternal II",
-      "horario": "Integral",
-      "tamanho": 13,
-      "faixas": {
-        "entre as 3 primeiras": 3,
-        "entre a 4ª e a 10ª": 7,
-        "entre a 11ª e a 25ª": 3,
-        "entre a 26ª e a 50ª": 0,
-        "depois da 50ª": 0
-      }
-    },
-    {
-      "unidade": "09027",
-      "tipo": "parceira",
-      "nome": "CP INSTITUTO FRUTIFICAR",
-      "bairro": "COSMOS",
-      "grupamento": "Berçário",
       "horario": "Integral",
       "tamanho": 13,
       "faixas": {
@@ -5038,22 +4686,6 @@
       }
     },
     {
-      "unidade": "06016",
-      "tipo": "parceira",
-      "nome": "CP CRECHE NOSSO LAR II",
-      "bairro": "RICARDO DE ALBUQUERQUE",
-      "grupamento": "Berçário",
-      "horario": "Integral",
-      "tamanho": 12,
-      "faixas": {
-        "entre as 3 primeiras": 3,
-        "entre a 4ª e a 10ª": 7,
-        "entre a 11ª e a 25ª": 2,
-        "entre a 26ª e a 50ª": 0,
-        "depois da 50ª": 0
-      }
-    },
-    {
       "unidade": "0625602",
       "tipo": "publica",
       "nome": "CM PROFESSORA JUREMA GOMES SAMPAIO DELFIM",
@@ -5075,22 +4707,6 @@
       "nome": "CM LUIZA DE BARROS DE SÁ FREIRE",
       "bairro": "COSTA BARROS",
       "grupamento": "Berçário",
-      "horario": "Integral",
-      "tamanho": 12,
-      "faixas": {
-        "entre as 3 primeiras": 3,
-        "entre a 4ª e a 10ª": 7,
-        "entre a 11ª e a 25ª": 2,
-        "entre a 26ª e a 50ª": 0,
-        "depois da 50ª": 0
-      }
-    },
-    {
-      "unidade": "07042",
-      "tipo": "parceira",
-      "nome": "CP INSTITUTO EDUCACIONAL DIVA ALVES II",
-      "bairro": "TAQUARA",
-      "grupamento": "Maternal II",
       "horario": "Integral",
       "tamanho": 12,
       "faixas": {
@@ -5470,22 +5086,6 @@
       }
     },
     {
-      "unidade": "0817815",
-      "tipo": "publica",
-      "nome": "EDI SENHOR JOÃO GOMES_",
-      "bairro": null,
-      "grupamento": "Maternal I",
-      "horario": "Parcial",
-      "tamanho": 11,
-      "faixas": {
-        "entre as 3 primeiras": 3,
-        "entre a 4ª e a 10ª": 7,
-        "entre a 11ª e a 25ª": 1,
-        "entre a 26ª e a 50ª": 0,
-        "depois da 50ª": 0
-      }
-    },
-    {
       "unidade": "09009",
       "tipo": "parceira",
       "nome": "CP CRECHE COMUNITÁRIA CRIANÇAS DE OURO",
@@ -5664,22 +5264,6 @@
     {
       "unidade": "07042",
       "tipo": "parceira",
-      "nome": "CP INSTITUTO EDUCACIONAL DIVA ALVES II",
-      "bairro": "TAQUARA",
-      "grupamento": "Maternal I",
-      "horario": "Integral",
-      "tamanho": 10,
-      "faixas": {
-        "entre as 3 primeiras": 3,
-        "entre a 4ª e a 10ª": 7,
-        "entre a 11ª e a 25ª": 0,
-        "entre a 26ª e a 50ª": 0,
-        "depois da 50ª": 0
-      }
-    },
-    {
-      "unidade": "07042",
-      "tipo": "parceira",
       "nome": "CP INSTITUTO EDUCACIONAL DIVA ALVEZ II",
       "bairro": null,
       "grupamento": "Maternal I",
@@ -5747,22 +5331,6 @@
       "nome": "EDI MEDALHISTA OLÍMPICO WALLACE LEANDRO DE SOUZA",
       "bairro": "SANTÍSSIMO",
       "grupamento": "Maternal II",
-      "horario": "Integral",
-      "tamanho": 10,
-      "faixas": {
-        "entre as 3 primeiras": 3,
-        "entre a 4ª e a 10ª": 7,
-        "entre a 11ª e a 25ª": 0,
-        "entre a 26ª e a 50ª": 0,
-        "depois da 50ª": 0
-      }
-    },
-    {
-      "unidade": "10046",
-      "tipo": "parceira",
-      "nome": "CP CRECHE COMUNITÁRIA DEUS É FIEL - CCDF",
-      "bairro": "SEPETIBA",
-      "grupamento": "Berçário",
       "horario": "Integral",
       "tamanho": 10,
       "faixas": {
@@ -6032,22 +5600,6 @@
     {
       "unidade": "09045",
       "tipo": "parceira",
-      "nome": "CP CRECHE COMUNITÁRIA AQUARELA DO SABER (GUARATIBA)",
-      "bairro": null,
-      "grupamento": "Maternal I",
-      "horario": "Integral",
-      "tamanho": 9,
-      "faixas": {
-        "entre as 3 primeiras": 3,
-        "entre a 4ª e a 10ª": 6,
-        "entre a 11ª e a 25ª": 0,
-        "entre a 26ª e a 50ª": 0,
-        "depois da 50ª": 0
-      }
-    },
-    {
-      "unidade": "09045",
-      "tipo": "parceira",
       "nome": "CP CRECHE COMUNITÁRIA PINTANDO SONHOS",
       "bairro": "CAMPO GRANDE",
       "grupamento": "Maternal I",
@@ -6222,22 +5774,6 @@
       }
     },
     {
-      "unidade": "04050",
-      "tipo": "parceira",
-      "nome": "CP CENTRO EDUCACIONAL CARIOQUINHA",
-      "bairro": "RAMOS",
-      "grupamento": "Berçário",
-      "horario": "Integral",
-      "tamanho": 8,
-      "faixas": {
-        "entre as 3 primeiras": 3,
-        "entre a 4ª e a 10ª": 5,
-        "entre a 11ª e a 25ª": 0,
-        "entre a 26ª e a 50ª": 0,
-        "depois da 50ª": 0
-      }
-    },
-    {
       "unidade": "0430807",
       "tipo": "publica",
       "nome": "EDI MARIA AMÉLIA CASTRO E SILVA BELFORT",
@@ -6322,22 +5858,6 @@
       "tipo": "parceira",
       "nome": "CP DO.RA., A AVENTUREIRA",
       "bairro": "BANGU",
-      "grupamento": "Maternal I",
-      "horario": "Integral",
-      "tamanho": 8,
-      "faixas": {
-        "entre as 3 primeiras": 3,
-        "entre a 4ª e a 10ª": 5,
-        "entre a 11ª e a 25ª": 0,
-        "entre a 26ª e a 50ª": 0,
-        "depois da 50ª": 0
-      }
-    },
-    {
-      "unidade": "09027",
-      "tipo": "parceira",
-      "nome": "CP INSTITUTO FRUTIFICAR",
-      "bairro": "COSMOS",
       "grupamento": "Maternal I",
       "horario": "Integral",
       "tamanho": 8,
@@ -6494,22 +6014,6 @@
       }
     },
     {
-      "unidade": "01005",
-      "tipo": "parceira",
-      "nome": "CP CASA MATERNAL CORAÇÃO DE MÃE",
-      "bairro": "RIO COMPRIDO",
-      "grupamento": "Maternal I",
-      "horario": "Integral",
-      "tamanho": 7,
-      "faixas": {
-        "entre as 3 primeiras": 3,
-        "entre a 4ª e a 10ª": 4,
-        "entre a 11ª e a 25ª": 0,
-        "entre a 26ª e a 50ª": 0,
-        "depois da 50ª": 0
-      }
-    },
-    {
       "unidade": "01009",
       "tipo": "parceira",
       "nome": "CP CRECHE COMUNITÁRIA ANITA WAY",
@@ -6625,22 +6129,6 @@
       "unidade": "03030",
       "tipo": "parceira",
       "nome": "CP CRECHE TIO KITO",
-      "bairro": "ENGENHO NOVO",
-      "grupamento": "Berçário",
-      "horario": "Integral",
-      "tamanho": 7,
-      "faixas": {
-        "entre as 3 primeiras": 3,
-        "entre a 4ª e a 10ª": 4,
-        "entre a 11ª e a 25ª": 0,
-        "entre a 26ª e a 50ª": 0,
-        "depois da 50ª": 0
-      }
-    },
-    {
-      "unidade": "03040",
-      "tipo": "parceira",
-      "nome": "CP ASSOCIAÇÃO CRESCENCIO UNIDADE II",
       "bairro": "ENGENHO NOVO",
       "grupamento": "Berçário",
       "horario": "Integral",
@@ -6834,22 +6322,6 @@
       "tipo": "parceira",
       "nome": "CP CRECHE CANTINHO FELIZ II - VARGEM GRANDE",
       "bairro": null,
-      "grupamento": "Berçário",
-      "horario": "Integral",
-      "tamanho": 7,
-      "faixas": {
-        "entre as 3 primeiras": 3,
-        "entre a 4ª e a 10ª": 4,
-        "entre a 11ª e a 25ª": 0,
-        "entre a 26ª e a 50ª": 0,
-        "depois da 50ª": 0
-      }
-    },
-    {
-      "unidade": "07043",
-      "tipo": "parceira",
-      "nome": "CP ESPAÇO DE EDUCAÇÃO INFANTIL PEQUENO APRENDIZ",
-      "bairro": "VARGEM PEQUENA",
       "grupamento": "Berçário",
       "horario": "Integral",
       "tamanho": 7,
@@ -7280,22 +6752,6 @@
     {
       "unidade": "10062",
       "tipo": "parceira",
-      "nome": "CP CENTRO CULTURAL DE DESENVOLVIMENTO INFANTIL JOÃO BATISTA",
-      "bairro": "GUARATIBA",
-      "grupamento": "Maternal II",
-      "horario": "Integral",
-      "tamanho": 6,
-      "faixas": {
-        "entre as 3 primeiras": 3,
-        "entre a 4ª e a 10ª": 3,
-        "entre a 11ª e a 25ª": 0,
-        "entre a 26ª e a 50ª": 0,
-        "depois da 50ª": 0
-      }
-    },
-    {
-      "unidade": "10062",
-      "tipo": "parceira",
       "nome": "CP CRECHE COMUNITÁRIA ESTRELA DO AMANHÃ",
       "bairro": null,
       "grupamento": "Maternal II",
@@ -7474,22 +6930,6 @@
       "tipo": "parceira",
       "nome": "CENTRO EDUCACIONAL CARIOQUINHA",
       "bairro": null,
-      "grupamento": "Maternal I",
-      "horario": "Integral",
-      "tamanho": 5,
-      "faixas": {
-        "entre as 3 primeiras": 3,
-        "entre a 4ª e a 10ª": 2,
-        "entre a 11ª e a 25ª": 0,
-        "entre a 26ª e a 50ª": 0,
-        "depois da 50ª": 0
-      }
-    },
-    {
-      "unidade": "04050",
-      "tipo": "parceira",
-      "nome": "CP CENTRO EDUCACIONAL CARIOQUINHA",
-      "bairro": "RAMOS",
       "grupamento": "Maternal I",
       "horario": "Integral",
       "tamanho": 5,
@@ -7936,22 +7376,6 @@
     {
       "unidade": "03040",
       "tipo": "parceira",
-      "nome": "CP ASSOCIAÇÃO CRESCENCIO UNIDADE II",
-      "bairro": "ENGENHO NOVO",
-      "grupamento": "Maternal I",
-      "horario": "Integral",
-      "tamanho": 4,
-      "faixas": {
-        "entre as 3 primeiras": 3,
-        "entre a 4ª e a 10ª": 1,
-        "entre a 11ª e a 25ª": 0,
-        "entre a 26ª e a 50ª": 0,
-        "depois da 50ª": 0
-      }
-    },
-    {
-      "unidade": "03040",
-      "tipo": "parceira",
       "nome": "CP CENTRO EDUCACIONAL CARIOQUINHA",
       "bairro": null,
       "grupamento": "Maternal I",
@@ -8114,22 +7538,6 @@
       "tipo": "publica",
       "nome": "EDI CLEIA SANTOS DE OLIVEIRA",
       "bairro": "RAMOS",
-      "grupamento": "Maternal II",
-      "horario": "Integral",
-      "tamanho": 4,
-      "faixas": {
-        "entre as 3 primeiras": 3,
-        "entre a 4ª e a 10ª": 1,
-        "entre a 11ª e a 25ª": 0,
-        "entre a 26ª e a 50ª": 0,
-        "depois da 50ª": 0
-      }
-    },
-    {
-      "unidade": "0430806",
-      "tipo": "publica",
-      "nome": "EDI PROFESSORA IARA DA SILVA AMARAL",
-      "bairro": null,
       "grupamento": "Maternal II",
       "horario": "Integral",
       "tamanho": 4,
@@ -8350,22 +7758,6 @@
       }
     },
     {
-      "unidade": "08024",
-      "tipo": "parceira",
-      "nome": "CP CEM CRECHE ESCOLA MACHADO - UNIDADE I",
-      "bairro": "REALENGO",
-      "grupamento": "Berçário",
-      "horario": "Integral",
-      "tamanho": 4,
-      "faixas": {
-        "entre as 3 primeiras": 3,
-        "entre a 4ª e a 10ª": 1,
-        "entre a 11ª e a 25ª": 0,
-        "entre a 26ª e a 50ª": 0,
-        "depois da 50ª": 0
-      }
-    },
-    {
       "unidade": "0817605",
       "tipo": "publica",
       "nome": "CM MANÉ GARRINCHA II",
@@ -8530,22 +7922,6 @@
       "tipo": "parceira",
       "nome": "CP PROJETO QUEBRA CABEÇA",
       "bairro": "SEPETIBA",
-      "grupamento": "Maternal I",
-      "horario": "Integral",
-      "tamanho": 4,
-      "faixas": {
-        "entre as 3 primeiras": 3,
-        "entre a 4ª e a 10ª": 1,
-        "entre a 11ª e a 25ª": 0,
-        "entre a 26ª e a 50ª": 0,
-        "depois da 50ª": 0
-      }
-    },
-    {
-      "unidade": "10062",
-      "tipo": "parceira",
-      "nome": "CP CENTRO CULTURAL DE DESENVOLVIMENTO INFANTIL JOÃO BATISTA",
-      "bairro": "GUARATIBA",
       "grupamento": "Maternal I",
       "horario": "Integral",
       "tamanho": 4,
@@ -9390,22 +8766,6 @@
       }
     },
     {
-      "unidade": "07043",
-      "tipo": "parceira",
-      "nome": "CP ESPAÇO DE EDUCAÇÃO INFANTIL PEQUENO APRENDIZ",
-      "bairro": "VARGEM PEQUENA",
-      "grupamento": "Maternal I",
-      "horario": "Integral",
-      "tamanho": 3,
-      "faixas": {
-        "entre as 3 primeiras": 3,
-        "entre a 4ª e a 10ª": 0,
-        "entre a 11ª e a 25ª": 0,
-        "entre a 26ª e a 50ª": 0,
-        "depois da 50ª": 0
-      }
-    },
-    {
       "unidade": "0716611",
       "tipo": "publica",
       "nome": "CM VITORINO FREIRE",
@@ -9568,22 +8928,6 @@
     {
       "unidade": "10046",
       "tipo": "parceira",
-      "nome": "CP CRECHE COMUNITÁRIA DEUS É FIEL - CCDF",
-      "bairro": "SEPETIBA",
-      "grupamento": "Maternal I",
-      "horario": "Integral",
-      "tamanho": 3,
-      "faixas": {
-        "entre as 3 primeiras": 3,
-        "entre a 4ª e a 10ª": 0,
-        "entre a 11ª e a 25ª": 0,
-        "entre a 26ª e a 50ª": 0,
-        "depois da 50ª": 0
-      }
-    },
-    {
-      "unidade": "10046",
-      "tipo": "parceira",
       "nome": "DEUS E FIEL",
       "bairro": null,
       "grupamento": "Maternal I",
@@ -9698,22 +9042,6 @@
       "tipo": "parceira",
       "nome": "CC CASA SANTA MARTA",
       "bairro": null,
-      "grupamento": "Maternal II",
-      "horario": "Integral",
-      "tamanho": 2,
-      "faixas": {
-        "entre as 3 primeiras": 2,
-        "entre a 4ª e a 10ª": 0,
-        "entre a 11ª e a 25ª": 0,
-        "entre a 26ª e a 50ª": 0,
-        "depois da 50ª": 0
-      }
-    },
-    {
-      "unidade": "01005",
-      "tipo": "parceira",
-      "nome": "CP CASA MATERNAL CORAÇÃO DE MÃE",
-      "bairro": "RIO COMPRIDO",
       "grupamento": "Maternal II",
       "horario": "Integral",
       "tamanho": 2,
@@ -9922,22 +9250,6 @@
       "tipo": "parceira",
       "nome": "CC CASA SANTA MARTA",
       "bairro": null,
-      "grupamento": "Berçário",
-      "horario": "Integral",
-      "tamanho": 2,
-      "faixas": {
-        "entre as 3 primeiras": 2,
-        "entre a 4ª e a 10ª": 0,
-        "entre a 11ª e a 25ª": 0,
-        "entre a 26ª e a 50ª": 0,
-        "depois da 50ª": 0
-      }
-    },
-    {
-      "unidade": "02052",
-      "tipo": "parceira",
-      "nome": "CP CRECHE CASA SANTA MARTA",
-      "bairro": "BOTAFOGO",
       "grupamento": "Berçário",
       "horario": "Integral",
       "tamanho": 2,
@@ -10542,38 +9854,6 @@
       }
     },
     {
-      "unidade": "0515810",
-      "tipo": "publica",
-      "nome": "PROFESSORA TEREZINHA SARDOX HENRIQUES",
-      "bairro": null,
-      "grupamento": "Berçário",
-      "horario": "Integral",
-      "tamanho": 2,
-      "faixas": {
-        "entre as 3 primeiras": 2,
-        "entre a 4ª e a 10ª": 0,
-        "entre a 11ª e a 25ª": 0,
-        "entre a 26ª e a 50ª": 0,
-        "depois da 50ª": 0
-      }
-    },
-    {
-      "unidade": "0515810",
-      "tipo": "publica",
-      "nome": "PROFESSORA TEREZINHA SARDOX HENRIQUES",
-      "bairro": null,
-      "grupamento": "Maternal I",
-      "horario": "Integral",
-      "tamanho": 2,
-      "faixas": {
-        "entre as 3 primeiras": 2,
-        "entre a 4ª e a 10ª": 0,
-        "entre a 11ª e a 25ª": 0,
-        "entre a 26ª e a 50ª": 0,
-        "depois da 50ª": 0
-      }
-    },
-    {
       "unidade": "06017",
       "tipo": "parceira",
       "nome": "CP CRECHE JOÃO E MARIA",
@@ -10659,38 +9939,6 @@
       "nome": "CP CENTRO EDUCACIONAL DIAS FERREIRA",
       "bairro": null,
       "grupamento": "Maternal I",
-      "horario": "Integral",
-      "tamanho": 2,
-      "faixas": {
-        "entre as 3 primeiras": 2,
-        "entre a 4ª e a 10ª": 0,
-        "entre a 11ª e a 25ª": 0,
-        "entre a 26ª e a 50ª": 0,
-        "depois da 50ª": 0
-      }
-    },
-    {
-      "unidade": "07025",
-      "tipo": "parceira",
-      "nome": "CP INSTITUTO CONSUELO PINHEIRO",
-      "bairro": "CIDADE DE DEUS",
-      "grupamento": "Maternal I",
-      "horario": "Integral",
-      "tamanho": 2,
-      "faixas": {
-        "entre as 3 primeiras": 2,
-        "entre a 4ª e a 10ª": 0,
-        "entre a 11ª e a 25ª": 0,
-        "entre a 26ª e a 50ª": 0,
-        "depois da 50ª": 0
-      }
-    },
-    {
-      "unidade": "07037",
-      "tipo": "parceira",
-      "nome": "23.07037 - CP CAAD UNIVERSO DA CRIANÇA",
-      "bairro": null,
-      "grupamento": "Maternal II",
       "horario": "Integral",
       "tamanho": 2,
       "faixas": {
@@ -10899,22 +10147,6 @@
       "nome": "CP CRECHE COMUNITÁRIA PEQUENOS PASSOS",
       "bairro": "CAMPO GRANDE",
       "grupamento": "Maternal I",
-      "horario": "Integral",
-      "tamanho": 2,
-      "faixas": {
-        "entre as 3 primeiras": 2,
-        "entre a 4ª e a 10ª": 0,
-        "entre a 11ª e a 25ª": 0,
-        "entre a 26ª e a 50ª": 0,
-        "depois da 50ª": 0
-      }
-    },
-    {
-      "unidade": "09043",
-      "tipo": "parceira",
-      "nome": "CP CRECHE COMUNIT. CRISTÃ CORDEIRINHO DE CRISTO",
-      "bairro": null,
-      "grupamento": "Maternal II",
       "horario": "Integral",
       "tamanho": 2,
       "faixas": {
@@ -12174,38 +11406,6 @@
       }
     },
     {
-      "unidade": "04027",
-      "tipo": "parceira",
-      "nome": "CP ASSOCIAÇÃO CENTRO EDUCACIONAL REBRAL IV",
-      "bairro": "VIGARIO GERAL",
-      "grupamento": "Maternal I",
-      "horario": "Integral",
-      "tamanho": 1,
-      "faixas": {
-        "entre as 3 primeiras": 1,
-        "entre a 4ª e a 10ª": 0,
-        "entre a 11ª e a 25ª": 0,
-        "entre a 26ª e a 50ª": 0,
-        "depois da 50ª": 0
-      }
-    },
-    {
-      "unidade": "04027",
-      "tipo": "parceira",
-      "nome": "CP ASSOCIAÇÃO CENTRO EDUCACIONAL REBRAL IV",
-      "bairro": "VIGARIO GERAL",
-      "grupamento": "Maternal II",
-      "horario": "Integral",
-      "tamanho": 1,
-      "faixas": {
-        "entre as 3 primeiras": 1,
-        "entre a 4ª e a 10ª": 0,
-        "entre a 11ª e a 25ª": 0,
-        "entre a 26ª e a 50ª": 0,
-        "depois da 50ª": 0
-      }
-    },
-    {
       "unidade": "04041",
       "tipo": "parceira",
       "nome": "CP CRECHE ESCOLA OTACÍLIO BATISTA",
@@ -12242,22 +11442,6 @@
       "tipo": "parceira",
       "nome": "CENTRO EDUCACIONAL CARIOQUINHA",
       "bairro": null,
-      "grupamento": "Maternal II",
-      "horario": "Integral",
-      "tamanho": 1,
-      "faixas": {
-        "entre as 3 primeiras": 1,
-        "entre a 4ª e a 10ª": 0,
-        "entre a 11ª e a 25ª": 0,
-        "entre a 26ª e a 50ª": 0,
-        "depois da 50ª": 0
-      }
-    },
-    {
-      "unidade": "04050",
-      "tipo": "parceira",
-      "nome": "CP CENTRO EDUCACIONAL CARIOQUINHA",
-      "bairro": "RAMOS",
       "grupamento": "Maternal II",
       "horario": "Integral",
       "tamanho": 1,
@@ -12542,22 +11726,6 @@
       }
     },
     {
-      "unidade": "06016",
-      "tipo": "parceira",
-      "nome": "CP CRECHE NOSSO LAR II",
-      "bairro": "RICARDO DE ALBUQUERQUE",
-      "grupamento": "Maternal II",
-      "horario": "Integral",
-      "tamanho": 1,
-      "faixas": {
-        "entre as 3 primeiras": 1,
-        "entre a 4ª e a 10ª": 0,
-        "entre a 11ª e a 25ª": 0,
-        "entre a 26ª e a 50ª": 0,
-        "depois da 50ª": 0
-      }
-    },
-    {
       "unidade": "0622602",
       "tipo": "publica",
       "nome": "CM SILVIO AMANCIO",
@@ -12720,8 +11888,8 @@
     {
       "unidade": "07037",
       "tipo": "parceira",
-      "nome": "CP CAAD UNIVERSO DA CRIANÇA",
-      "bairro": "TANQUE",
+      "nome": "23.07037 - CP CAAD UNIVERSO DA CRIANÇA",
+      "bairro": null,
       "grupamento": "Maternal II",
       "horario": "Integral",
       "tamanho": 1,
@@ -12974,22 +12142,6 @@
       }
     },
     {
-      "unidade": "08025",
-      "tipo": "parceira",
-      "nome": "CP ASSOCIAÇÃO RECREATIVA MONIZ BARRETO",
-      "bairro": "JARDIM SULACAP",
-      "grupamento": "Maternal II",
-      "horario": "Integral",
-      "tamanho": 1,
-      "faixas": {
-        "entre as 3 primeiras": 1,
-        "entre a 4ª e a 10ª": 0,
-        "entre a 11ª e a 25ª": 0,
-        "entre a 26ª e a 50ª": 0,
-        "depois da 50ª": 0
-      }
-    },
-    {
       "unidade": "0817606",
       "tipo": "publica",
       "nome": "CM MEIMEI",
@@ -13026,22 +12178,6 @@
       "tipo": "publica",
       "nome": "EDI SENHOR JOÃO GOMES",
       "bairro": "BANGU",
-      "grupamento": "Maternal II",
-      "horario": "Parcial",
-      "tamanho": 1,
-      "faixas": {
-        "entre as 3 primeiras": 1,
-        "entre a 4ª e a 10ª": 0,
-        "entre a 11ª e a 25ª": 0,
-        "entre a 26ª e a 50ª": 0,
-        "depois da 50ª": 0
-      }
-    },
-    {
-      "unidade": "0817815",
-      "tipo": "publica",
-      "nome": "EDI SENHOR JOÃO GOMES_",
-      "bairro": null,
       "grupamento": "Maternal II",
       "horario": "Parcial",
       "tamanho": 1,
@@ -13665,22 +12801,6 @@
       "unidade": "10042",
       "tipo": "parceira",
       "nome": "CP CICIM II",
-      "bairro": "SEPETIBA",
-      "grupamento": "Maternal II",
-      "horario": "Integral",
-      "tamanho": 1,
-      "faixas": {
-        "entre as 3 primeiras": 1,
-        "entre a 4ª e a 10ª": 0,
-        "entre a 11ª e a 25ª": 0,
-        "entre a 26ª e a 50ª": 0,
-        "depois da 50ª": 0
-      }
-    },
-    {
-      "unidade": "10046",
-      "tipo": "parceira",
-      "nome": "CP CRECHE COMUNITÁRIA DEUS É FIEL - CCDF",
       "bairro": "SEPETIBA",
       "grupamento": "Maternal II",
       "horario": "Integral",

@@ -53,10 +53,18 @@ def construir_unidades(con) -> None:
         f"names=['seq','esc_codigo','nome','tipo','logradouro','numero',"
         f"'complemento','bairro','cep'])"
     )
+    # A Query D tem esc_codigo duplicados (80 linhas repetidas). Deduplica para
+    # UMA linha por unidade, senão o LEFT JOIN infla as filas (fan-out).
     con.execute(f"""
         CREATE OR REPLACE TABLE unidades_d AS
-        SELECT CAST(esc_codigo AS VARCHAR) AS unidade, nome, bairro
-        FROM {d}
+        SELECT unidade,
+               first(nome ORDER BY seq)   AS nome,
+               first(bairro ORDER BY seq) AS bairro
+        FROM (
+            SELECT CAST(esc_codigo AS VARCHAR) AS unidade, nome, bairro, seq
+            FROM {d} WHERE esc_codigo IS NOT NULL
+        )
+        GROUP BY unidade
     """)
     # Registra a função de classificação como UDF para uso em SQL.
     con.create_function("tipo_unidade", cfg.tipo_unidade, ["VARCHAR"], "VARCHAR")

@@ -248,7 +248,7 @@ pelo texto original) e a chave vem do `.env`, nunca hardcoded.
 |---|---|---|
 | <img src="https://github.com/melizamaia.png" width="48" height="48" alt=""> | **Meliza Maia** | [@melizamaia](https://github.com/melizamaia) |
 | <img src="https://github.com/ribeirore.png" width="48" height="48" alt=""> | **Renata Ribeiro** | [@ribeirore](https://github.com/ribeirore) |
-| <img src="https://github.com/rodrigorrpita-coder.png" width="48" height="48" alt=""> | **Rodrigo Pita** | [@rodrigorrpita](https://rodrigorrpita) |
+| <img src="https://github.com/rodrigorrpita-coder.png" width="48" height="48" alt=""> | **Rodrigo Pita** | [@rodrigorrpita](https://github.rodrigorrpita) |
 | <img src="https://github.com/Duque455.png" width="48" height="48" alt=""> | **Thiago Duque** | [@Duque455](https://github.com/Duque455) |
 
 ## Licença

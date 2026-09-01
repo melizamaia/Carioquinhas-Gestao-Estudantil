@@ -2,7 +2,7 @@
 
 <p align="center">
   <strong>Inteligência na Fila da Creche</strong><br>
-  Grupo 18 · Claude Impact Lab Rio 2 · Hackathon SME-Rio · 30/08/2026
+  Grupo 18 · Claude Impact Lab Rio 2 · SME-Rio · 30/08/2026
 </p>
 
 <p align="center">
